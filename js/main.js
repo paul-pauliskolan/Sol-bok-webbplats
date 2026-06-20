@@ -6,10 +6,60 @@ const BOOK_SHORT_TITLE = "SoL";
 let chaptersData = [];
 
 document.addEventListener("DOMContentLoaded", () => {
+  setupThemeToggle();
   loadChaptersData();
   setupMenuToggle();
   applyBranding();
 });
+
+function getSavedTheme() {
+  const savedTheme = localStorage.getItem("sol-theme");
+  if (savedTheme === "light" || savedTheme === "dark") {
+    return savedTheme;
+  }
+
+  return "dark";
+}
+
+function applyTheme(theme) {
+  document.body.dataset.theme = theme;
+  localStorage.setItem("sol-theme", theme);
+}
+
+function updateThemeToggle(button, theme) {
+  const isLight = theme === "light";
+  button.setAttribute("aria-pressed", String(isLight));
+  button.setAttribute(
+    "aria-label",
+    isLight ? "Byt till mörkt tema" : "Byt till ljust tema",
+  );
+  button.title = isLight ? "Byt till mörkt tema" : "Byt till ljust tema";
+  button.innerHTML = isLight
+    ? '<span aria-hidden="true">☀</span><span class="theme-toggle-text">Ljust</span>'
+    : '<span aria-hidden="true">☾</span><span class="theme-toggle-text">Mörkt</span>';
+}
+
+function setupThemeToggle() {
+  const navbar = document.querySelector(".navbar");
+  if (!navbar) return;
+
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "theme-toggle";
+
+  const initialTheme = getSavedTheme();
+  applyTheme(initialTheme);
+  updateThemeToggle(button, initialTheme);
+
+  button.addEventListener("click", () => {
+    const nextTheme = document.body.dataset.theme === "light" ? "dark" : "light";
+    applyTheme(nextTheme);
+    updateThemeToggle(button, nextTheme);
+  });
+
+  const menuToggle = document.getElementById("menu-toggle");
+  navbar.insertBefore(button, menuToggle || null);
+}
 
 function applyBranding() {
   const logo = document.querySelector(".navbar .logo");

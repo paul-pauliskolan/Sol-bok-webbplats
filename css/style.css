@@ -52,7 +52,7 @@ body[data-theme="light"] {
   --control-bg: rgba(20, 34, 25, 0.04);
   --control-bg-strong: rgba(20, 34, 25, 0.07);
   --overlay-bg: rgba(20, 34, 25, 0.28);
-  --accent-text: #ffffff;
+  --accent-text: #08140d;
   --hover-surface: #dce9d8;
   --code-bg: #edf4eb;
   --media-bg: #dde8d9;
@@ -461,7 +461,6 @@ ol {
 .chapter-header,
 .nav-button,
 .site-footer {
-  background: rgba(22, 49, 37, 0.9);
   background: var(--panel-bg);
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
@@ -529,7 +528,6 @@ ol {
 
 .primary-link,
 .preview-link {
-  color: #08140d;
   color: var(--accent-text);
   background: linear-gradient(135deg, var(--accent) 0%, #9ce067 100%);
 }
