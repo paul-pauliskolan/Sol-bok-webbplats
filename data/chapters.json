@@ -1,0 +1,918 @@
+{
+  "chapters": [
+    {
+      "id": 1,
+      "number": 1,
+      "title": "Vad är lärande?",
+      "description": "Ett grundkapitel om skillnaden mellan prestation i stunden och varaktigt lärande över tid.",
+      "sections": [
+        "Ett vanligt klassrumsproblem",
+        "Vad menas med lärande?",
+        "Prestation är inte alltid lärande",
+        "Arbetsminne och långtidsminne",
+        "När stöd döljer vad elever faktiskt kan",
+        "Igenkänning och återkallning",
+        "Storage strength och retrieval strength",
+        "Klassrumsexempel",
+        "Vanliga fallgropar",
+        "Checklista",
+        "Övergång till kapitel 2"
+      ],
+      "contentHtml": "\n<h2>Mål</h2>\n<p>Efter kapitlet ska du kunna:</p>\n<ul>\n<li>förklara skillnaden mellan prestation i stunden och varaktigt lärande,</li>\n<li>beskriva varför arbetsminnet och långtidsminnet är centrala för undervisning,</li>\n<li>se varför elever kan verka förstå under lektionen men ändå glömma senare,</li>\n<li>skilja mellan igenkänning och återkallning,</li>\n<li>använda begreppen storage strength och retrieval strength i lärarvänligt språk.</li>\n</ul>\n\n<h2>Ett vanligt klassrumsproblem</h2>\n<p>En lärare har gått igenom ett moment. Eleverna nickar, skriver, svarar på frågor och klarar övningarna direkt efter genomgången. Lektionen känns lyckad. Några dagar senare kommer samma innehåll tillbaka i ett quiz, en diskussion eller en mer blandad uppgift. Då är mycket borta.</p>\n<p>Det här är inte ovanligt. Det betyder inte automatiskt att lektionen var dålig eller att eleverna inte ansträngde sig. Det visar däremot en central skillnad som hela kursen bygger på: det som ser ut som lärande i stunden är inte alltid lärande över tid.</p>\n<p>Om vi inte skiljer mellan prestation och lärande riskerar vi att planera undervisning som fungerar under lektionen men sviker när eleverna behöver kunskapen senare.</p>\n\n<h2>Vad menas med lärande?</h2>\n<p>I den här kursen används en enkel definition: lärande innebär en relativt varaktig förändring i långtidsminnet. Det betyder att eleven har byggt eller förändrat kunskap så att den kan användas senare.</p>\n<p>Definitionen är användbar eftersom den gör lärande konkret. Lärande är inte bara att eleven är aktiv, följer med eller gör något som verkar rätt. Lärande innebär att något finns kvar, kan plockas fram och kan användas i en relevant situation.</p>\n<p>Det betyder också att lärande ofta behöver mätas med fördröjning. Frågan är inte bara: kunde eleven detta direkt efter genomgången? Frågan är också: kan eleven återkalla, förklara eller använda detta i morgon, nästa vecka eller i ett nytt sammanhang?</p>\n\n<h2>Prestation är inte alltid lärande</h2>\n<p><strong>Prestation</strong> är vad eleven klarar just nu. Den kan vara hög av flera skäl: läraren ger ledtrådar, uppgiften liknar exemplet, svaret finns i texten eller eleven imiterar ett nyss visat mönster.</p>\n<p><strong>Lärande</strong> visar sig när eleven kan göra något senare med mindre stöd. Det kan handla om att återkalla en förklaring, välja rätt metod, använda ett begrepp i ett nytt exempel eller upptäcka skillnaden mellan två närliggande idéer.</p>\n<p>Prestation är alltså inte oviktig. Lärare behöver se vad elever klarar under lektionen. Men prestation i stunden är ett osäkert mått på vad som har lagrats för framtiden.</p>\n<p>En aktivitet kan därför vara bra för prestation men svag för lärande. Det gäller särskilt när elever får mycket stöd hela vägen och aldrig behöver försöka plocka fram kunskapen själva.</p>\n\n<h2>Arbetsminne och långtidsminne</h2>\n<p>För att förstå varför prestation och lärande kan skilja sig åt behöver vi en enkel modell av minnet.</p>\n<p><strong>Arbetsminnet</strong> är där vi håller och bearbetar information just nu. Det används när elever följer en förklaring, löser ett problem, jämför två begrepp eller försöker formulera ett svar. Arbetsminnet är begränsat. Om för mycket måste hållas i huvudet samtidigt blir det svårt att tänka klart.</p>\n<p><strong>Långtidsminnet</strong> är där kunskap lagras och organiseras. Det kan handla om fakta, begrepp, procedurer, exempel, språk, strategier och erfarenheter. När kunskap finns väl organiserad i långtidsminnet blir den lättare att använda och den avlastar arbetsminnet.</p>\n<p>Det här är avgörande för undervisning. En elev med starka förkunskaper kan ofta hantera en uppgift som överbelastar en elev med svagare förkunskaper. Skillnaden ligger inte bara i arbetsinsats, utan i hur mycket relevant kunskap som redan finns tillgänglig.</p>\n\n<h2>När stöd döljer vad elever faktiskt kan</h2>\n<p>Stöd är nödvändigt i undervisning. Genomgångar, exempel, ledtrådar, skrivramar, bilder och gemensam övning hjälper elever att förstå sådant de ännu inte kan göra själva.</p>\n<p>Men stöd kan också dölja om lärande har skett. Om eleven bara lyckas när läraren pekar ut nästa steg, när facit finns nära eller när uppgiften är nästan identisk med exemplet, vet vi inte om eleven kan använda kunskapen självständigt.</p>\n<p>Det betyder inte att stöd ska tas bort för tidigt. Det betyder att stöd behöver avvecklas gradvis. Elever behöver få gå från att känna igen och följa med till att själva återkalla, välja och förklara.</p>\n\n<h2>Igenkänning och återkallning</h2>\n<p>Att känna igen något är lättare än att återkalla det. En elev kan känna igen rätt svar i en lista utan att kunna skriva svaret själv. Eleven kan följa en lösning på tavlan utan att kunna starta en liknande lösning på egen hand.</p>\n<p><strong>Igenkänning</strong> betyder att kunskapen aktiveras när svaret eller sammanhanget redan finns framför eleven. <strong>Återkallning</strong> betyder att eleven plockar fram kunskapen ur minnet.</p>\n<p>Undervisning behöver båda, men återkallning är särskilt viktig om målet är långtidslärande. Därför återkommer retrieval practice senare i kursen. Redan här räcker det att förstå huvudpoängen: om elever aldrig behöver återkalla utan stöd, får vi svagare information om vad de faktiskt har lärt sig.</p>\n\n<h2>Storage strength och retrieval strength</h2>\n<p>Två användbara begrepp är <em>storage strength</em> och <em>retrieval strength</em>. De kan översättas ungefär som lagringsstyrka och framplockningsstyrka.</p>\n<p><strong>Storage strength</strong> handlar om hur väl något är inlärt och integrerat i långtidsminnet. Kunskap med hög lagringsstyrka är robust och lättare att återlära även om den tillfälligt inte kan plockas fram.</p>\n<p><strong>Retrieval strength</strong> handlar om hur lätt kunskapen är att plocka fram just nu. Den kan vara hög direkt efter en genomgång men sjunka snabbt om kunskapen inte är väl lagrad.</p>\n<p>Det förklarar varför cramming kan kännas effektivt. Elever kan få hög framplockningsstyrka precis före ett prov, men om lagringsstyrkan är svag försvinner mycket snabbt. För varaktigt lärande behöver undervisningen stärka båda: elever behöver förstå, organisera, återkalla och återvända till innehåll över tid.</p>\n\n<h2>Klassrumsexempel</h2>\n<h3>Matematik</h3>\n<p>Efter en genomgång om ekvationer löser elever flera uppgifter där alla följer samma mönster. De lyckas bra. Det visar att de kan följa ett färskt exempel. En vecka senare blandas ekvationer med andra uppgiftstyper. Nu måste eleverna välja metod själva. Det ger bättre information om lärande.</p>\n<h3>Historia</h3>\n<p>Elever läser om orsaker till första världskriget och känner igen begrepp som nationalism, imperialism och allianser i texten. Men när de ska förklara orsakerna utan texten blir resonemanget tunt. Då har de kanske känt igen orden utan att kunna återkalla och organisera sambanden.</p>\n<h3>Engelska</h3>\n<p>Elever kan översätta glosor när listan ligger framför dem. Det är igenkänning och kortsiktig prestation. Om de senare kan använda orden i egna meningar, muntligt eller skriftligt, visar det starkare lärande.</p>\n\n<h2>Vanliga fallgropar</h2>\n<ul>\n<li><strong>Att tolka aktivitet som lärande.</strong> Elever kan vara upptagna utan att bearbeta rätt innehåll.</li>\n<li><strong>Att tolka tystnad som förståelse.</strong> En lugn klass kan vara fokuserad, men den kan också vara passiv.</li>\n<li><strong>Att låta likadana uppgifter ge falsk säkerhet.</strong> Blockvis övning kan vara nödvändig först, men den visar inte alltid om elever kan välja metod själva.</li>\n<li><strong>Att kontrollera igenkänning men inte återkallning.</strong> Flervalsfrågor och markeringsövningar kan vara användbara, men behöver kompletteras med frågor där elever själva formulerar svar.</li>\n<li><strong>Att ge stöd utan att planera avveckling.</strong> Stöd hjälper elever in i innehållet, men måste gradvis minska om målet är självständighet.</li>\n</ul>\n\n<h2>Checklista</h2>\n<p>När du vill veta om elever har lärt sig något, ställ följande frågor:</p>\n<ul>\n<li>Kan eleven göra detta senare, inte bara direkt efter genomgången?</li>\n<li>Kan eleven återkalla utan att svaret syns?</li>\n<li>Kan eleven förklara med egna ord?</li>\n<li>Kan eleven använda kunskapen i en något ny situation?</li>\n<li>Har jag minskat stödet så att jag ser vad eleven faktiskt kan?</li>\n<li>Har jag planerat någon form av återkomst till innehållet över tid?</li>\n</ul>\n\n<h2>Övergång till kapitel 2</h2>\n<p>Det här kapitlet har etablerat kursens grundidé: undervisning ska sikta mot varaktigt lärande, inte bara prestation i stunden. Nästa fråga blir praktisk: hur planerar man för det?</p>\n<p>Kapitel 2 introducerar planeringsmodellen mål, hinder, val, sortering och kontroll. Den modellen används sedan genom resten av kursen för att koppla undervisningsgrepp till verkliga lärandeproblem.</p>\n",
+      "summary": "Lärande är en relativt varaktig förändring i långtidsminnet. Kapitel 1 skiljer mellan prestation i stunden och lärande över tid och visar varför återkallning, minskat stöd och fördröjd kontroll är centrala för undervisning.",
+      "keyTopics": [
+        "Prestation vs lärande",
+        "Arbetsminne",
+        "Långtidsminne",
+        "Igenkänning vs återkallning",
+        "Storage strength",
+        "Retrieval strength"
+      ],
+      "resources": [
+        {
+          "title": "Cognitive science approaches in the classroom: A review of the evidence",
+          "reference": "Perry, T., Lea, R., Jørgensen, C. R., Cordingley, P., Shapiro, K., & Youdell, D. (2021). Cognitive science approaches in the classroom: A review of the evidence. Education Endowment Foundation.",
+          "url": "https://educationendowmentfoundation.org.uk/education-evidence/evidence-reviews/cognitive-science-approaches-in-the-classroom",
+          "description": "Sammanfattar evidens om spacing, interleaving, retrieval practice, kognitiv belastning, scheman, multimedia och embodied learning i klassrum."
+        },
+        {
+          "title": "Improving Students’ Learning With Effective Learning Techniques",
+          "reference": "Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving students’ learning with effective learning techniques. Psychological Science in the Public Interest, 14(1), 4-58. https://doi.org/10.1177/1529100612453266",
+          "url": "https://doi.org/10.1177/1529100612453266",
+          "description": "Översikt över studietekniker, bland annat retrieval practice och distributed practice."
+        },
+        {
+          "title": "Why Don’t Students Like School?",
+          "reference": "Willingham, D. T. (2009). Why Don’t Students Like School? Jossey-Bass.",
+          "url": "https://openlibrary.org/isbn/9781119715665",
+          "description": "Används för lärarvänliga förklaringar av minne, tänkande, förkunskaper och varför kunskap är central för förståelse."
+        },
+        {
+          "title": "Making Things Hard on Yourself, But in a Good Way",
+          "reference": "Bjork, E. L., & Bjork, R. A. (2011). Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning. In M. A. Gernsbacher et al. (Eds.), Psychology and the Real World (pp. 56-64). Worth Publishers.",
+          "url": "https://bjorklab.psych.ucla.edu/research/#spacing",
+          "description": "Stöd för önskvärda svårigheter, spacing och relationen mellan prestation under övning och långsiktigt lärande."
+        }
+      ],
+      "quiz": [
+        {
+          "id": 1,
+          "type": "multiple-choice",
+          "question": "Vad menas med lärande i den här kursen?",
+          "options": [
+            "Att elever är aktiva under lektionen",
+            "Att elever kan följa lärarens exempel medan det visas",
+            "En relativt varaktig förändring i långtidsminnet",
+            "Att elever känner igen rätt svar i en lista"
+          ],
+          "correctAnswer": 2,
+          "feedback": "Se förklaringen.",
+          "explanation": "Kursen utgår från att lärande innebär en relativt varaktig förändring i långtidsminnet."
+        },
+        {
+          "id": 2,
+          "type": "multiple-choice",
+          "question": "Vilket är det bästa exemplet på prestation snarare än säkert lärande?",
+          "options": [
+            "Eleven kan förklara begreppet med egna ord veckan efter",
+            "Eleven väljer rätt metod i en blandad uppgift",
+            "Eleven löser en identisk uppgift direkt efter att läraren visat modellen",
+            "Eleven använder kunskapen i ett nytt sammanhang"
+          ],
+          "correctAnswer": 2,
+          "feedback": "Se förklaringen.",
+          "explanation": "Direkt imitation av ett nyss visat exempel kan visa prestation utan att visa varaktigt lärande."
+        },
+        {
+          "id": 3,
+          "type": "true-false",
+          "question": "Sant eller falskt: Hög prestation under lektionen garanterar långsiktigt lärande.",
+          "correctAnswer": false,
+          "feedback": "Se förklaringen.",
+          "explanation": "Prestation i stunden kan bero på stöd, ledtrådar, igenkänning eller nyss visade exempel."
+        },
+        {
+          "id": 4,
+          "type": "multiple-choice",
+          "question": "Vad är arbetsminnets viktigaste begränsning för undervisning?",
+          "options": [
+            "Det kan bara användas i praktiska ämnen",
+            "Det är begränsat och kan överbelastas",
+            "Det lagrar all kunskap permanent",
+            "Det fungerar bara när elever arbetar enskilt"
+          ],
+          "correctAnswer": 1,
+          "feedback": "Se förklaringen.",
+          "explanation": "Arbetsminnet är begränsat. Om för mycket ska hållas och bearbetas samtidigt blir lärande svårare."
+        },
+        {
+          "id": 5,
+          "type": "multiple-choice",
+          "question": "Vad är skillnaden mellan igenkänning och återkallning?",
+          "options": [
+            "Igenkänning är alltid svårare än återkallning",
+            "Återkallning innebär att eleven plockar fram kunskap ur minnet",
+            "Igenkänning kräver alltid mer långtidsminne",
+            "Det finns ingen viktig skillnad"
+          ],
+          "correctAnswer": 1,
+          "feedback": "Se förklaringen.",
+          "explanation": "Återkallning kräver att eleven själv plockar fram kunskapen, medan igenkänning stöds av att svaret eller sammanhanget redan syns."
+        },
+        {
+          "id": 6,
+          "type": "multiple-choice",
+          "question": "Vad beskriver retrieval strength bäst?",
+          "options": [
+            "Hur lätt kunskap är att plocka fram just nu",
+            "Hur snyggt eleven antecknar",
+            "Hur många bilder läraren använder",
+            "Hur lång lektionen är"
+          ],
+          "correctAnswer": 0,
+          "feedback": "Se förklaringen.",
+          "explanation": "Retrieval strength handlar om hur tillgänglig kunskapen är för återkallning just nu."
+        },
+        {
+          "id": 7,
+          "type": "true-false",
+          "question": "Sant eller falskt: Stöd kan både hjälpa lärande och dölja om elever kan något självständigt.",
+          "correctAnswer": true,
+          "feedback": "Se förklaringen.",
+          "explanation": "Stöd är ofta nödvändigt, men om det aldrig minskar ser läraren inte säkert vad eleven kan utan stödet."
+        },
+        {
+          "id": 8,
+          "type": "multiple-choice",
+          "question": "Vilken kontroll ger starkast information om varaktigt lärande?",
+          "options": [
+            "Elever nickar under genomgången",
+            "Elever skriver av tavlan snabbt",
+            "Elever känner igen svaret direkt efter genomgången",
+            "Elever återkallar och använder kunskapen senare med mindre stöd"
+          ],
+          "correctAnswer": 3,
+          "feedback": "Se förklaringen.",
+          "explanation": "Fördröjd återkallning och användning med mindre stöd ger bättre information om varaktigt lärande."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "title": "Planeringsmodellen: mål, hinder, val, sortering och kontroll",
+      "description": "En enkel modell för att välja undervisningsgrepp utifrån ett konkret lärandeproblem.",
+      "sections": [
+        "Målet",
+        "Hindret",
+        "Valet",
+        "Sorteringen",
+        "Kontrollen"
+      ],
+      "contentHtml": "<h2>Mål</h2><p>Efter kapitlet ska du kunna använda en enkel planeringsmodell för att välja undervisningsgrepp med större precision.</p><h2>Varför en modell behövs</h2><p>Lärare har många möjliga metoder: quiz, exempel, diskussioner, genomgångar, laborationer och skrivuppgifter. Problemet är inte att hitta aktiviteter, utan att välja rätt aktivitet för rätt hinder.</p><h2>1. Målet</h2><p>Börja med vad eleverna ska kunna göra eller förstå. Ett mål är starkare om det beskriver en handling: förklara, jämföra, lösa, motivera eller använda.</p><h2>2. Hindret</h2><p>Fråga vad som gör målet svårt. Är problemet att eleverna saknar förkunskaper, glömmer, blandar ihop begrepp, blir överbelastade eller inte vet hur kvalitet ser ut?</p><h2>3. Valet</h2><p>Välj grepp som matchar hindret. Om eleverna glömmer behövs återkallning och spacing. Om de överbelastas behövs tydligare förklaring och mindre extern belastning. Om de blandar ihop begrepp behövs jämförelser, exempel och icke-exempel.</p><h2>4. Sorteringen</h2><p>Sortering betyder att ta bort sådant som inte hjälper målet. En lektion kan bli sämre av för många exempel, för många instruktioner eller för många visuella detaljer.</p><h2>5. Kontrollen</h2><p>Planera hur du snabbt ska se vad eleverna förstått. Det kan vara en kort återkallningsfråga, miniwhiteboards, en exit ticket eller en diagnostisk flervalsfråga.</p><h2>Exempel</h2><p>Om målet är att elever ska kunna skilja mellan demokrati och diktatur är hindret ofta begreppsförvirring. Då passar exempel, icke-exempel och jämförelser bättre än att bara läsa en längre text.</p>",
+      "summary": "Planeringsmodellen hjälper läraren att gå från aktivitetstänkande till problemtänkande: mål, hinder, val, sortering och kontroll.",
+      "keyTopics": [
+        "Planering",
+        "Lärandehinder",
+        "Undervisningsval",
+        "Kontroll av förståelse"
+      ],
+      "resources": [
+        {
+          "title": "Great Teaching Toolkit: Evidence Review",
+          "reference": "Coe, R., Rauch, C. J., Kime, S., & Singleton, D. (2020). Great Teaching Toolkit: Evidence Review. Evidence Based Education.",
+          "url": "https://evidencebased.education/the-great-teaching-toolkit-evidence-review/",
+          "description": "Används för kopplingen mellan kognitionsvetenskap, tydlig undervisning, frågor, feedback och undervisningskvalitet."
+        },
+        {
+          "title": "Principles of Instruction",
+          "reference": "Rosenshine, B. (2012). Principles of instruction: Research-based strategies that all teachers should know. American Educator, 36(1), 12-19, 39.",
+          "url": "https://www.aft.org/ae/spring2012/rosenshine",
+          "description": "Stöd för små steg, modellering, frågor, kontroller av förståelse, guidad övning och återkommande repetition."
+        },
+        {
+          "title": "Cognitive science approaches in the classroom: A review of the evidence",
+          "reference": "Perry, T., Lea, R., Jørgensen, C. R., Cordingley, P., Shapiro, K., & Youdell, D. (2021). Cognitive science approaches in the classroom: A review of the evidence. Education Endowment Foundation.",
+          "url": "https://educationendowmentfoundation.org.uk/education-evidence/evidence-reviews/cognitive-science-approaches-in-the-classroom",
+          "description": "Sammanfattar evidens om spacing, interleaving, retrieval practice, kognitiv belastning, scheman, multimedia och embodied learning i klassrum."
+        }
+      ],
+      "quiz": [
+        {
+          "id": 1,
+          "type": "multiple-choice",
+          "question": "Vilken fråga hör främst till steget Hindret?",
+          "correctAnswer": 1,
+          "feedback": "Se förklaringen.",
+          "explanation": "Hindret handlar om vad som gör målet svårt för eleverna.",
+          "options": [
+            "Vad ska eleverna kunna?",
+            "Vad gör detta svårt?",
+            "Vilken länk ska eleverna få?",
+            "Hur lång är lektionen?"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "true-false",
+          "question": "Sant eller falskt: Planering bör börja med aktivitetens form, till exempel grupparbete eller film.",
+          "correctAnswer": false,
+          "feedback": "Se förklaringen.",
+          "explanation": "Aktiviteten bör väljas efter mål och hinder, inte tvärtom."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "title": "Kognitiv belastning och tydlig förklaring",
+      "description": "Hur arbetsminnets begränsningar påverkar undervisning och hur lärare kan minska onödig belastning.",
+      "sections": [
+        "Kognitiv belastning",
+        "Inneboende och extern belastning",
+        "Segmentering",
+        "Delad uppmärksamhet",
+        "Tydlig förklaring"
+      ],
+      "contentHtml": "<h2>Mål</h2><p>Efter kapitlet ska du kunna identifiera när undervisning överbelastar arbetsminnet och justera presentationen.</p><h2>Vad är kognitiv belastning?</h2><p>Kognitiv belastning handlar om hur mycket ett moment kräver av arbetsminnet. När belastningen blir för hög får elever svårt att förstå, bearbeta och lagra innehållet.</p><h2>Inneboende och extern belastning</h2><p>Inneboende belastning beror på själva innehållets komplexitet. Extern belastning skapas av hur innehållet presenteras: otydliga instruktioner, röriga bilder, för högt tempo eller för många informationskällor samtidigt.</p><h2>Segmentering</h2><p>Segmentering innebär att dela upp nytt innehåll i hanterbara steg. I stället för att förklara hela processen på en gång visar läraren ett steg, låter elever bearbeta och går sedan vidare.</p><h2>Delad uppmärksamhet</h2><p>Elever kan inte fullt ut läsa, lyssna, skriva och lösa problem samtidigt. Därför behöver läraren styra vad eleverna ska fokusera på just nu.</p><h2>Tydlig förklaring</h2><p>Tydlig förklaring är inte att säga allt. Det är att välja det viktigaste, ordna det i en begriplig sekvens och kontrollera att eleverna följer med.</p><h2>Exempel</h2><p>I kemi kan läraren först visa en enkel partikelmodell, därefter lägga till symboler och till sist koppla modellen till observerbara fenomen. Varje steg minskar onödig belastning.</p>",
+      "summary": "Kognitiv belastning hjälper lärare att göra svårt innehåll hanterbart genom tydlig struktur, segmentering och fokus.",
+      "keyTopics": [
+        "Kognitiv belastning",
+        "Arbetsminne",
+        "Segmentering",
+        "Tydlig förklaring"
+      ],
+      "resources": [
+        {
+          "title": "Cognitive Architecture and Instructional Design",
+          "reference": "Sweller, J., van Merriënboer, J. J. G., & Paas, F. G. W. C. (1998). Cognitive architecture and instructional design. Educational Psychology Review, 10, 251-296. https://doi.org/10.1023/A:1022193728205",
+          "url": "https://doi.org/10.1023/A:1022193728205",
+          "description": "Central text om arbetsminne, långtidsminne och hur undervisning bör designas med hänsyn till kognitiv belastning."
+        },
+        {
+          "title": "Cognitive science approaches in the classroom: A review of the evidence",
+          "reference": "Perry, T., Lea, R., Jørgensen, C. R., Cordingley, P., Shapiro, K., & Youdell, D. (2021). Cognitive science approaches in the classroom: A review of the evidence. Education Endowment Foundation.",
+          "url": "https://educationendowmentfoundation.org.uk/education-evidence/evidence-reviews/cognitive-science-approaches-in-the-classroom",
+          "description": "Sammanfattar evidens om spacing, interleaving, retrieval practice, kognitiv belastning, scheman, multimedia och embodied learning i klassrum."
+        },
+        {
+          "title": "Principles of Instruction",
+          "reference": "Rosenshine, B. (2012). Principles of instruction: Research-based strategies that all teachers should know. American Educator, 36(1), 12-19, 39.",
+          "url": "https://www.aft.org/ae/spring2012/rosenshine",
+          "description": "Stöd för små steg, modellering, frågor, kontroller av förståelse, guidad övning och återkommande repetition."
+        },
+        {
+          "title": "Why Minimal Guidance During Instruction Does Not Work",
+          "reference": "Kirschner, P. A., Sweller, J., & Clark, R. E. (2006). Why minimal guidance during instruction does not work. Educational Psychologist, 41(2), 75-86. https://doi.org/10.1207/s15326985ep4102_1",
+          "url": "https://doi.org/10.1207/s15326985ep4102_1",
+          "description": "Stöd för att nybörjare ofta behöver tydlig vägledning, exempel och struktur."
+        }
+      ],
+      "quiz": [
+        {
+          "id": 1,
+          "type": "multiple-choice",
+          "question": "Vad är extern kognitiv belastning?",
+          "correctAnswer": 2,
+          "feedback": "Se förklaringen.",
+          "explanation": "Extern belastning skapas av presentationen och kan ofta minskas av läraren.",
+          "options": [
+            "Uppgiftens nödvändiga svårighet",
+            "Elevens motivation",
+            "Belastning som skapas av hur innehållet presenteras",
+            "All kunskap i långtidsminnet"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "true-false",
+          "question": "Sant eller falskt: Mer information på en slide gör oftast förklaringen tydligare.",
+          "correctAnswer": false,
+          "feedback": "Se förklaringen.",
+          "explanation": "Mer information kan öka extern belastning och splittra uppmärksamheten."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "title": "Retrieval practice: att träna minnesåterkallning",
+      "description": "Hur återkallning stärker lärande och hur quiz kan användas som låginsatsövning.",
+      "sections": [
+        "Vad är retrieval practice?",
+        "Varför fungerar återkallning?",
+        "Former för återkallning",
+        "Feedback",
+        "Vanliga fallgropar"
+      ],
+      "contentHtml": "<h2>Mål</h2><p>Efter kapitlet ska du kunna planera korta återkallningsövningar som stödjer lärande utan att skapa onödig provstress.</p><h2>Vad är retrieval practice?</h2><p>Retrieval practice betyder att elever tränar på att plocka fram kunskap ur minnet. Det kan vara ett kort quiz, en tom tidslinje, en förklaringsfråga eller att skriva allt man minns om ett begrepp.</p><h2>Varför fungerar återkallning?</h2><p>När eleven försöker återkalla stärks vägen tillbaka till kunskapen. Det gör kunskapen lättare att hitta nästa gång. Återkallning visar också vad eleven faktiskt kan utan stöd.</p><h2>Former för återkallning</h2><ul><li>Korta startquiz.</li><li>Exit tickets.</li><li>Fritt återkallande utan bok.</li><li>Flervalsfrågor med noggrant valda felsvar.</li><li>Kamratförklaring efter enskilt försök.</li></ul><h2>Feedback</h2><p>Återkallning fungerar bäst när elever får möjlighet att korrigera sina svar. Feedbacken behöver vara tydlig, men inte alltid lång.</p><h2>Vanliga fallgropar</h2><p>Quiz ska inte alltid kännas som bedömning. Om varje återkallning upplevs som prov riskerar aktiviteten att skapa stress i stället för lärande.</p><h2>Exempel</h2><p>I historia kan elever börja lektionen med att skriva fem händelser från förra lektionens tidslinje ur minnet. Först efteråt jämför de med anteckningar.</p>",
+      "summary": "Återkallning är ett undervisningsgrepp som gör elevernas minne aktivt och hjälper kunskap att bli mer tillgänglig över tid.",
+      "keyTopics": [
+        "Retrieval practice",
+        "Testeffekten",
+        "Quiz",
+        "Feedback"
+      ],
+      "resources": [
+        {
+          "title": "Test-enhanced learning",
+          "reference": "Roediger, H. L., III, & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249-255. https://doi.org/10.1111/j.1467-9280.2006.01693.x",
+          "url": "https://doi.org/10.1111/j.1467-9280.2006.01693.x",
+          "description": "Klassisk studie om testeffekten och varför aktiv återkallning kan ge bättre långtidsbevarande än enbart omläsning."
+        },
+        {
+          "title": "Powerful Teaching: Unleash the Science of Learning",
+          "reference": "Agarwal, P. K., & Bain, P. M. (2019). Powerful Teaching: Unleash the Science of Learning. Jossey-Bass.",
+          "url": "https://www.wiley.com/en-us/Powerful+Teaching%3A+Unleash+the+Science+of+Learning-p-9781119521846",
+          "description": "Praktisk lärarhandbok om retrieval practice, spacing, interleaving och feedback-driven metakognition."
+        },
+        {
+          "title": "Improving Students’ Learning With Effective Learning Techniques",
+          "reference": "Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving students’ learning with effective learning techniques. Psychological Science in the Public Interest, 14(1), 4-58. https://doi.org/10.1177/1529100612453266",
+          "url": "https://doi.org/10.1177/1529100612453266",
+          "description": "Översikt över studietekniker, bland annat retrieval practice och distributed practice."
+        },
+        {
+          "title": "Cognitive science approaches in the classroom: A review of the evidence",
+          "reference": "Perry, T., Lea, R., Jørgensen, C. R., Cordingley, P., Shapiro, K., & Youdell, D. (2021). Cognitive science approaches in the classroom: A review of the evidence. Education Endowment Foundation.",
+          "url": "https://educationendowmentfoundation.org.uk/education-evidence/evidence-reviews/cognitive-science-approaches-in-the-classroom",
+          "description": "Sammanfattar evidens om spacing, interleaving, retrieval practice, kognitiv belastning, scheman, multimedia och embodied learning i klassrum."
+        }
+      ],
+      "quiz": [
+        {
+          "id": 1,
+          "type": "multiple-choice",
+          "question": "Vilket är ett exempel på retrieval practice?",
+          "correctAnswer": 0,
+          "feedback": "Se förklaringen.",
+          "explanation": "Eleven behöver försöka plocka fram kunskapen utan att svaret ligger framför hen.",
+          "options": [
+            "Skriva allt man minns om ett begrepp utan bok",
+            "Läsa samma text igen",
+            "Markera viktiga meningar med färg",
+            "Titta på lärarens lösning"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "true-false",
+          "question": "Sant eller falskt: Quiz kan användas som lärandeaktivitet och behöver inte alltid vara betygsgrundande.",
+          "correctAnswer": true,
+          "feedback": "Se förklaringen.",
+          "explanation": "Låginsatsquiz kan träna återkallning utan att fungera som prov."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "title": "Spacing, interleaving och variation",
+      "description": "Hur repetition över tid, blandad övning och variation stärker långsiktigt lärande.",
+      "sections": [
+        "Spacing",
+        "Cramming",
+        "Interleaving",
+        "Variation",
+        "Gränsvillkor"
+      ],
+      "contentHtml": "<h2>Mål</h2><p>Efter kapitlet ska du kunna skilja mellan övning som ger snabb prestation och övning som stärker lärande över tid.</p><h2>Spacing</h2><p>Spacing innebär att övning sprids över tid. En kort återkomst flera gånger är ofta bättre för långtidsminnet än ett långt pass vid ett tillfälle.</p><h2>Cramming</h2><p>Cramming kan ge snabb förbättring i stunden, men kunskapen blir ofta mindre hållbar. Det betyder inte att intensiv övning alltid är fel, men den bör följas av återkommande återkallning.</p><h2>Interleaving</h2><p>Interleaving innebär att blanda närliggande uppgiftstyper. Det gör övningen svårare, men hjälper elever att lära sig välja metod och urskilja skillnader.</p><h2>Variation</h2><p>Variation innebär att samma idé möter eleverna i flera sammanhang. Då blir kunskapen mindre bunden till ett enda exempel.</p><h2>Gränsvillkor</h2><p>Nybörjare behöver ofta först tydliga exempel och blockvis övning. Interleaving blir mer användbart när elever har en grund att jämföra från.</p><h2>Exempel</h2><p>I matematik kan elever först öva en ny metod blockvis. Senare blandas den med äldre metoder så att eleverna måste avgöra vilken strategi som passar.</p>",
+      "summary": "Spacing och interleaving kan göra övning svårare i stunden men mer effektiv för långsiktigt lärande.",
+      "keyTopics": [
+        "Spacing",
+        "Interleaving",
+        "Variation",
+        "Önskvärda svårigheter"
+      ],
+      "resources": [
+        {
+          "title": "Improving Students’ Learning With Effective Learning Techniques",
+          "reference": "Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving students’ learning with effective learning techniques. Psychological Science in the Public Interest, 14(1), 4-58. https://doi.org/10.1177/1529100612453266",
+          "url": "https://doi.org/10.1177/1529100612453266",
+          "description": "Översikt över studietekniker, bland annat retrieval practice och distributed practice."
+        },
+        {
+          "title": "Making Things Hard on Yourself, But in a Good Way",
+          "reference": "Bjork, E. L., & Bjork, R. A. (2011). Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning. In M. A. Gernsbacher et al. (Eds.), Psychology and the Real World (pp. 56-64). Worth Publishers.",
+          "url": "https://bjorklab.psych.ucla.edu/research/#spacing",
+          "description": "Stöd för önskvärda svårigheter, spacing och relationen mellan prestation under övning och långsiktigt lärande."
+        },
+        {
+          "title": "Powerful Teaching: Unleash the Science of Learning",
+          "reference": "Agarwal, P. K., & Bain, P. M. (2019). Powerful Teaching: Unleash the Science of Learning. Jossey-Bass.",
+          "url": "https://www.wiley.com/en-us/Powerful+Teaching%3A+Unleash+the+Science+of+Learning-p-9781119521846",
+          "description": "Praktisk lärarhandbok om retrieval practice, spacing, interleaving och feedback-driven metakognition."
+        },
+        {
+          "title": "Cognitive science approaches in the classroom: A review of the evidence",
+          "reference": "Perry, T., Lea, R., Jørgensen, C. R., Cordingley, P., Shapiro, K., & Youdell, D. (2021). Cognitive science approaches in the classroom: A review of the evidence. Education Endowment Foundation.",
+          "url": "https://educationendowmentfoundation.org.uk/education-evidence/evidence-reviews/cognitive-science-approaches-in-the-classroom",
+          "description": "Sammanfattar evidens om spacing, interleaving, retrieval practice, kognitiv belastning, scheman, multimedia och embodied learning i klassrum."
+        }
+      ],
+      "quiz": [
+        {
+          "id": 1,
+          "type": "multiple-choice",
+          "question": "Vad innebär spacing?",
+          "correctAnswer": 1,
+          "feedback": "Se förklaringen.",
+          "explanation": "Spacing är fördelning av övning över tid.",
+          "options": [
+            "Att öva allt precis före provet",
+            "Att sprida övning över tid",
+            "Att bara öva en uppgiftstyp",
+            "Att ta bort all repetition"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "true-false",
+          "question": "Sant eller falskt: Interleaving bör alltid användas innan elever har förstått de grundläggande exemplen.",
+          "correctAnswer": false,
+          "feedback": "Se förklaringen.",
+          "explanation": "Nybörjare behöver ofta tydliga exempel och mer fokuserad övning först."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "title": "Scheman, förkunskaper och begreppsundervisning",
+      "description": "Varför organiserad kunskap gör nytt innehåll lättare att förstå.",
+      "sections": [
+        "Scheman",
+        "Förkunskaper",
+        "Begrepp",
+        "Exempel och icke-exempel",
+        "Missuppfattningar"
+      ],
+      "contentHtml": "<h2>Mål</h2><p>Efter kapitlet ska du kunna planera begreppsundervisning som bygger användbara scheman i långtidsminnet.</p><h2>Scheman</h2><p>Ett schema är organiserad kunskap i långtidsminnet. Scheman hjälper elever att tolka ny information, se mönster och avlasta arbetsminnet.</p><h2>Förkunskaper</h2><p>Förkunskaper påverkar vad elever uppmärksammar och hur de tolkar det. Därför behöver läraren ibland undervisa förkunskaper innan elever möter en text, ett problem eller en laboration.</p><h2>Begrepp</h2><p>Begrepp blir starkare när elever får definitioner, exempel, icke-exempel och tillfällen att använda begreppet i nya sammanhang.</p><h2>Exempel och icke-exempel</h2><p>Om elever ska förstå demokrati räcker det inte med en definition. De behöver se exempel på demokratiska och icke-demokratiska system och diskutera vilka egenskaper som avgör.</p><h2>Missuppfattningar</h2><p>Felaktiga förkunskaper kan göra nytt lärande svårare. Därför bör läraren lyssna efter hur elever redan tänker, inte bara presentera rätt svar.</p><h2>Exempel</h2><p>I kemi kan begreppen atom, molekyl, jon och kemisk förening organiseras i ett begreppsnät med exempel och icke-exempel.</p>",
+      "summary": "Elever förstår nytt innehåll bättre när de har organiserade förkunskaper och tydligt undervisade begrepp.",
+      "keyTopics": [
+        "Scheman",
+        "Förkunskaper",
+        "Begrepp",
+        "Exempel och icke-exempel"
+      ],
+      "resources": [
+        {
+          "title": "Cognitive science approaches in the classroom: A review of the evidence",
+          "reference": "Perry, T., Lea, R., Jørgensen, C. R., Cordingley, P., Shapiro, K., & Youdell, D. (2021). Cognitive science approaches in the classroom: A review of the evidence. Education Endowment Foundation.",
+          "url": "https://educationendowmentfoundation.org.uk/education-evidence/evidence-reviews/cognitive-science-approaches-in-the-classroom",
+          "description": "Sammanfattar evidens om spacing, interleaving, retrieval practice, kognitiv belastning, scheman, multimedia och embodied learning i klassrum."
+        },
+        {
+          "title": "Why Don’t Students Like School?",
+          "reference": "Willingham, D. T. (2009). Why Don’t Students Like School? Jossey-Bass.",
+          "url": "https://openlibrary.org/isbn/9781119715665",
+          "description": "Används för lärarvänliga förklaringar av minne, tänkande, förkunskaper och varför kunskap är central för förståelse."
+        },
+        {
+          "title": "Great Teaching Toolkit: Evidence Review",
+          "reference": "Coe, R., Rauch, C. J., Kime, S., & Singleton, D. (2020). Great Teaching Toolkit: Evidence Review. Evidence Based Education.",
+          "url": "https://evidencebased.education/the-great-teaching-toolkit-evidence-review/",
+          "description": "Används för kopplingen mellan kognitionsvetenskap, tydlig undervisning, frågor, feedback och undervisningskvalitet."
+        }
+      ],
+      "quiz": [
+        {
+          "id": 1,
+          "type": "multiple-choice",
+          "question": "Varför är förkunskaper viktiga?",
+          "correctAnswer": 2,
+          "feedback": "Se förklaringen.",
+          "explanation": "Förkunskaper styr hur ny information förstås och organiseras.",
+          "options": [
+            "De gör repetition onödig",
+            "De ersätter lärarens förklaring",
+            "De hjälper eleven att tolka och organisera nytt innehåll",
+            "De gör alla uppgifter enkla"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "true-false",
+          "question": "Sant eller falskt: En definition räcker oftast för att elever ska kunna använda ett komplext begrepp säkert.",
+          "correctAnswer": false,
+          "feedback": "Se förklaringen.",
+          "explanation": "Elever behöver ofta definitioner, exempel, icke-exempel och användning i sammanhang."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "title": "Worked examples, modellering och avvecklat stöd",
+      "description": "Hur lärare kan visa tänkande, ge stöd och gradvis öka elevens självständighet.",
+      "sections": [
+        "Worked examples",
+        "Modellering",
+        "Scaffolding",
+        "Avvecklat stöd",
+        "Självförklaring"
+      ],
+      "contentHtml": "<h2>Mål</h2><p>Efter kapitlet ska du kunna använda genomarbetade exempel och gradvis avveckla stöd.</p><h2>Worked examples</h2><p>Ett worked example visar inte bara svaret, utan vägen dit. För nybörjare kan ett tydligt exempel minska belastningen och visa vad ett bra angreppssätt innebär.</p><h2>Modellering</h2><p>Modellering betyder att läraren synliggör tänkandet: vad man tittar efter, vilka val man gör och varför ett steg kommer före nästa.</p><h2>Scaffolding</h2><p>Scaffolding är stöd som hjälper eleven att lyckas med något som ännu inte kan göras helt självständigt. Stödet ska vara tillfälligt.</p><h2>Avvecklat stöd</h2><p>En praktisk sekvens är: fullt exempel, delvis löst exempel, guidad övning, självständig övning och blandad tillämpning.</p><h2>Självförklaring</h2><p>När elever förklarar varför ett steg fungerar bearbetar de relationen mellan exempel och princip.</p><h2>Exempel</h2><p>I skrivundervisning kan läraren först analysera en modelltext, sedan skriva en gemensam text med klassen, därefter ge skrivram och till sist låta elever skriva mer självständigt.</p>",
+      "summary": "Worked examples och modellering hjälper särskilt nybörjare att se hur kunnigt tänkande går till innan stödet gradvis tas bort.",
+      "keyTopics": [
+        "Worked examples",
+        "Modellering",
+        "Scaffolding",
+        "Självförklaring"
+      ],
+      "resources": [
+        {
+          "title": "Cognitive Architecture and Instructional Design",
+          "reference": "Sweller, J., van Merriënboer, J. J. G., & Paas, F. G. W. C. (1998). Cognitive architecture and instructional design. Educational Psychology Review, 10, 251-296. https://doi.org/10.1023/A:1022193728205",
+          "url": "https://doi.org/10.1023/A:1022193728205",
+          "description": "Central text om arbetsminne, långtidsminne och hur undervisning bör designas med hänsyn till kognitiv belastning."
+        },
+        {
+          "title": "Why Minimal Guidance During Instruction Does Not Work",
+          "reference": "Kirschner, P. A., Sweller, J., & Clark, R. E. (2006). Why minimal guidance during instruction does not work. Educational Psychologist, 41(2), 75-86. https://doi.org/10.1207/s15326985ep4102_1",
+          "url": "https://doi.org/10.1207/s15326985ep4102_1",
+          "description": "Stöd för att nybörjare ofta behöver tydlig vägledning, exempel och struktur."
+        },
+        {
+          "title": "Principles of Instruction",
+          "reference": "Rosenshine, B. (2012). Principles of instruction: Research-based strategies that all teachers should know. American Educator, 36(1), 12-19, 39.",
+          "url": "https://www.aft.org/ae/spring2012/rosenshine",
+          "description": "Stöd för små steg, modellering, frågor, kontroller av förståelse, guidad övning och återkommande repetition."
+        },
+        {
+          "title": "Great Teaching Toolkit: Evidence Review",
+          "reference": "Coe, R., Rauch, C. J., Kime, S., & Singleton, D. (2020). Great Teaching Toolkit: Evidence Review. Evidence Based Education.",
+          "url": "https://evidencebased.education/the-great-teaching-toolkit-evidence-review/",
+          "description": "Används för kopplingen mellan kognitionsvetenskap, tydlig undervisning, frågor, feedback och undervisningskvalitet."
+        }
+      ],
+      "quiz": [
+        {
+          "id": 1,
+          "type": "multiple-choice",
+          "question": "Vad kännetecknar ett worked example?",
+          "correctAnswer": 1,
+          "feedback": "Se förklaringen.",
+          "explanation": "Ett worked example visar vägen genom problemet, inte bara svaret.",
+          "options": [
+            "Elever får bara slutsvaret",
+            "Lösningen och tänkandet visas steg för steg",
+            "Elever arbetar helt utan stöd",
+            "Läraren undviker modellering"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "true-false",
+          "question": "Sant eller falskt: Scaffolding bör helst finnas kvar oförändrad hela arbetsområdet.",
+          "correctAnswer": false,
+          "feedback": "Se förklaringen.",
+          "explanation": "Stöd bör gradvis avvecklas när eleverna blir mer självständiga."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "title": "Bild, text, exempel och uppmärksamhet",
+      "description": "Hur visuellt och muntligt material kan stödja lärande utan att skapa brus.",
+      "sections": [
+        "Uppmärksamhet",
+        "Signalering",
+        "Dubbelkodning",
+        "Multimedia",
+        "Vanliga fallgropar"
+      ],
+      "contentHtml": "<h2>Mål</h2><p>Efter kapitlet ska du kunna designa bild, text och exempel så att elevernas uppmärksamhet riktas mot det viktiga.</p><h2>Uppmärksamhet</h2><p>Elever lär sig inte av allt som finns i rummet eller på skärmen. De lär sig av det de uppmärksammar och bearbetar.</p><h2>Signalering</h2><p>Signalering innebär att läraren markerar vad eleverna ska titta på: en pil, en färg, en inringning eller en tydlig muntlig instruktion.</p><h2>Dubbelkodning</h2><p>Ord och bild kan stödja varandra när de förklarar samma idé. Men två parallella budskap som konkurrerar kan skapa överbelastning.</p><h2>Multimedia</h2><p>Effektiv multimedia handlar inte om att använda många medier, utan om att samordna dem. Bild, text och tal ska hjälpa eleverna att bygga samma förståelse.</p><h2>Vanliga fallgropar</h2><ul><li>Dekorativa bilder som inte hjälper förståelsen.</li><li>För mycket text medan läraren pratar.</li><li>Diagram utan vägledning.</li><li>För många visuella markeringar på samma gång.</li></ul><h2>Exempel</h2><p>I biologi kan en cellmodell byggas upp i steg. Läraren markerar en del i taget och kopplar varje del till dess funktion.</p>",
+      "summary": "Bild och text hjälper mest när de riktar uppmärksamheten mot samma centrala idé och minskar onödig belastning.",
+      "keyTopics": [
+        "Uppmärksamhet",
+        "Signalering",
+        "Dubbelkodning",
+        "Multimedia"
+      ],
+      "resources": [
+        {
+          "title": "Multimedia Learning",
+          "reference": "Mayer, R. E. (2021). Multimedia Learning (3rd ed.). Cambridge University Press.",
+          "url": "https://openlibrary.org/isbn/9781316638088",
+          "description": "Grundläggande källa om hur ord, bild, uppmärksamhet och kognitiv belastning samspelar i multimedialt lärande."
+        },
+        {
+          "title": "Cognitive science approaches in the classroom: A review of the evidence",
+          "reference": "Perry, T., Lea, R., Jørgensen, C. R., Cordingley, P., Shapiro, K., & Youdell, D. (2021). Cognitive science approaches in the classroom: A review of the evidence. Education Endowment Foundation.",
+          "url": "https://educationendowmentfoundation.org.uk/education-evidence/evidence-reviews/cognitive-science-approaches-in-the-classroom",
+          "description": "Sammanfattar evidens om spacing, interleaving, retrieval practice, kognitiv belastning, scheman, multimedia och embodied learning i klassrum."
+        },
+        {
+          "title": "Cognitive Architecture and Instructional Design",
+          "reference": "Sweller, J., van Merriënboer, J. J. G., & Paas, F. G. W. C. (1998). Cognitive architecture and instructional design. Educational Psychology Review, 10, 251-296. https://doi.org/10.1023/A:1022193728205",
+          "url": "https://doi.org/10.1023/A:1022193728205",
+          "description": "Central text om arbetsminne, långtidsminne och hur undervisning bör designas med hänsyn till kognitiv belastning."
+        }
+      ],
+      "quiz": [
+        {
+          "id": 1,
+          "type": "multiple-choice",
+          "question": "Vad är signalering?",
+          "correctAnswer": 0,
+          "feedback": "Se förklaringen.",
+          "explanation": "Signalering hjälper eleverna att uppmärksamma det viktiga.",
+          "options": [
+            "Att markera vad elever ska fokusera på",
+            "Att lägga till fler bilder",
+            "Att ta bort all muntlig förklaring",
+            "Att alltid använda animationer"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "true-false",
+          "question": "Sant eller falskt: Dekorativa bilder kan ibland störa lärandet genom att dra uppmärksamhet från innehållet.",
+          "correctAnswer": true,
+          "feedback": "Se förklaringen.",
+          "explanation": "Bilder bör stödja förståelsen, inte bara göra materialet mer pyntat."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "title": "Frågor, feedback och checks for understanding",
+      "description": "Hur lärare kan ta reda på vad elever förstår och använda svaren för att justera undervisningen.",
+      "sections": [
+        "Varför frågor behövs",
+        "Svar från alla elever",
+        "Diagnostiska frågor",
+        "Feedback",
+        "Formativ bedömning"
+      ],
+      "contentHtml": "<h2>Mål</h2><p>Efter kapitlet ska du kunna planera frågor och feedback som ger användbar information om elevernas förståelse.</p><h2>Varför frågor behövs</h2><p>Frågan \"förstår ni?\" ger ofta svag information. Elever kan tro att de förstår, vilja undvika att svara eller bara ha förstått ytligt.</p><h2>Svar från alla elever</h2><p>Miniwhiteboards, digitala svar, kortsvar och handtecken kan ge läraren information från hela gruppen, inte bara från elever som räcker upp handen.</p><h2>Diagnostiska frågor</h2><p>En diagnostisk fråga är utformad så att vanliga felsvar avslöjar hur elever tänker. Felsvar blir då information, inte bara misstag.</p><h2>Feedback</h2><p>Feedback ska hjälpa eleven vidare. Den kan svara på tre frågor: vart är jag på väg, hur går det och vad är nästa steg?</p><h2>Formativ bedömning</h2><p>Bedömningen är formativ när informationen används för att ändra undervisning eller elevens nästa handling.</p><h2>Exempel</h2><p>I samhällskunskap kan elever få tre påståenden och avgöra om varje påstående är fakta, värdering eller orsak. Läraren ser direkt vilka distinktioner som behöver repeteras.</p>",
+      "summary": "Frågor och feedback fungerar bäst när de ger läraren information som faktiskt används för nästa undervisningsbeslut.",
+      "keyTopics": [
+        "Checks for understanding",
+        "Feedback",
+        "Formativ bedömning",
+        "Diagnostiska frågor"
+      ],
+      "resources": [
+        {
+          "title": "The Power of Feedback",
+          "reference": "Hattie, J., & Timperley, H. (2007). The power of feedback. Review of Educational Research, 77(1), 81-112. https://doi.org/10.3102/003465430298487",
+          "url": "https://doi.org/10.3102/003465430298487",
+          "description": "Används för principer om återkopplingens funktion, nivåer och timing."
+        },
+        {
+          "title": "Assessment and Classroom Learning",
+          "reference": "Black, P., & Wiliam, D. (1998). Assessment and classroom learning. Assessment in Education: Principles, Policy & Practice, 5(1), 7-74. https://doi.org/10.1080/0969595980050102",
+          "url": "https://doi.org/10.1080/0969595980050102",
+          "description": "Central källa om formativ bedömning och hur elevsvar kan användas för att justera undervisningen."
+        },
+        {
+          "title": "Principles of Instruction",
+          "reference": "Rosenshine, B. (2012). Principles of instruction: Research-based strategies that all teachers should know. American Educator, 36(1), 12-19, 39.",
+          "url": "https://www.aft.org/ae/spring2012/rosenshine",
+          "description": "Stöd för små steg, modellering, frågor, kontroller av förståelse, guidad övning och återkommande repetition."
+        },
+        {
+          "title": "Great Teaching Toolkit: Evidence Review",
+          "reference": "Coe, R., Rauch, C. J., Kime, S., & Singleton, D. (2020). Great Teaching Toolkit: Evidence Review. Evidence Based Education.",
+          "url": "https://evidencebased.education/the-great-teaching-toolkit-evidence-review/",
+          "description": "Används för kopplingen mellan kognitionsvetenskap, tydlig undervisning, frågor, feedback och undervisningskvalitet."
+        }
+      ],
+      "quiz": [
+        {
+          "id": 1,
+          "type": "multiple-choice",
+          "question": "Varför är \"förstår ni?\" ofta en svag kontrollfråga?",
+          "correctAnswer": 3,
+          "feedback": "Se förklaringen.",
+          "explanation": "Frågan ger sällan synlig information om varje elevs förståelse.",
+          "options": [
+            "Den tar för lång tid att ställa",
+            "Den är alltid för svår",
+            "Den fungerar bara i matematik",
+            "Den visar inte tydligt vad varje elev faktiskt förstått"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "true-false",
+          "question": "Sant eller falskt: Formativ bedömning kräver att informationen används för att påverka nästa steg.",
+          "correctAnswer": true,
+          "feedback": "Se förklaringen.",
+          "explanation": "Informationen blir formativ när den används för att justera undervisning eller lärande."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "title": "Myter, feltolkningar och forskningsläsning",
+      "description": "Hur lärare kan tolka forskningspåståenden nyanserat och undvika förenklade undervisningsmyter.",
+      "sections": [
+        "Forskning visar",
+        "Gränsvillkor",
+        "Lärstilar",
+        "Korrelation och kausalitet",
+        "Professionellt omdöme"
+      ],
+      "contentHtml": "<h2>Mål</h2><p>Efter kapitlet ska du kunna läsa forskningspåståenden mer kritiskt och undvika vanliga feltolkningar.</p><h2>\"Forskning visar\" räcker inte</h2><p>När någon säger att forskning visar något bör nästa fråga vara: för vilka elever, i vilket ämne, under vilka villkor och jämfört med vad?</p><h2>Gränsvillkor</h2><p>En princip kan vara stark men ändå kräva rätt användning. Interleaving kan hjälpa när elever har något att jämföra, men vara för svårt innan grunden finns.</p><h2>Lärstilar</h2><p>Idén att elever bör undervisas efter fasta visuella, auditiva eller kinestetiska lärstilar är populär men svagt stödd som undervisningsmodell. Däremot kan flera representationer vara användbara när de passar innehållet.</p><h2>Korrelation och kausalitet</h2><p>Att två saker hänger ihop betyder inte att den ena orsakar den andra. Lärare behöver därför vara försiktiga med enkla slutsatser från enskilda studier eller trendiga sammanfattningar.</p><h2>Professionellt omdöme</h2><p>Evidens ersätter inte lärarens omdöme. Den hjälper läraren att ställa bättre frågor, planera mer medvetet och följa upp effekter mer noggrant.</p><h2>Checklista</h2><ul><li>Vad mättes: prestation direkt eller lärande över tid?</li><li>Vad jämfördes metoden med?</li><li>Vilka elever och ämnen gällde studien?</li><li>Vilka kostnader och risker finns i klassrummet?</li></ul>",
+      "summary": "Forskningsläsning kräver både öppenhet och skepsis: principer behöver förstås med gränsvillkor, inte som recept.",
+      "keyTopics": [
+        "Forskningsläsning",
+        "Gränsvillkor",
+        "Undervisningsmyter",
+        "Korrelation och kausalitet"
+      ],
+      "resources": [
+        {
+          "title": "Cognitive science approaches in the classroom: A review of the evidence",
+          "reference": "Perry, T., Lea, R., Jørgensen, C. R., Cordingley, P., Shapiro, K., & Youdell, D. (2021). Cognitive science approaches in the classroom: A review of the evidence. Education Endowment Foundation.",
+          "url": "https://educationendowmentfoundation.org.uk/education-evidence/evidence-reviews/cognitive-science-approaches-in-the-classroom",
+          "description": "Sammanfattar evidens om spacing, interleaving, retrieval practice, kognitiv belastning, scheman, multimedia och embodied learning i klassrum."
+        },
+        {
+          "title": "Great Teaching Toolkit: Evidence Review",
+          "reference": "Coe, R., Rauch, C. J., Kime, S., & Singleton, D. (2020). Great Teaching Toolkit: Evidence Review. Evidence Based Education.",
+          "url": "https://evidencebased.education/the-great-teaching-toolkit-evidence-review/",
+          "description": "Används för kopplingen mellan kognitionsvetenskap, tydlig undervisning, frågor, feedback och undervisningskvalitet."
+        },
+        {
+          "title": "Improving Students’ Learning With Effective Learning Techniques",
+          "reference": "Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving students’ learning with effective learning techniques. Psychological Science in the Public Interest, 14(1), 4-58. https://doi.org/10.1177/1529100612453266",
+          "url": "https://doi.org/10.1177/1529100612453266",
+          "description": "Översikt över studietekniker, bland annat retrieval practice och distributed practice."
+        }
+      ],
+      "quiz": [
+        {
+          "id": 1,
+          "type": "multiple-choice",
+          "question": "Vilken fråga är viktig när någon säger \"forskning visar\"?",
+          "correctAnswer": 2,
+          "feedback": "Se förklaringen.",
+          "explanation": "Forskningspåståenden behöver tolkas utifrån kontext och jämförelse.",
+          "options": [
+            "Vilken färg hade materialet?",
+            "Kan detta bli en affisch?",
+            "För vilka elever, i vilket ämne och jämfört med vad?",
+            "Är metoden ny?"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "true-false",
+          "question": "Sant eller falskt: En evidensbaserad princip fungerar alltid på samma sätt i alla klassrum.",
+          "correctAnswer": false,
+          "feedback": "Se förklaringen.",
+          "explanation": "Principer behöver tillämpas med hänsyn till innehåll, elever och villkor."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "title": "Implementering på skolnivå",
+      "description": "Hur SoL-principer kan bli en del av skolans gemensamma undervisningsarbete.",
+      "sections": [
+        "Från metod till undervisningsspråk",
+        "Kollegial prövning",
+        "Uppföljning",
+        "Risker",
+        "Praktisk arbetsgång"
+      ],
+      "contentHtml": "<h2>Mål</h2><p>Efter kapitlet ska du kunna planera hur en skola kan pröva SoL-principer gemensamt utan att göra arbetet för stort.</p><h2>Från metod till undervisningsspråk</h2><p>Implementering blir starkare när kollegor utvecklar ett gemensamt språk: mål, hinder, arbetsminne, återkallning, exempel, feedback och kontroll av förståelse.</p><h2>Kollegial prövning</h2><p>Börja med ett litet lärandeproblem. Välj en princip, planera en förändring, pröva den i flera klassrum och samla elevsvar.</p><h2>Uppföljning</h2><p>Följ upp sådant som visar lärande: återkallning efter tid, kvalitet i elevförklaringar, färre missuppfattningar eller bättre självständighet.</p><h2>Risker</h2><p>En vanlig risk är att implementering blir dokumentation i stället för förändrad undervisning. En annan är att skolan försöker göra för mycket på en gång.</p><h2>Praktisk arbetsgång</h2><ol><li>Välj ett gemensamt lärandeproblem.</li><li>Välj en SoL-princip som matchar problemet.</li><li>Planera en liten lektionsförändring.</li><li>Pröva i flera klassrum.</li><li>Samla elevsvar.</li><li>Justera och pröva igen.</li></ol>",
+      "summary": "Skolutveckling blir mer användbar när den fokuserar på små undervisningsförändringar, gemensamt språk och elevnära uppföljning.",
+      "keyTopics": [
+        "Implementering",
+        "Kollegialt lärande",
+        "Uppföljning",
+        "Skolutveckling"
+      ],
+      "resources": [
+        {
+          "title": "Great Teaching Toolkit: Evidence Review",
+          "reference": "Coe, R., Rauch, C. J., Kime, S., & Singleton, D. (2020). Great Teaching Toolkit: Evidence Review. Evidence Based Education.",
+          "url": "https://evidencebased.education/the-great-teaching-toolkit-evidence-review/",
+          "description": "Används för kopplingen mellan kognitionsvetenskap, tydlig undervisning, frågor, feedback och undervisningskvalitet."
+        },
+        {
+          "title": "Principles of Instruction",
+          "reference": "Rosenshine, B. (2012). Principles of instruction: Research-based strategies that all teachers should know. American Educator, 36(1), 12-19, 39.",
+          "url": "https://www.aft.org/ae/spring2012/rosenshine",
+          "description": "Stöd för små steg, modellering, frågor, kontroller av förståelse, guidad övning och återkommande repetition."
+        },
+        {
+          "title": "Cognitive science approaches in the classroom: A review of the evidence",
+          "reference": "Perry, T., Lea, R., Jørgensen, C. R., Cordingley, P., Shapiro, K., & Youdell, D. (2021). Cognitive science approaches in the classroom: A review of the evidence. Education Endowment Foundation.",
+          "url": "https://educationendowmentfoundation.org.uk/education-evidence/evidence-reviews/cognitive-science-approaches-in-the-classroom",
+          "description": "Sammanfattar evidens om spacing, interleaving, retrieval practice, kognitiv belastning, scheman, multimedia och embodied learning i klassrum."
+        },
+        {
+          "title": "Assessment and Classroom Learning",
+          "reference": "Black, P., & Wiliam, D. (1998). Assessment and classroom learning. Assessment in Education: Principles, Policy & Practice, 5(1), 7-74. https://doi.org/10.1080/0969595980050102",
+          "url": "https://doi.org/10.1080/0969595980050102",
+          "description": "Central källa om formativ bedömning och hur elevsvar kan användas för att justera undervisningen."
+        }
+      ],
+      "quiz": [
+        {
+          "id": 1,
+          "type": "multiple-choice",
+          "question": "Vad är en rimlig första åtgärd vid implementering?",
+          "correctAnswer": 1,
+          "feedback": "Se förklaringen.",
+          "explanation": "Små prövningar gör det lättare att lära av arbetet.",
+          "options": [
+            "Införa alla strategier samtidigt",
+            "Välja ett avgränsat lärandeproblem",
+            "Byta alla provformer direkt",
+            "Sluta följa upp elevsvar"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "true-false",
+          "question": "Sant eller falskt: Implementering bör följas upp med elevnära tecken på lärande.",
+          "correctAnswer": true,
+          "feedback": "Se förklaringen.",
+          "explanation": "Elevsvar, återkallning och kvalitet i förklaringar ger mer information än bara aktivitetsbeskrivningar."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "title": "Visa det som passar din undervisning",
+      "description": "Avslutande tillämpningskapitel där läsaren översätter kursens principer till sitt ämne och sin elevgrupp.",
+      "sections": [
+        "Varför detta kommer sist",
+        "Välj ämne och elevgrupp",
+        "Översätt principen",
+        "Ämnesspår",
+        "Undvik detaljfällan"
+      ],
+      "contentHtml": "<h2>Mål</h2><p>Efter kapitlet ska du kunna välja ämnesexempel och anpassningar utan att tappa kursens grundmodell.</p><h2>Varför detta kommer sist</h2><p>Ämnesspecifika exempel är värdefulla, men de kan också göra att läsaren börjar i detaljerna. Därför kommer detta kapitel efter kärnkursen. Då blir exemplen tillämpningar av principerna.</p><h2>Välj ämne och elevgrupp</h2><p>Utgå från ditt ämne och de elever du oftast undervisar: yngre grundskola, äldre grundskola eller gymnasiet. Fråga sedan vilket mål och vilket hinder som är viktigast.</p><h2>Översätt principen</h2><p>Samma princip kan se olika ut i olika ämnen. Retrieval practice kan vara en tidslinje i historia, begreppsförklaring i biologi, glosåterkallning i engelska eller metodval i matematik.</p><h2>Ämnesspår</h2><ul><li><strong>Svenska:</strong> läsförståelse, ordförråd, skrivande och modelltexter.</li><li><strong>Matematik:</strong> procedurer, resonemang, problemlösning och worked examples.</li><li><strong>Engelska:</strong> ordförråd, grammatik, hörförståelse och spacing.</li><li><strong>Samhällskunskap:</strong> begrepp, perspektiv, källkritik och exempel.</li><li><strong>Historia:</strong> kronologi, orsak, konsekvens och jämförelse.</li><li><strong>Naturvetenskaper:</strong> modeller, laborationer, förutsägelser och förklaringar.</li></ul><h2>Undvik detaljfällan</h2><p>Börja inte med frågan \"vilken rolig aktivitet ska jag göra?\" Börja med: vad ska eleverna kunna, vad gör det svårt, vilken princip passar och hur kontrollerar jag om det fungerade?</p><h2>Exempel</h2><p>Om du undervisar kemi och eleverna blandar ihop symboler och partiklar kan du använda bild-text-principer från kapitel 8, kognitiv belastning från kapitel 3 och begreppsexempel från kapitel 6.</p>",
+      "summary": "Det avslutande kapitlet hjälper läsaren att översätta kursens principer till ämne och elevgrupp utan att börja i detaljerna för tidigt.",
+      "keyTopics": [
+        "Tillämpning",
+        "Ämnesexempel",
+        "Elevgrupp",
+        "Planeringsmodellen"
+      ],
+      "resources": [
+        {
+          "title": "Cognitive science approaches in the classroom: A review of the evidence",
+          "reference": "Perry, T., Lea, R., Jørgensen, C. R., Cordingley, P., Shapiro, K., & Youdell, D. (2021). Cognitive science approaches in the classroom: A review of the evidence. Education Endowment Foundation.",
+          "url": "https://educationendowmentfoundation.org.uk/education-evidence/evidence-reviews/cognitive-science-approaches-in-the-classroom",
+          "description": "Sammanfattar evidens om spacing, interleaving, retrieval practice, kognitiv belastning, scheman, multimedia och embodied learning i klassrum."
+        },
+        {
+          "title": "Great Teaching Toolkit: Evidence Review",
+          "reference": "Coe, R., Rauch, C. J., Kime, S., & Singleton, D. (2020). Great Teaching Toolkit: Evidence Review. Evidence Based Education.",
+          "url": "https://evidencebased.education/the-great-teaching-toolkit-evidence-review/",
+          "description": "Används för kopplingen mellan kognitionsvetenskap, tydlig undervisning, frågor, feedback och undervisningskvalitet."
+        },
+        {
+          "title": "Principles of Instruction",
+          "reference": "Rosenshine, B. (2012). Principles of instruction: Research-based strategies that all teachers should know. American Educator, 36(1), 12-19, 39.",
+          "url": "https://www.aft.org/ae/spring2012/rosenshine",
+          "description": "Stöd för små steg, modellering, frågor, kontroller av förståelse, guidad övning och återkommande repetition."
+        },
+        {
+          "title": "Powerful Teaching: Unleash the Science of Learning",
+          "reference": "Agarwal, P. K., & Bain, P. M. (2019). Powerful Teaching: Unleash the Science of Learning. Jossey-Bass.",
+          "url": "https://www.wiley.com/en-us/Powerful+Teaching%3A+Unleash+the+Science+of+Learning-p-9781119521846",
+          "description": "Praktisk lärarhandbok om retrieval practice, spacing, interleaving och feedback-driven metakognition."
+        }
+      ],
+      "quiz": [
+        {
+          "id": 1,
+          "type": "multiple-choice",
+          "question": "Varför placeras ämnesexemplen sist?",
+          "correctAnswer": 2,
+          "feedback": "Se förklaringen.",
+          "explanation": "När principerna är förstådda kan ämnesexemplen fungera som tillämpning i stället för distraktion.",
+          "options": [
+            "För att de är oviktiga",
+            "För att lärare inte behöver exempel",
+            "För att läsaren först behöver förstå principerna",
+            "För att bara gymnasiet behöver dem"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "true-false",
+          "question": "Sant eller falskt: Samma SoL-princip kan se olika ut i olika ämnen.",
+          "correctAnswer": true,
+          "feedback": "Se förklaringen.",
+          "explanation": "Principen är generell, men tillämpningen behöver anpassas till innehåll och elevgrupp."
+        }
+      ]
+    }
+  ]
+}
