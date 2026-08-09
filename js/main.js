@@ -29,14 +29,16 @@ function applyTheme(theme) {
 function updateThemeToggle(button, theme) {
   const isLight = theme === "light";
   button.setAttribute("aria-pressed", String(isLight));
+  button.dataset.activeTheme = theme;
   button.setAttribute(
     "aria-label",
     isLight ? "Byt till mörkt tema" : "Byt till ljust tema",
   );
   button.title = isLight ? "Byt till mörkt tema" : "Byt till ljust tema";
-  button.innerHTML = isLight
-    ? '<span aria-hidden="true">☀</span><span class="theme-toggle-text">Ljust</span>'
-    : '<span aria-hidden="true">☾</span><span class="theme-toggle-text">Mörkt</span>';
+  button.innerHTML = `
+    <span class="theme-toggle-option theme-toggle-dark">Mörkt</span>
+    <span class="theme-toggle-option theme-toggle-light">Ljust</span>
+  `;
 }
 
 function setupThemeToggle() {
@@ -187,7 +189,7 @@ function renderChapterMenu() {
       : `chapters/chapter-${chapter.number}.html`;
     link.className = "chapter-link";
 
-    link.innerHTML = `<span class="chapter-number">${String(chapter.number).padStart(2, "0")}</span><span class="chapter-title">${chapter.title}</span>`;
+    link.innerHTML = `<span class="chapter-number">${String(chapter.number).padStart(2, "0")}</span><span class="chapter-title">${chapter.titleHtml || chapter.title}</span>`;
 
     menu.appendChild(link);
   });
@@ -208,7 +210,7 @@ function createChapterLink(chapter) {
     : `chapters/chapter-${chapter.number}.html`;
   link.className = "chapter-link";
 
-  link.innerHTML = `<span class="chapter-number">${String(chapter.number).padStart(2, "0")}</span><span class="chapter-title">${chapter.title}</span>`;
+  link.innerHTML = `<span class="chapter-number">${String(chapter.number).padStart(2, "0")}</span><span class="chapter-title">${chapter.titleHtml || chapter.title}</span>`;
 
   return link;
 }
@@ -558,6 +560,143 @@ function setupChapterQuizInteractions(chapter) {
   });
 }
 
+function getSelectedExampleFilters(bank, filterName) {
+  return Array.from(
+    bank.querySelectorAll(`input[name="${filterName}"]:checked`),
+  ).map((input) => input.value);
+}
+
+function renderTeacherExampleBank(bank, data) {
+  const subjectControls = data.subjects
+    .map(
+      (subject) => `
+        <label class="example-filter-option">
+          <input type="checkbox" name="example-subject" value="${escapeHtml(subject.id)}">
+          <span>${escapeHtml(subject.label)}</span>
+        </label>`,
+    )
+    .join("");
+
+  const stageControls = data.stages
+    .map(
+      (stage) => `
+        <label class="example-filter-option">
+          <input type="checkbox" name="example-stage" value="${escapeHtml(stage.id)}">
+          <span>${escapeHtml(stage.label)}</span>
+        </label>`,
+    )
+    .join("");
+
+  const exampleCards = data.examples
+    .map(
+      (example) => `
+        <details class="teacher-example-card" data-example-subject="${escapeHtml(example.subject)}" data-example-stage="${escapeHtml(example.stage)}">
+          <summary>
+            <span class="teacher-example-tags">
+              <span>${escapeHtml(example.subjectLabel)}</span>
+              <span>${escapeHtml(example.stageLabel)}</span>
+            </span>
+            <strong>${escapeHtml(example.title)}</strong>
+          </summary>
+          <div class="teacher-example-content">
+            <p><strong>Lärarproblem:</strong> ${example.teacherProblem}</p>
+            <p><strong>Mål:</strong> ${example.goal}</p>
+            <p><strong>Principer:</strong> ${example.principle}</p>
+            <h3>Lektionsgång</h3>
+            <ol>${example.lessonSequence.map((step) => `<li>${step}</li>`).join("")}</ol>
+            <p><strong>Kontroll av förståelse (<em>check for understanding</em>):</strong> ${example.check}</p>
+            <p><strong>Nästa undervisningsbeslut:</strong> ${example.nextStep}</p>
+          </div>
+        </details>`,
+    )
+    .join("");
+
+  bank.innerHTML = `
+    <div class="example-filter-panel" aria-label="Filtrera undervisningsexempel">
+      <div class="example-filter-intro">
+        <div>
+          <p class="eyebrow">Gör ditt urval</p>
+          <h3>Välj flera alternativ om du undervisar i mer än ett ämne eller stadium</h3>
+          <p>Inga val visar hela banken. Flera ämnen kombineras med flera stadier.</p>
+        </div>
+        <button type="button" class="example-filter-reset" disabled>Rensa val</button>
+      </div>
+      <div class="example-filter-groups">
+        <fieldset>
+          <legend>Ämne</legend>
+          <div class="example-filter-options">${subjectControls}</div>
+        </fieldset>
+        <fieldset>
+          <legend>Stadium</legend>
+          <div class="example-filter-options">${stageControls}</div>
+        </fieldset>
+      </div>
+      <p class="example-filter-status" role="status"></p>
+    </div>
+    <div class="teacher-example-grid">${exampleCards}</div>
+    <p class="teacher-example-empty" hidden>Inga exempel matchar urvalet.</p>`;
+
+  const cards = Array.from(bank.querySelectorAll(".teacher-example-card"));
+  const status = bank.querySelector(".example-filter-status");
+  const resetButton = bank.querySelector(".example-filter-reset");
+  const emptyState = bank.querySelector(".teacher-example-empty");
+
+  const applyFilters = () => {
+    const selectedSubjects = getSelectedExampleFilters(bank, "example-subject");
+    const selectedStages = getSelectedExampleFilters(bank, "example-stage");
+    let visibleCount = 0;
+
+    cards.forEach((card) => {
+      const subjectMatches =
+        selectedSubjects.length === 0 ||
+        selectedSubjects.includes(card.dataset.exampleSubject);
+      const stageMatches =
+        selectedStages.length === 0 ||
+        selectedStages.includes(card.dataset.exampleStage);
+      const isVisible = subjectMatches && stageMatches;
+      card.hidden = !isVisible;
+      if (isVisible) visibleCount += 1;
+    });
+
+    const hasSelection = selectedSubjects.length > 0 || selectedStages.length > 0;
+    resetButton.disabled = !hasSelection;
+    emptyState.hidden = visibleCount !== 0;
+    status.textContent = hasSelection
+      ? `${visibleCount} av ${cards.length} exempel visas.`
+      : `Alla ${cards.length} exempel visas.`;
+  };
+
+  bank.addEventListener("change", (event) => {
+    if (event.target.matches('input[type="checkbox"]')) applyFilters();
+  });
+
+  resetButton.addEventListener("click", () => {
+    bank.querySelectorAll('input[type="checkbox"]').forEach((input) => {
+      input.checked = false;
+    });
+    applyFilters();
+  });
+
+  applyFilters();
+}
+
+function setupTeacherExampleBank(chapterNumber) {
+  if (chapterNumber !== 11) return;
+  const bank = document.getElementById("teacher-example-bank");
+  if (!bank) return;
+
+  fetch("../data/teacher-examples.json")
+    .then((response) => {
+      if (!response.ok) throw new Error("Exempelbanken kunde inte hämtas.");
+      return response.json();
+    })
+    .then((data) => renderTeacherExampleBank(bank, data))
+    .catch(() => {
+      bank.innerHTML =
+        '<p class="teacher-example-error">Exempelbanken kunde inte laddas. Försök igen senare.</p>';
+    });
+}
+
 function renderChapterPage(chapterNumber) {
   const chapter = getChapter(chapterNumber);
   if (!chapter) {
@@ -572,7 +711,7 @@ function renderChapterPage(chapterNumber) {
   const header = document.querySelector(".chapter-header");
   if (header) {
     header.innerHTML = `
-        <h1>Kapitel ${chapter.number}: ${chapter.title}</h1>
+        <h1>Kapitel ${chapter.number}: ${chapter.titleHtml || chapter.title}</h1>
         `;
   }
 
@@ -599,6 +738,7 @@ function renderChapterPage(chapterNumber) {
   renderChapterToc();
 
   setupChapterQuizInteractions(chapter);
+  setupTeacherExampleBank(chapterNumber);
 
   const navContainer = document.querySelector(".chapter-nav");
   if (navContainer) {
@@ -612,7 +752,7 @@ function renderChapterPage(chapterNumber) {
                 <a href="chapter-${prevChapter.number}.html" class="nav-button">
                     <div>
                         <div class="nav-label">← Föregående</div>
-                        <div class="nav-title">${prevChapter.title}</div>
+                        <div class="nav-title">${prevChapter.titleHtml || prevChapter.title}</div>
                     </div>
                 </a>
             `;
@@ -625,7 +765,7 @@ function renderChapterPage(chapterNumber) {
                 <a href="chapter-${nextChapter.number}.html" class="nav-button">
                     <div style="text-align: right;">
               <div class="nav-label">Nästa →</div>
-                        <div class="nav-title">${nextChapter.title}</div>
+                        <div class="nav-title">${nextChapter.titleHtml || nextChapter.title}</div>
                     </div>
                 </a>
             `;

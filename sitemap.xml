@@ -66,11 +66,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://paul-pauliskolan.github.io/tek-2/chapters/chapter-12.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://paul-pauliskolan.github.io/tek-2/litteratur.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

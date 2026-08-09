@@ -354,34 +354,9 @@ Den första delen ger läsaren den minsta nödvändiga kognitiva modellen för a
 
 ---
 
-## Del 2: Implementering och uppföljning
+## Del 2: Avslutande tillämpning
 
-### Kapitel 11: Implementering på skolnivå
-**Fokus:** kollegialt lärande, gemensam planering, uppföljning och långsiktig förankring.
-
-**Syfte:** Visa hur SoL kan bli en del av skolans undervisningskultur utan att bli ännu ett kort projekt.
-
-**Innehåll:**
-- Från individuell metod till gemensamt undervisningsspråk.
-- Hur kollegor kan pröva ett fåtal principer i taget.
-- Planering av gemensamma lektionsupplägg.
-- Observationer med fokus på lärande, inte person.
-- Indikatorer på framgång: återkallning över tid, förbättrad förståelse, självständigare elever och rimlig arbetsbelastning.
-- Hur man undviker att implementering blir dokumentation utan undervisningsförändring.
-
-**Praktisk arbetsgång:**
-1. Välj ett gemensamt lärandeproblem.
-2. Välj en SoL-princip som matchar problemet.
-3. Planera en enkel lektionsförändring.
-4. Pröva i flera klassrum.
-5. Samla elevsvar eller korta resultat.
-6. Justera och pröva igen.
-
----
-
-## Del 3: Avslutande tillämpning
-
-### Kapitel 12: Visa det som passar din undervisning
+### Kapitel 11: Visa det som passar din undervisning
 **Fokus:** ämnesval, elevålder, anpassning och praktisk överföring efter att läsaren har gått igenom kärnkursen.
 
 **Syfte:** Hjälpa läsaren att använda bokens principer i sin egen undervisning utan att fastna i ämnesdetaljer för tidigt.
@@ -492,4 +467,4 @@ Bilagorna ska samla sådant som är användbart men som skulle göra huvudkapitl
 4. Skilj tydligt mellan princip, metod och aktivitet.
 5. Spara ämnesspecifika exempel till det avslutande tillämpningskapitlet.
 6. Flytta begrepp som inte direkt hjälper lektionsbeslut till bilagor.
-7. Säkerställ att kapitel 12 innehåller korta exempel för olika ämnen och elevgrupper utan att bli en separat ämnesbok.
+7. Säkerställ att kapitel 11 innehåller flera exempel för varje kombination av ämne och stadium utan att bli en separat ämnesbok.

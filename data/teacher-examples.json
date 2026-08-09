@@ -1,0 +1,1504 @@
+{
+  "subjects": [
+    {
+      "id": "svenska",
+      "label": "Svenska"
+    },
+    {
+      "id": "matematik",
+      "label": "Matematik"
+    },
+    {
+      "id": "engelska",
+      "label": "Engelska"
+    },
+    {
+      "id": "biologi",
+      "label": "Biologi"
+    },
+    {
+      "id": "fysik",
+      "label": "Fysik"
+    },
+    {
+      "id": "kemi",
+      "label": "Kemi"
+    },
+    {
+      "id": "historia",
+      "label": "Historia"
+    },
+    {
+      "id": "samhällskunskap",
+      "label": "Samhällskunskap"
+    },
+    {
+      "id": "geografi",
+      "label": "Geografi"
+    },
+    {
+      "id": "religionskunskap",
+      "label": "Religionskunskap"
+    }
+  ],
+  "stages": [
+    {
+      "id": "f-3",
+      "label": "F–3"
+    },
+    {
+      "id": "4-6",
+      "label": "4–6"
+    },
+    {
+      "id": "7-9",
+      "label": "7–9"
+    },
+    {
+      "id": "gymnasiet",
+      "label": "Gymnasiet"
+    }
+  ],
+  "examples": [
+    {
+      "id": "svenska-f-3-1",
+      "subject": "svenska",
+      "subjectLabel": "Svenska",
+      "stage": "f-3",
+      "stageLabel": "F–3",
+      "title": "Bygg ordförråd inför en faktatext",
+      "teacherProblem": "Eleverna känner igen nya ord under högläsningen men kan inte förklara dem efteråt.",
+      "goal": "Eleverna ska kunna förklara och använda tre centrala ord om djurs livsmiljö.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Arbeta i korta steg med muntlig modellering, konkreta exempel och gemensam övning.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Låt alla elever visa, peka, rita eller säga ett kort svar innan du går vidare.",
+      "nextStep": "Ge ett nytt närliggande exempel med samma stöd om svaren är osäkra; minska stödet om de flesta kan förklara."
+    },
+    {
+      "id": "svenska-f-3-2",
+      "subject": "svenska",
+      "subjectLabel": "Svenska",
+      "stage": "f-3",
+      "stageLabel": "F–3",
+      "title": "Modellera en berättelses början",
+      "teacherProblem": "Eleverna börjar skriva direkt men saknar en tydlig situation, person och händelse.",
+      "goal": "Eleverna ska kunna skapa en inledning som presenterar vem, var och vad som händer.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Arbeta i korta steg med muntlig modellering, konkreta exempel och gemensam övning.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Låt alla elever visa, peka, rita eller säga ett kort svar innan du går vidare.",
+      "nextStep": "Ge ett nytt närliggande exempel med samma stöd om svaren är osäkra; minska stödet om de flesta kan förklara."
+    },
+    {
+      "id": "svenska-4-6-1",
+      "subject": "svenska",
+      "subjectLabel": "Svenska",
+      "stage": "4-6",
+      "stageLabel": "4–6",
+      "title": "Skilj huvudidé från detalj",
+      "teacherProblem": "Eleverna återberättar många detaljer men har svårt att formulera textens huvudidé.",
+      "goal": "Eleverna ska kunna formulera huvudidén och välja två detaljer som stödjer den.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Modellera först, låt eleverna jämföra två exempel och gå sedan över till en kort självständig tillämpning.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Samla svar från hela gruppen och be eleverna motivera vilket kännetecken eller steg de använde.",
+      "nextStep": "Återvänd till ett kontrasterande exempel vid en gemensam missuppfattning; gå vidare till variation om valet är säkert."
+    },
+    {
+      "id": "svenska-4-6-2",
+      "subject": "svenska",
+      "subjectLabel": "Svenska",
+      "stage": "4-6",
+      "stageLabel": "4–6",
+      "title": "Bygg ett argumenterande stycke",
+      "teacherProblem": "Eleverna uttrycker en åsikt men utvecklar inte argumentet med skäl och belägg.",
+      "goal": "Eleverna ska kunna skriva ett stycke med tes, argument och ett relevant belägg.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Modellera först, låt eleverna jämföra två exempel och gå sedan över till en kort självständig tillämpning.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Samla svar från hela gruppen och be eleverna motivera vilket kännetecken eller steg de använde.",
+      "nextStep": "Återvänd till ett kontrasterande exempel vid en gemensam missuppfattning; gå vidare till variation om valet är säkert."
+    },
+    {
+      "id": "svenska-7-9-1",
+      "subject": "svenska",
+      "subjectLabel": "Svenska",
+      "stage": "7-9",
+      "stageLabel": "7–9",
+      "title": "Jämför berättarperspektiv",
+      "teacherProblem": "Eleverna kan namnge perspektiv men har svårt att se hur perspektivet påverkar läsarens förståelse.",
+      "goal": "Eleverna ska kunna jämföra två berättarperspektiv och förklara en effekt på läsaren.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Synliggör ämnesspråk och beslutspunkter, jämför närliggande fall och avveckla stödet under lektionen.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Låt eleverna först svara enskilt och sedan använda kunskapen i ett nytt fall utan att metoden anges.",
+      "nextStep": "Sortera svaren efter tankesätt och rikta nästa förklaring mot det vanligaste hindret."
+    },
+    {
+      "id": "svenska-7-9-2",
+      "subject": "svenska",
+      "subjectLabel": "Svenska",
+      "stage": "7-9",
+      "stageLabel": "7–9",
+      "title": "Modellera ett utvecklat resonemang",
+      "teacherProblem": "Elevernas litterära resonemang stannar vid påståenden utan textbelägg och förklaring.",
+      "goal": "Eleverna ska kunna koppla påstående, textbelägg och tolkning i ett sammanhängande stycke.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Synliggör ämnesspråk och beslutspunkter, jämför närliggande fall och avveckla stödet under lektionen.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Låt eleverna först svara enskilt och sedan använda kunskapen i ett nytt fall utan att metoden anges.",
+      "nextStep": "Sortera svaren efter tankesätt och rikta nästa förklaring mot det vanligaste hindret."
+    },
+    {
+      "id": "svenska-gymnasiet-1",
+      "subject": "svenska",
+      "subjectLabel": "Svenska",
+      "stage": "gymnasiet",
+      "stageLabel": "Gymnasiet",
+      "title": "Analysera retoriska val",
+      "teacherProblem": "Eleverna hittar stilfigurer men kopplar dem inte till talets syfte, situation och publik.",
+      "goal": "Eleverna ska kunna förklara hur två retoriska val bidrar till talets avsedda verkan.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Knyt modellen till ämnets disciplinära arbetssätt och låt eleverna pröva den på ett mer komplext eller autentiskt material.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Begär en självständig motivering där begrepp, metod och evidens kopplas samman i ett nytt sammanhang.",
+      "nextStep": "Ge precis återkoppling (<em>feedback</em>) på den viktigaste kvalitetsdimensionen och låt eleven bearbeta svaret direkt."
+    },
+    {
+      "id": "svenska-gymnasiet-2",
+      "subject": "svenska",
+      "subjectLabel": "Svenska",
+      "stage": "gymnasiet",
+      "stageLabel": "Gymnasiet",
+      "title": "Skriv en utredande syntes",
+      "teacherProblem": "Eleverna sammanfattar källor en i taget men för inte samman dem kring en gemensam fråga.",
+      "goal": "Eleverna ska kunna ordna flera källor tematiskt och formulera en underbyggd syntes.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Knyt modellen till ämnets disciplinära arbetssätt och låt eleverna pröva den på ett mer komplext eller autentiskt material.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Begär en självständig motivering där begrepp, metod och evidens kopplas samman i ett nytt sammanhang.",
+      "nextStep": "Ge precis återkoppling (<em>feedback</em>) på den viktigaste kvalitetsdimensionen och låt eleven bearbeta svaret direkt."
+    },
+    {
+      "id": "matematik-f-3-1",
+      "subject": "matematik",
+      "subjectLabel": "Matematik",
+      "stage": "f-3",
+      "stageLabel": "F–3",
+      "title": "Förstå tiotalsövergång",
+      "teacherProblem": "Eleverna räknar vidare ett steg i taget och tappar strukturen när summan passerar ett tiotal.",
+      "goal": "Eleverna ska kunna dela upp ett tal för att först bilda ett helt tiotal.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Arbeta i korta steg med muntlig modellering, konkreta exempel och gemensam övning.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Låt alla elever visa, peka, rita eller säga ett kort svar innan du går vidare.",
+      "nextStep": "Ge ett nytt närliggande exempel med samma stöd om svaren är osäkra; minska stödet om de flesta kan förklara."
+    },
+    {
+      "id": "matematik-f-3-2",
+      "subject": "matematik",
+      "subjectLabel": "Matematik",
+      "stage": "f-3",
+      "stageLabel": "F–3",
+      "title": "Välj räknesätt i textproblem",
+      "teacherProblem": "Eleverna väljer räknesätt efter enstaka signalord i stället för problemets relation.",
+      "goal": "Eleverna ska kunna avgöra om en situation beskriver att lägga ihop, ta bort eller jämföra.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Arbeta i korta steg med muntlig modellering, konkreta exempel och gemensam övning.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Låt alla elever visa, peka, rita eller säga ett kort svar innan du går vidare.",
+      "nextStep": "Ge ett nytt närliggande exempel med samma stöd om svaren är osäkra; minska stödet om de flesta kan förklara."
+    },
+    {
+      "id": "matematik-4-6-1",
+      "subject": "matematik",
+      "subjectLabel": "Matematik",
+      "stage": "4-6",
+      "stageLabel": "4–6",
+      "title": "Jämför bråk med olika nämnare",
+      "teacherProblem": "Eleverna jämför nämnarna som heltal och tror exempelvis att en åttondel är större än en fjärdedel.",
+      "goal": "Eleverna ska kunna jämföra bråk genom en gemensam representation eller referenspunkt.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Modellera först, låt eleverna jämföra två exempel och gå sedan över till en kort självständig tillämpning.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Samla svar från hela gruppen och be eleverna motivera vilket kännetecken eller steg de använde.",
+      "nextStep": "Återvänd till ett kontrasterande exempel vid en gemensam missuppfattning; gå vidare till variation om valet är säkert."
+    },
+    {
+      "id": "matematik-4-6-2",
+      "subject": "matematik",
+      "subjectLabel": "Matematik",
+      "stage": "4-6",
+      "stageLabel": "4–6",
+      "title": "Välj metod för procentproblem",
+      "teacherProblem": "Eleverna kan en procedur i taget men fastnar när del, andel och helhet blandas.",
+      "goal": "Eleverna ska kunna identifiera vad som är känt och välja en passande beräkning.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Modellera först, låt eleverna jämföra två exempel och gå sedan över till en kort självständig tillämpning.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Samla svar från hela gruppen och be eleverna motivera vilket kännetecken eller steg de använde.",
+      "nextStep": "Återvänd till ett kontrasterande exempel vid en gemensam missuppfattning; gå vidare till variation om valet är säkert."
+    },
+    {
+      "id": "matematik-7-9-1",
+      "subject": "matematik",
+      "subjectLabel": "Matematik",
+      "stage": "7-9",
+      "stageLabel": "7–9",
+      "title": "Modellera ekvationslösning",
+      "teacherProblem": "Eleverna flyttar termer mekaniskt och tappar innebörden av likhet.",
+      "goal": "Eleverna ska kunna motivera varje operation med att likheten bevaras.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Synliggör ämnesspråk och beslutspunkter, jämför närliggande fall och avveckla stödet under lektionen.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Låt eleverna först svara enskilt och sedan använda kunskapen i ett nytt fall utan att metoden anges.",
+      "nextStep": "Sortera svaren efter tankesätt och rikta nästa förklaring mot det vanligaste hindret."
+    },
+    {
+      "id": "matematik-7-9-2",
+      "subject": "matematik",
+      "subjectLabel": "Matematik",
+      "stage": "7-9",
+      "stageLabel": "7–9",
+      "title": "Skilj linjära och proportionella samband",
+      "teacherProblem": "Eleverna ser en rät linje och antar att sambandet alltid är proportionellt.",
+      "goal": "Eleverna ska kunna avgöra sambandstyp med hjälp av graf, tabell och formel.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Synliggör ämnesspråk och beslutspunkter, jämför närliggande fall och avveckla stödet under lektionen.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Låt eleverna först svara enskilt och sedan använda kunskapen i ett nytt fall utan att metoden anges.",
+      "nextStep": "Sortera svaren efter tankesätt och rikta nästa förklaring mot det vanligaste hindret."
+    },
+    {
+      "id": "matematik-gymnasiet-1",
+      "subject": "matematik",
+      "subjectLabel": "Matematik",
+      "stage": "gymnasiet",
+      "stageLabel": "Gymnasiet",
+      "title": "Välj modell för förändring",
+      "teacherProblem": "Eleverna använder linjär eller exponentiell modell utifrån ytliga ord i uppgiften.",
+      "goal": "Eleverna ska kunna motivera modellvalet genom att analysera differens, kvot och antaganden.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Knyt modellen till ämnets disciplinära arbetssätt och låt eleverna pröva den på ett mer komplext eller autentiskt material.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Begär en självständig motivering där begrepp, metod och evidens kopplas samman i ett nytt sammanhang.",
+      "nextStep": "Ge precis återkoppling (<em>feedback</em>) på den viktigaste kvalitetsdimensionen och låt eleven bearbeta svaret direkt."
+    },
+    {
+      "id": "matematik-gymnasiet-2",
+      "subject": "matematik",
+      "subjectLabel": "Matematik",
+      "stage": "gymnasiet",
+      "stageLabel": "Gymnasiet",
+      "title": "Analysera en derivatas betydelse",
+      "teacherProblem": "Eleverna deriverar korrekt men kopplar inte resultatet till förändringshastighet i situationen.",
+      "goal": "Eleverna ska kunna tolka derivatans värde och enhet i ett givet sammanhang.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Knyt modellen till ämnets disciplinära arbetssätt och låt eleverna pröva den på ett mer komplext eller autentiskt material.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Begär en självständig motivering där begrepp, metod och evidens kopplas samman i ett nytt sammanhang.",
+      "nextStep": "Ge precis återkoppling (<em>feedback</em>) på den viktigaste kvalitetsdimensionen och låt eleven bearbeta svaret direkt."
+    },
+    {
+      "id": "engelska-f-3-1",
+      "subject": "engelska",
+      "subjectLabel": "Engelska",
+      "stage": "f-3",
+      "stageLabel": "F–3",
+      "title": "Återkalla ord i ett nytt sammanhang",
+      "teacherProblem": "Eleverna känner igen bildkort men kan inte själva plocka fram orden i tal.",
+      "goal": "Eleverna ska kunna benämna och använda sex vardagsord i korta muntliga fraser.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Arbeta i korta steg med muntlig modellering, konkreta exempel och gemensam övning.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Låt alla elever visa, peka, rita eller säga ett kort svar innan du går vidare.",
+      "nextStep": "Ge ett nytt närliggande exempel med samma stöd om svaren är osäkra; minska stödet om de flesta kan förklara."
+    },
+    {
+      "id": "engelska-f-3-2",
+      "subject": "engelska",
+      "subjectLabel": "Engelska",
+      "stage": "f-3",
+      "stageLabel": "F–3",
+      "title": "Modellera en enkel muntlig dialog",
+      "teacherProblem": "Eleverna kan enskilda fraser men behöver stöd för att turas om i ett samtal.",
+      "goal": "Eleverna ska kunna hälsa, ställa en enkel fråga och ge ett relevant svar.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Arbeta i korta steg med muntlig modellering, konkreta exempel och gemensam övning.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Låt alla elever visa, peka, rita eller säga ett kort svar innan du går vidare.",
+      "nextStep": "Ge ett nytt närliggande exempel med samma stöd om svaren är osäkra; minska stödet om de flesta kan förklara."
+    },
+    {
+      "id": "engelska-4-6-1",
+      "subject": "engelska",
+      "subjectLabel": "Engelska",
+      "stage": "4-6",
+      "stageLabel": "4–6",
+      "title": "Befäst högfrekventa ord",
+      "teacherProblem": "Eleverna har mött orden många gånger men stavning och användning är fortfarande osäkra.",
+      "goal": "Eleverna ska kunna återkalla och använda åtta högfrekventa ord i egna meningar.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Modellera först, låt eleverna jämföra två exempel och gå sedan över till en kort självständig tillämpning.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Samla svar från hela gruppen och be eleverna motivera vilket kännetecken eller steg de använde.",
+      "nextStep": "Återvänd till ett kontrasterande exempel vid en gemensam missuppfattning; gå vidare till variation om valet är säkert."
+    },
+    {
+      "id": "engelska-4-6-2",
+      "subject": "engelska",
+      "subjectLabel": "Engelska",
+      "stage": "4-6",
+      "stageLabel": "4–6",
+      "title": "Bygg en beskrivande text",
+      "teacherProblem": "Eleverna staplar korta meningar utan tydlig ordning eller sambandsord.",
+      "goal": "Eleverna ska kunna ordna en beskrivning och binda samman meningar med relevanta sambandsord.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Modellera först, låt eleverna jämföra två exempel och gå sedan över till en kort självständig tillämpning.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Samla svar från hela gruppen och be eleverna motivera vilket kännetecken eller steg de använde.",
+      "nextStep": "Återvänd till ett kontrasterande exempel vid en gemensam missuppfattning; gå vidare till variation om valet är säkert."
+    },
+    {
+      "id": "engelska-7-9-1",
+      "subject": "engelska",
+      "subjectLabel": "Engelska",
+      "stage": "7-9",
+      "stageLabel": "7–9",
+      "title": "Variera verbtempus i berättande",
+      "teacherProblem": "Eleverna känner igen tempus i övningar men växlar omotiverat i egen text.",
+      "goal": "Eleverna ska kunna välja och hålla ett berättande tempus samt motivera avsiktliga skiften.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Synliggör ämnesspråk och beslutspunkter, jämför närliggande fall och avveckla stödet under lektionen.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Låt eleverna först svara enskilt och sedan använda kunskapen i ett nytt fall utan att metoden anges.",
+      "nextStep": "Sortera svaren efter tankesätt och rikta nästa förklaring mot det vanligaste hindret."
+    },
+    {
+      "id": "engelska-7-9-2",
+      "subject": "engelska",
+      "subjectLabel": "Engelska",
+      "stage": "7-9",
+      "stageLabel": "7–9",
+      "title": "Utveckla muntliga resonemang",
+      "teacherProblem": "Eleverna ger korta åsikter men saknar skäl, exempel och sätt att bygga vidare.",
+      "goal": "Eleverna ska kunna uttrycka en ståndpunkt, ge ett skäl och bemöta en följdfråga.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Synliggör ämnesspråk och beslutspunkter, jämför närliggande fall och avveckla stödet under lektionen.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Låt eleverna först svara enskilt och sedan använda kunskapen i ett nytt fall utan att metoden anges.",
+      "nextStep": "Sortera svaren efter tankesätt och rikta nästa förklaring mot det vanligaste hindret."
+    },
+    {
+      "id": "engelska-gymnasiet-1",
+      "subject": "engelska",
+      "subjectLabel": "Engelska",
+      "stage": "gymnasiet",
+      "stageLabel": "Gymnasiet",
+      "title": "Anpassa stil och register",
+      "teacherProblem": "Eleverna skriver grammatiskt korrekt men använder samma register oavsett mottagare och syfte.",
+      "goal": "Eleverna ska kunna jämföra och välja språkliga drag för ett formellt respektive informellt sammanhang.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Knyt modellen till ämnets disciplinära arbetssätt och låt eleverna pröva den på ett mer komplext eller autentiskt material.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Begär en självständig motivering där begrepp, metod och evidens kopplas samman i ett nytt sammanhang.",
+      "nextStep": "Ge precis återkoppling (<em>feedback</em>) på den viktigaste kvalitetsdimensionen och låt eleven bearbeta svaret direkt."
+    },
+    {
+      "id": "engelska-gymnasiet-2",
+      "subject": "engelska",
+      "subjectLabel": "Engelska",
+      "stage": "gymnasiet",
+      "stageLabel": "Gymnasiet",
+      "title": "Syntetisera källor i en argumentation",
+      "teacherProblem": "Eleverna refererar källor separat utan att använda dem för att bygga ett eget resonemang.",
+      "goal": "Eleverna ska kunna föra samman två engelskspråkiga källor som stöd och motargument.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Knyt modellen till ämnets disciplinära arbetssätt och låt eleverna pröva den på ett mer komplext eller autentiskt material.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Begär en självständig motivering där begrepp, metod och evidens kopplas samman i ett nytt sammanhang.",
+      "nextStep": "Ge precis återkoppling (<em>feedback</em>) på den viktigaste kvalitetsdimensionen och låt eleven bearbeta svaret direkt."
+    },
+    {
+      "id": "biologi-f-3-1",
+      "subject": "biologi",
+      "subjectLabel": "Biologi",
+      "stage": "f-3",
+      "stageLabel": "F–3",
+      "title": "Vad behöver ett frö för att gro?",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna skilja vad ett frö behöver för att gro från vad en växt behöver för att fortsätta växa.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Arbeta i korta steg med muntlig modellering, konkreta exempel och gemensam övning.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Låt alla elever visa, peka, rita eller säga ett kort svar innan du går vidare.",
+      "nextStep": "Ge ett nytt närliggande exempel med samma stöd om svaren är osäkra; minska stödet om de flesta kan förklara."
+    },
+    {
+      "id": "biologi-f-3-2",
+      "subject": "biologi",
+      "subjectLabel": "Biologi",
+      "stage": "f-3",
+      "stageLabel": "F–3",
+      "title": "Jämför djurs livsmiljöer",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna koppla två egenskaper hos ett djur till dess livsmiljö.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Arbeta i korta steg med muntlig modellering, konkreta exempel och gemensam övning.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Låt alla elever visa, peka, rita eller säga ett kort svar innan du går vidare.",
+      "nextStep": "Ge ett nytt närliggande exempel med samma stöd om svaren är osäkra; minska stödet om de flesta kan förklara."
+    },
+    {
+      "id": "biologi-4-6-1",
+      "subject": "biologi",
+      "subjectLabel": "Biologi",
+      "stage": "4-6",
+      "stageLabel": "4–6",
+      "title": "Bygg en enkel näringskedja",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna förklara hur energi förs vidare mellan producent, konsument och nedbrytare.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Modellera först, låt eleverna jämföra två exempel och gå sedan över till en kort självständig tillämpning.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Samla svar från hela gruppen och be eleverna motivera vilket kännetecken eller steg de använde.",
+      "nextStep": "Återvänd till ett kontrasterande exempel vid en gemensam missuppfattning; gå vidare till variation om valet är säkert."
+    },
+    {
+      "id": "biologi-4-6-2",
+      "subject": "biologi",
+      "subjectLabel": "Biologi",
+      "stage": "4-6",
+      "stageLabel": "4–6",
+      "title": "Modellera kroppens transportsystem",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna beskriva hur andning, blodomlopp och celler samverkar.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Modellera först, låt eleverna jämföra två exempel och gå sedan över till en kort självständig tillämpning.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Samla svar från hela gruppen och be eleverna motivera vilket kännetecken eller steg de använde.",
+      "nextStep": "Återvänd till ett kontrasterande exempel vid en gemensam missuppfattning; gå vidare till variation om valet är säkert."
+    },
+    {
+      "id": "biologi-7-9-1",
+      "subject": "biologi",
+      "subjectLabel": "Biologi",
+      "stage": "7-9",
+      "stageLabel": "7–9",
+      "title": "Förklara fotosyntes och cellandning",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna jämföra processerna och koppla ämnesomvandling till energiflöde.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Synliggör ämnesspråk och beslutspunkter, jämför närliggande fall och avveckla stödet under lektionen.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Låt eleverna först svara enskilt och sedan använda kunskapen i ett nytt fall utan att metoden anges.",
+      "nextStep": "Sortera svaren efter tankesätt och rikta nästa förklaring mot det vanligaste hindret."
+    },
+    {
+      "id": "biologi-7-9-2",
+      "subject": "biologi",
+      "subjectLabel": "Biologi",
+      "stage": "7-9",
+      "stageLabel": "7–9",
+      "title": "Analysera naturligt urval",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna använda variation, ärftlighet och selektion för att förklara förändring i en population.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Synliggör ämnesspråk och beslutspunkter, jämför närliggande fall och avveckla stödet under lektionen.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Låt eleverna först svara enskilt och sedan använda kunskapen i ett nytt fall utan att metoden anges.",
+      "nextStep": "Sortera svaren efter tankesätt och rikta nästa förklaring mot det vanligaste hindret."
+    },
+    {
+      "id": "biologi-gymnasiet-1",
+      "subject": "biologi",
+      "subjectLabel": "Biologi",
+      "stage": "gymnasiet",
+      "stageLabel": "Gymnasiet",
+      "title": "Koppla genuttryck till protein",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna förklara informationsflödet från DNA via RNA till protein och förutsäga följder av en förändring.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Knyt modellen till ämnets disciplinära arbetssätt och låt eleverna pröva den på ett mer komplext eller autentiskt material.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Begär en självständig motivering där begrepp, metod och evidens kopplas samman i ett nytt sammanhang.",
+      "nextStep": "Ge precis återkoppling (<em>feedback</em>) på den viktigaste kvalitetsdimensionen och låt eleven bearbeta svaret direkt."
+    },
+    {
+      "id": "biologi-gymnasiet-2",
+      "subject": "biologi",
+      "subjectLabel": "Biologi",
+      "stage": "gymnasiet",
+      "stageLabel": "Gymnasiet",
+      "title": "Analysera reglering i ett ekosystem",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna använda återkopplingsmekanismer och begränsande faktorer för att analysera populationsförändringar.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Knyt modellen till ämnets disciplinära arbetssätt och låt eleverna pröva den på ett mer komplext eller autentiskt material.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Begär en självständig motivering där begrepp, metod och evidens kopplas samman i ett nytt sammanhang.",
+      "nextStep": "Ge precis återkoppling (<em>feedback</em>) på den viktigaste kvalitetsdimensionen och låt eleven bearbeta svaret direkt."
+    },
+    {
+      "id": "fysik-f-3-1",
+      "subject": "fysik",
+      "subjectLabel": "Fysik",
+      "stage": "f-3",
+      "stageLabel": "F–3",
+      "title": "Undersök ljus och skugga",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna förutsäga hur en skugga förändras när ljuskällan eller föremålet flyttas.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Arbeta i korta steg med muntlig modellering, konkreta exempel och gemensam övning.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Låt alla elever visa, peka, rita eller säga ett kort svar innan du går vidare.",
+      "nextStep": "Ge ett nytt närliggande exempel med samma stöd om svaren är osäkra; minska stödet om de flesta kan förklara."
+    },
+    {
+      "id": "fysik-f-3-2",
+      "subject": "fysik",
+      "subjectLabel": "Fysik",
+      "stage": "f-3",
+      "stageLabel": "F–3",
+      "title": "Beskriv ljud som vibration",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna koppla synliga eller kännbara vibrationer till att ljud uppstår.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Arbeta i korta steg med muntlig modellering, konkreta exempel och gemensam övning.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Låt alla elever visa, peka, rita eller säga ett kort svar innan du går vidare.",
+      "nextStep": "Ge ett nytt närliggande exempel med samma stöd om svaren är osäkra; minska stödet om de flesta kan förklara."
+    },
+    {
+      "id": "fysik-4-6-1",
+      "subject": "fysik",
+      "subjectLabel": "Fysik",
+      "stage": "4-6",
+      "stageLabel": "4–6",
+      "title": "Bygg en fungerande elektrisk krets",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna förklara villkoren för en sluten krets och felsöka en enkel koppling.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Modellera först, låt eleverna jämföra två exempel och gå sedan över till en kort självständig tillämpning.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Samla svar från hela gruppen och be eleverna motivera vilket kännetecken eller steg de använde.",
+      "nextStep": "Återvänd till ett kontrasterande exempel vid en gemensam missuppfattning; gå vidare till variation om valet är säkert."
+    },
+    {
+      "id": "fysik-4-6-2",
+      "subject": "fysik",
+      "subjectLabel": "Fysik",
+      "stage": "4-6",
+      "stageLabel": "4–6",
+      "title": "Jämför krafter i vardagen",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna identifiera kraft, riktning och förändring av rörelse i konkreta situationer.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Modellera först, låt eleverna jämföra två exempel och gå sedan över till en kort självständig tillämpning.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Samla svar från hela gruppen och be eleverna motivera vilket kännetecken eller steg de använde.",
+      "nextStep": "Återvänd till ett kontrasterande exempel vid en gemensam missuppfattning; gå vidare till variation om valet är säkert."
+    },
+    {
+      "id": "fysik-7-9-1",
+      "subject": "fysik",
+      "subjectLabel": "Fysik",
+      "stage": "7-9",
+      "stageLabel": "7–9",
+      "title": "Skilj kraft från rörelse",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna analysera nettokraft och förutsäga hur ett föremåls rörelse förändras.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Synliggör ämnesspråk och beslutspunkter, jämför närliggande fall och avveckla stödet under lektionen.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Låt eleverna först svara enskilt och sedan använda kunskapen i ett nytt fall utan att metoden anges.",
+      "nextStep": "Sortera svaren efter tankesätt och rikta nästa förklaring mot det vanligaste hindret."
+    },
+    {
+      "id": "fysik-7-9-2",
+      "subject": "fysik",
+      "subjectLabel": "Fysik",
+      "stage": "7-9",
+      "stageLabel": "7–9",
+      "title": "Koppla energiomvandlingar",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna följa energi genom ett system och skilja energiform från energibärare.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Synliggör ämnesspråk och beslutspunkter, jämför närliggande fall och avveckla stödet under lektionen.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Låt eleverna först svara enskilt och sedan använda kunskapen i ett nytt fall utan att metoden anges.",
+      "nextStep": "Sortera svaren efter tankesätt och rikta nästa förklaring mot det vanligaste hindret."
+    },
+    {
+      "id": "fysik-gymnasiet-1",
+      "subject": "fysik",
+      "subjectLabel": "Fysik",
+      "stage": "gymnasiet",
+      "stageLabel": "Gymnasiet",
+      "title": "Tolka rörelsediagram",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna översätta mellan läge-, hastighets- och accelerationsdiagram och en fysisk rörelse.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Knyt modellen till ämnets disciplinära arbetssätt och låt eleverna pröva den på ett mer komplext eller autentiskt material.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Begär en självständig motivering där begrepp, metod och evidens kopplas samman i ett nytt sammanhang.",
+      "nextStep": "Ge precis återkoppling (<em>feedback</em>) på den viktigaste kvalitetsdimensionen och låt eleven bearbeta svaret direkt."
+    },
+    {
+      "id": "fysik-gymnasiet-2",
+      "subject": "fysik",
+      "subjectLabel": "Fysik",
+      "stage": "gymnasiet",
+      "stageLabel": "Gymnasiet",
+      "title": "Modellera ett elektriskt fält",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna använda fältbegreppet för att förutsäga kraft och potential i en ny situation.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Knyt modellen till ämnets disciplinära arbetssätt och låt eleverna pröva den på ett mer komplext eller autentiskt material.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Begär en självständig motivering där begrepp, metod och evidens kopplas samman i ett nytt sammanhang.",
+      "nextStep": "Ge precis återkoppling (<em>feedback</em>) på den viktigaste kvalitetsdimensionen och låt eleven bearbeta svaret direkt."
+    },
+    {
+      "id": "kemi-f-3-1",
+      "subject": "kemi",
+      "subjectLabel": "Kemi",
+      "stage": "f-3",
+      "stageLabel": "F–3",
+      "title": "Sortera material efter egenskaper",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna sortera material efter en angiven egenskap och motivera ett gränsfall.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Arbeta i korta steg med muntlig modellering, konkreta exempel och gemensam övning.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Låt alla elever visa, peka, rita eller säga ett kort svar innan du går vidare.",
+      "nextStep": "Ge ett nytt närliggande exempel med samma stöd om svaren är osäkra; minska stödet om de flesta kan förklara."
+    },
+    {
+      "id": "kemi-f-3-2",
+      "subject": "kemi",
+      "subjectLabel": "Kemi",
+      "stage": "f-3",
+      "stageLabel": "F–3",
+      "title": "Följ en förändring av vatten",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna beskriva smältning, frysning och avdunstning med observationer.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Arbeta i korta steg med muntlig modellering, konkreta exempel och gemensam övning.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Låt alla elever visa, peka, rita eller säga ett kort svar innan du går vidare.",
+      "nextStep": "Ge ett nytt närliggande exempel med samma stöd om svaren är osäkra; minska stödet om de flesta kan förklara."
+    },
+    {
+      "id": "kemi-4-6-1",
+      "subject": "kemi",
+      "subjectLabel": "Kemi",
+      "stage": "4-6",
+      "stageLabel": "4–6",
+      "title": "Bygg en partikelmodell",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna använda en partikelmodell för att förklara skillnader mellan fast form, vätska och gas.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Modellera först, låt eleverna jämföra två exempel och gå sedan över till en kort självständig tillämpning.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Samla svar från hela gruppen och be eleverna motivera vilket kännetecken eller steg de använde.",
+      "nextStep": "Återvänd till ett kontrasterande exempel vid en gemensam missuppfattning; gå vidare till variation om valet är säkert."
+    },
+    {
+      "id": "kemi-4-6-2",
+      "subject": "kemi",
+      "subjectLabel": "Kemi",
+      "stage": "4-6",
+      "stageLabel": "4–6",
+      "title": "Skilj blandning från lösning",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna jämföra blandning, lösning och kemisk förändring med hjälp av observationer.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Modellera först, låt eleverna jämföra två exempel och gå sedan över till en kort självständig tillämpning.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Samla svar från hela gruppen och be eleverna motivera vilket kännetecken eller steg de använde.",
+      "nextStep": "Återvänd till ett kontrasterande exempel vid en gemensam missuppfattning; gå vidare till variation om valet är säkert."
+    },
+    {
+      "id": "kemi-7-9-1",
+      "subject": "kemi",
+      "subjectLabel": "Kemi",
+      "stage": "7-9",
+      "stageLabel": "7–9",
+      "title": "Skilj atom, jon och molekyl",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna använda partikelbilder och kemiska symboler för att klassificera olika partiklar.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Synliggör ämnesspråk och beslutspunkter, jämför närliggande fall och avveckla stödet under lektionen.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Låt eleverna först svara enskilt och sedan använda kunskapen i ett nytt fall utan att metoden anges.",
+      "nextStep": "Sortera svaren efter tankesätt och rikta nästa förklaring mot det vanligaste hindret."
+    },
+    {
+      "id": "kemi-7-9-2",
+      "subject": "kemi",
+      "subjectLabel": "Kemi",
+      "stage": "7-9",
+      "stageLabel": "7–9",
+      "title": "Förklara en kemisk reaktion",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna visa hur atomer omgrupperas och hur massa bevaras i en reaktion.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Synliggör ämnesspråk och beslutspunkter, jämför närliggande fall och avveckla stödet under lektionen.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Låt eleverna först svara enskilt och sedan använda kunskapen i ett nytt fall utan att metoden anges.",
+      "nextStep": "Sortera svaren efter tankesätt och rikta nästa förklaring mot det vanligaste hindret."
+    },
+    {
+      "id": "kemi-gymnasiet-1",
+      "subject": "kemi",
+      "subjectLabel": "Kemi",
+      "stage": "gymnasiet",
+      "stageLabel": "Gymnasiet",
+      "title": "Koppla kemins tre representationsnivåer",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna beskriva samma förlopp på makro-, partikel- och symbolnivå.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Knyt modellen till ämnets disciplinära arbetssätt och låt eleverna pröva den på ett mer komplext eller autentiskt material.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Begär en självständig motivering där begrepp, metod och evidens kopplas samman i ett nytt sammanhang.",
+      "nextStep": "Ge precis återkoppling (<em>feedback</em>) på den viktigaste kvalitetsdimensionen och låt eleven bearbeta svaret direkt."
+    },
+    {
+      "id": "kemi-gymnasiet-2",
+      "subject": "kemi",
+      "subjectLabel": "Kemi",
+      "stage": "gymnasiet",
+      "stageLabel": "Gymnasiet",
+      "title": "Analysera kemisk jämvikt",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna använda reaktionshastigheter för att förutsäga hur ett jämviktssystem påverkas.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Knyt modellen till ämnets disciplinära arbetssätt och låt eleverna pröva den på ett mer komplext eller autentiskt material.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Begär en självständig motivering där begrepp, metod och evidens kopplas samman i ett nytt sammanhang.",
+      "nextStep": "Ge precis återkoppling (<em>feedback</em>) på den viktigaste kvalitetsdimensionen och låt eleven bearbeta svaret direkt."
+    },
+    {
+      "id": "historia-f-3-1",
+      "subject": "historia",
+      "subjectLabel": "Historia",
+      "stage": "f-3",
+      "stageLabel": "F–3",
+      "title": "Ordna händelser på en tidslinje",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna använda före, efter och samtidigt för att beskriva kronologi.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Arbeta i korta steg med muntlig modellering, konkreta exempel och gemensam övning.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Låt alla elever visa, peka, rita eller säga ett kort svar innan du går vidare.",
+      "nextStep": "Ge ett nytt närliggande exempel med samma stöd om svaren är osäkra; minska stödet om de flesta kan förklara."
+    },
+    {
+      "id": "historia-f-3-2",
+      "subject": "historia",
+      "subjectLabel": "Historia",
+      "stage": "f-3",
+      "stageLabel": "F–3",
+      "title": "Jämför vardagsliv förr och nu",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna beskriva en förändring och en kontinuitet med stöd i konkreta källor.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Arbeta i korta steg med muntlig modellering, konkreta exempel och gemensam övning.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Låt alla elever visa, peka, rita eller säga ett kort svar innan du går vidare.",
+      "nextStep": "Ge ett nytt närliggande exempel med samma stöd om svaren är osäkra; minska stödet om de flesta kan förklara."
+    },
+    {
+      "id": "historia-4-6-1",
+      "subject": "historia",
+      "subjectLabel": "Historia",
+      "stage": "4-6",
+      "stageLabel": "4–6",
+      "title": "Förklara orsak och konsekvens",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna koppla två orsaker till en historisk förändring och beskriva en konsekvens.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Modellera först, låt eleverna jämföra två exempel och gå sedan över till en kort självständig tillämpning.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Samla svar från hela gruppen och be eleverna motivera vilket kännetecken eller steg de använde.",
+      "nextStep": "Återvänd till ett kontrasterande exempel vid en gemensam missuppfattning; gå vidare till variation om valet är säkert."
+    },
+    {
+      "id": "historia-4-6-2",
+      "subject": "historia",
+      "subjectLabel": "Historia",
+      "stage": "4-6",
+      "stageLabel": "4–6",
+      "title": "Använd en historisk källa",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna dra en avgränsad slutsats om det förflutna med stöd i en källa.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Modellera först, låt eleverna jämföra två exempel och gå sedan över till en kort självständig tillämpning.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Samla svar från hela gruppen och be eleverna motivera vilket kännetecken eller steg de använde.",
+      "nextStep": "Återvänd till ett kontrasterande exempel vid en gemensam missuppfattning; gå vidare till variation om valet är säkert."
+    },
+    {
+      "id": "historia-7-9-1",
+      "subject": "historia",
+      "subjectLabel": "Historia",
+      "stage": "7-9",
+      "stageLabel": "7–9",
+      "title": "Jämför revolutioners orsaker",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna jämföra strukturella och utlösande orsaker i två revolutioner.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Synliggör ämnesspråk och beslutspunkter, jämför närliggande fall och avveckla stödet under lektionen.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Låt eleverna först svara enskilt och sedan använda kunskapen i ett nytt fall utan att metoden anges.",
+      "nextStep": "Sortera svaren efter tankesätt och rikta nästa förklaring mot det vanligaste hindret."
+    },
+    {
+      "id": "historia-7-9-2",
+      "subject": "historia",
+      "subjectLabel": "Historia",
+      "stage": "7-9",
+      "stageLabel": "7–9",
+      "title": "Bedöm en källas användbarhet",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna bedöma en källas användbarhet för en bestämd historisk fråga.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Synliggör ämnesspråk och beslutspunkter, jämför närliggande fall och avveckla stödet under lektionen.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Låt eleverna först svara enskilt och sedan använda kunskapen i ett nytt fall utan att metoden anges.",
+      "nextStep": "Sortera svaren efter tankesätt och rikta nästa förklaring mot det vanligaste hindret."
+    },
+    {
+      "id": "historia-gymnasiet-1",
+      "subject": "historia",
+      "subjectLabel": "Historia",
+      "stage": "gymnasiet",
+      "stageLabel": "Gymnasiet",
+      "title": "Väg historiska förklaringar",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna värdera samspelet mellan aktörer, strukturer och utlösande händelser.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Knyt modellen till ämnets disciplinära arbetssätt och låt eleverna pröva den på ett mer komplext eller autentiskt material.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Begär en självständig motivering där begrepp, metod och evidens kopplas samman i ett nytt sammanhang.",
+      "nextStep": "Ge precis återkoppling (<em>feedback</em>) på den viktigaste kvalitetsdimensionen och låt eleven bearbeta svaret direkt."
+    },
+    {
+      "id": "historia-gymnasiet-2",
+      "subject": "historia",
+      "subjectLabel": "Historia",
+      "stage": "gymnasiet",
+      "stageLabel": "Gymnasiet",
+      "title": "Analysera historiebruk",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna förklara hur och varför historia används i ett samtida sammanhang.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Knyt modellen till ämnets disciplinära arbetssätt och låt eleverna pröva den på ett mer komplext eller autentiskt material.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Begär en självständig motivering där begrepp, metod och evidens kopplas samman i ett nytt sammanhang.",
+      "nextStep": "Ge precis återkoppling (<em>feedback</em>) på den viktigaste kvalitetsdimensionen och låt eleven bearbeta svaret direkt."
+    },
+    {
+      "id": "samhällskunskap-f-3-1",
+      "subject": "samhällskunskap",
+      "subjectLabel": "Samhällskunskap",
+      "stage": "f-3",
+      "stageLabel": "F–3",
+      "title": "Jämför sätt att fatta beslut",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna skilja ett ensidigt beslut från ett gemensamt demokratiskt beslut.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Arbeta i korta steg med muntlig modellering, konkreta exempel och gemensam övning.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Låt alla elever visa, peka, rita eller säga ett kort svar innan du går vidare.",
+      "nextStep": "Ge ett nytt närliggande exempel med samma stöd om svaren är osäkra; minska stödet om de flesta kan förklara."
+    },
+    {
+      "id": "samhällskunskap-f-3-2",
+      "subject": "samhällskunskap",
+      "subjectLabel": "Samhällskunskap",
+      "stage": "f-3",
+      "stageLabel": "F–3",
+      "title": "Förstå en enkel samhällsfunktion",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna förklara varför en gemensam samhällsfunktion behövs och vem den hjälper.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Arbeta i korta steg med muntlig modellering, konkreta exempel och gemensam övning.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Låt alla elever visa, peka, rita eller säga ett kort svar innan du går vidare.",
+      "nextStep": "Ge ett nytt närliggande exempel med samma stöd om svaren är osäkra; minska stödet om de flesta kan förklara."
+    },
+    {
+      "id": "samhällskunskap-4-6-1",
+      "subject": "samhällskunskap",
+      "subjectLabel": "Samhällskunskap",
+      "stage": "4-6",
+      "stageLabel": "4–6",
+      "title": "Skilj rättighet från skyldighet",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna klassificera och motivera exempel på rättigheter och skyldigheter.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Modellera först, låt eleverna jämföra två exempel och gå sedan över till en kort självständig tillämpning.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Samla svar från hela gruppen och be eleverna motivera vilket kännetecken eller steg de använde.",
+      "nextStep": "Återvänd till ett kontrasterande exempel vid en gemensam missuppfattning; gå vidare till variation om valet är säkert."
+    },
+    {
+      "id": "samhällskunskap-4-6-2",
+      "subject": "samhällskunskap",
+      "subjectLabel": "Samhällskunskap",
+      "stage": "4-6",
+      "stageLabel": "4–6",
+      "title": "Följ en vara genom ekonomin",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna beskriva samband mellan hushåll, företag och offentlig verksamhet.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Modellera först, låt eleverna jämföra två exempel och gå sedan över till en kort självständig tillämpning.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Samla svar från hela gruppen och be eleverna motivera vilket kännetecken eller steg de använde.",
+      "nextStep": "Återvänd till ett kontrasterande exempel vid en gemensam missuppfattning; gå vidare till variation om valet är säkert."
+    },
+    {
+      "id": "samhällskunskap-7-9-1",
+      "subject": "samhällskunskap",
+      "subjectLabel": "Samhällskunskap",
+      "stage": "7-9",
+      "stageLabel": "7–9",
+      "title": "Jämför politiska perspektiv",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna använda två politiska perspektiv för att analysera samma samhällsfråga.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Synliggör ämnesspråk och beslutspunkter, jämför närliggande fall och avveckla stödet under lektionen.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Låt eleverna först svara enskilt och sedan använda kunskapen i ett nytt fall utan att metoden anges.",
+      "nextStep": "Sortera svaren efter tankesätt och rikta nästa förklaring mot det vanligaste hindret."
+    },
+    {
+      "id": "samhällskunskap-7-9-2",
+      "subject": "samhällskunskap",
+      "subjectLabel": "Samhällskunskap",
+      "stage": "7-9",
+      "stageLabel": "7–9",
+      "title": "Skilj fakta, värdering och förklaring",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna klassificera påståenden och motivera vad som skiljer dem åt.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Synliggör ämnesspråk och beslutspunkter, jämför närliggande fall och avveckla stödet under lektionen.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Låt eleverna först svara enskilt och sedan använda kunskapen i ett nytt fall utan att metoden anges.",
+      "nextStep": "Sortera svaren efter tankesätt och rikta nästa förklaring mot det vanligaste hindret."
+    },
+    {
+      "id": "samhällskunskap-gymnasiet-1",
+      "subject": "samhällskunskap",
+      "subjectLabel": "Samhällskunskap",
+      "stage": "gymnasiet",
+      "stageLabel": "Gymnasiet",
+      "title": "Granska ett samhällsvetenskapligt påstående",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna bedöma urval, mätning, korrelation och alternativa förklaringar.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Knyt modellen till ämnets disciplinära arbetssätt och låt eleverna pröva den på ett mer komplext eller autentiskt material.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Begär en självständig motivering där begrepp, metod och evidens kopplas samman i ett nytt sammanhang.",
+      "nextStep": "Ge precis återkoppling (<em>feedback</em>) på den viktigaste kvalitetsdimensionen och låt eleven bearbeta svaret direkt."
+    },
+    {
+      "id": "samhällskunskap-gymnasiet-2",
+      "subject": "samhällskunskap",
+      "subjectLabel": "Samhällskunskap",
+      "stage": "gymnasiet",
+      "stageLabel": "Gymnasiet",
+      "title": "Analysera ekonomisk politik",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna jämföra hur två ekonomiska åtgärder påverkar olika mål och grupper.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Knyt modellen till ämnets disciplinära arbetssätt och låt eleverna pröva den på ett mer komplext eller autentiskt material.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Begär en självständig motivering där begrepp, metod och evidens kopplas samman i ett nytt sammanhang.",
+      "nextStep": "Ge precis återkoppling (<em>feedback</em>) på den viktigaste kvalitetsdimensionen och låt eleven bearbeta svaret direkt."
+    },
+    {
+      "id": "geografi-f-3-1",
+      "subject": "geografi",
+      "subjectLabel": "Geografi",
+      "stage": "f-3",
+      "stageLabel": "F–3",
+      "title": "Läs en enkel karta",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna använda symboler, väderstreck och lägesord för att beskriva en väg.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Arbeta i korta steg med muntlig modellering, konkreta exempel och gemensam övning.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Låt alla elever visa, peka, rita eller säga ett kort svar innan du går vidare.",
+      "nextStep": "Ge ett nytt närliggande exempel med samma stöd om svaren är osäkra; minska stödet om de flesta kan förklara."
+    },
+    {
+      "id": "geografi-f-3-2",
+      "subject": "geografi",
+      "subjectLabel": "Geografi",
+      "stage": "f-3",
+      "stageLabel": "F–3",
+      "title": "Jämför två platser",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna jämföra natur, bebyggelse och människors användning av två platser.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Arbeta i korta steg med muntlig modellering, konkreta exempel och gemensam övning.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Låt alla elever visa, peka, rita eller säga ett kort svar innan du går vidare.",
+      "nextStep": "Ge ett nytt närliggande exempel med samma stöd om svaren är osäkra; minska stödet om de flesta kan förklara."
+    },
+    {
+      "id": "geografi-4-6-1",
+      "subject": "geografi",
+      "subjectLabel": "Geografi",
+      "stage": "4-6",
+      "stageLabel": "4–6",
+      "title": "Tolka skala och karttecken",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna använda skala, teckenförklaring och höjdmarkering för att dra en slutsats.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Modellera först, låt eleverna jämföra två exempel och gå sedan över till en kort självständig tillämpning.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Samla svar från hela gruppen och be eleverna motivera vilket kännetecken eller steg de använde.",
+      "nextStep": "Återvänd till ett kontrasterande exempel vid en gemensam missuppfattning; gå vidare till variation om valet är säkert."
+    },
+    {
+      "id": "geografi-4-6-2",
+      "subject": "geografi",
+      "subjectLabel": "Geografi",
+      "stage": "4-6",
+      "stageLabel": "4–6",
+      "title": "Förklara vattnets kretslopp geografiskt",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna koppla kretsloppet till landskap, väder och människors vattenanvändning.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Modellera först, låt eleverna jämföra två exempel och gå sedan över till en kort självständig tillämpning.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Samla svar från hela gruppen och be eleverna motivera vilket kännetecken eller steg de använde.",
+      "nextStep": "Återvänd till ett kontrasterande exempel vid en gemensam missuppfattning; gå vidare till variation om valet är säkert."
+    },
+    {
+      "id": "geografi-7-9-1",
+      "subject": "geografi",
+      "subjectLabel": "Geografi",
+      "stage": "7-9",
+      "stageLabel": "7–9",
+      "title": "Förklara befolkningsfördelning",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna använda naturgivna och samhälleliga faktorer för att förklara ett bosättningsmönster.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Synliggör ämnesspråk och beslutspunkter, jämför närliggande fall och avveckla stödet under lektionen.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Låt eleverna först svara enskilt och sedan använda kunskapen i ett nytt fall utan att metoden anges.",
+      "nextStep": "Sortera svaren efter tankesätt och rikta nästa förklaring mot det vanligaste hindret."
+    },
+    {
+      "id": "geografi-7-9-2",
+      "subject": "geografi",
+      "subjectLabel": "Geografi",
+      "stage": "7-9",
+      "stageLabel": "7–9",
+      "title": "Analysera en intressekonflikt",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna jämföra aktörers intressen och konsekvenser av olika markanvändning.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Synliggör ämnesspråk och beslutspunkter, jämför närliggande fall och avveckla stödet under lektionen.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Låt eleverna först svara enskilt och sedan använda kunskapen i ett nytt fall utan att metoden anges.",
+      "nextStep": "Sortera svaren efter tankesätt och rikta nästa förklaring mot det vanligaste hindret."
+    },
+    {
+      "id": "geografi-gymnasiet-1",
+      "subject": "geografi",
+      "subjectLabel": "Geografi",
+      "stage": "gymnasiet",
+      "stageLabel": "Gymnasiet",
+      "title": "Analysera sårbarhet för naturhändelser",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna skilja naturhändelse från katastrof och analysera exponering, sårbarhet och beredskap.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Knyt modellen till ämnets disciplinära arbetssätt och låt eleverna pröva den på ett mer komplext eller autentiskt material.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Begär en självständig motivering där begrepp, metod och evidens kopplas samman i ett nytt sammanhang.",
+      "nextStep": "Ge precis återkoppling (<em>feedback</em>) på den viktigaste kvalitetsdimensionen och låt eleven bearbeta svaret direkt."
+    },
+    {
+      "id": "geografi-gymnasiet-2",
+      "subject": "geografi",
+      "subjectLabel": "Geografi",
+      "stage": "gymnasiet",
+      "stageLabel": "Gymnasiet",
+      "title": "Bedöm en hållbarhetsstrategi",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna väga ekologiska, ekonomiska och sociala konsekvenser på flera skalnivåer.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Knyt modellen till ämnets disciplinära arbetssätt och låt eleverna pröva den på ett mer komplext eller autentiskt material.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Begär en självständig motivering där begrepp, metod och evidens kopplas samman i ett nytt sammanhang.",
+      "nextStep": "Ge precis återkoppling (<em>feedback</em>) på den viktigaste kvalitetsdimensionen och låt eleven bearbeta svaret direkt."
+    },
+    {
+      "id": "religionskunskap-f-3-1",
+      "subject": "religionskunskap",
+      "subjectLabel": "Religionskunskap",
+      "stage": "f-3",
+      "stageLabel": "F–3",
+      "title": "Jämför högtider utan att generalisera",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna beskriva likheter och skillnader mellan två högtider med respekt för variation.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Arbeta i korta steg med muntlig modellering, konkreta exempel och gemensam övning.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Låt alla elever visa, peka, rita eller säga ett kort svar innan du går vidare.",
+      "nextStep": "Ge ett nytt närliggande exempel med samma stöd om svaren är osäkra; minska stödet om de flesta kan förklara."
+    },
+    {
+      "id": "religionskunskap-f-3-2",
+      "subject": "religionskunskap",
+      "subjectLabel": "Religionskunskap",
+      "stage": "f-3",
+      "stageLabel": "F–3",
+      "title": "Samtala om en enkel livsfråga",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna uttrycka ett eget perspektiv och återge ett annat perspektiv rättvist.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Arbeta i korta steg med muntlig modellering, konkreta exempel och gemensam övning.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Låt alla elever visa, peka, rita eller säga ett kort svar innan du går vidare.",
+      "nextStep": "Ge ett nytt närliggande exempel med samma stöd om svaren är osäkra; minska stödet om de flesta kan förklara."
+    },
+    {
+      "id": "religionskunskap-4-6-1",
+      "subject": "religionskunskap",
+      "subjectLabel": "Religionskunskap",
+      "stage": "4-6",
+      "stageLabel": "4–6",
+      "title": "Skilj symbol, ritual och berättelse",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna klassificera exempel och förklara hur de kan hänga samman i en tradition.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Modellera först, låt eleverna jämföra två exempel och gå sedan över till en kort självständig tillämpning.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Samla svar från hela gruppen och be eleverna motivera vilket kännetecken eller steg de använde.",
+      "nextStep": "Återvänd till ett kontrasterande exempel vid en gemensam missuppfattning; gå vidare till variation om valet är säkert."
+    },
+    {
+      "id": "religionskunskap-4-6-2",
+      "subject": "religionskunskap",
+      "subjectLabel": "Religionskunskap",
+      "stage": "4-6",
+      "stageLabel": "4–6",
+      "title": "Jämför religiös praktik",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna jämföra två praktiker och undvika att beskriva alla troende som lika.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Modellera först, låt eleverna jämföra två exempel och gå sedan över till en kort självständig tillämpning.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Samla svar från hela gruppen och be eleverna motivera vilket kännetecken eller steg de använde.",
+      "nextStep": "Återvänd till ett kontrasterande exempel vid en gemensam missuppfattning; gå vidare till variation om valet är säkert."
+    },
+    {
+      "id": "religionskunskap-7-9-1",
+      "subject": "religionskunskap",
+      "subjectLabel": "Religionskunskap",
+      "stage": "7-9",
+      "stageLabel": "7–9",
+      "title": "Analysera religionens uttryck",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna skilja individ-, grupp- och traditionsnivå i ett konkret exempel.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Synliggör ämnesspråk och beslutspunkter, jämför närliggande fall och avveckla stödet under lektionen.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Låt eleverna först svara enskilt och sedan använda kunskapen i ett nytt fall utan att metoden anges.",
+      "nextStep": "Sortera svaren efter tankesätt och rikta nästa förklaring mot det vanligaste hindret."
+    },
+    {
+      "id": "religionskunskap-7-9-2",
+      "subject": "religionskunskap",
+      "subjectLabel": "Religionskunskap",
+      "stage": "7-9",
+      "stageLabel": "7–9",
+      "title": "Pröva ett etiskt resonemang",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna använda två etiska modeller och jämföra deras slutsatser i ett dilemma.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Synliggör ämnesspråk och beslutspunkter, jämför närliggande fall och avveckla stödet under lektionen.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Låt eleverna först svara enskilt och sedan använda kunskapen i ett nytt fall utan att metoden anges.",
+      "nextStep": "Sortera svaren efter tankesätt och rikta nästa förklaring mot det vanligaste hindret."
+    },
+    {
+      "id": "religionskunskap-gymnasiet-1",
+      "subject": "religionskunskap",
+      "subjectLabel": "Religionskunskap",
+      "stage": "gymnasiet",
+      "stageLabel": "Gymnasiet",
+      "title": "Analysera religion och identitet",
+      "teacherProblem": "Eleverna känner igen centrala ord och exempel under genomgången men har svårt att förklara sambandet självständigt.",
+      "goal": "Eleverna ska kunna förklara hur religiös identitet samspelar med andra identitetsdimensioner och sammanhang.",
+      "principle": "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
+      "lessonSequence": [
+        "Knyt modellen till ämnets disciplinära arbetssätt och låt eleverna pröva den på ett mer komplext eller autentiskt material.",
+        "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd.",
+        "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
+      ],
+      "check": "Begär en självständig motivering där begrepp, metod och evidens kopplas samman i ett nytt sammanhang.",
+      "nextStep": "Ge precis återkoppling (<em>feedback</em>) på den viktigaste kvalitetsdimensionen och låt eleven bearbeta svaret direkt."
+    },
+    {
+      "id": "religionskunskap-gymnasiet-2",
+      "subject": "religionskunskap",
+      "subjectLabel": "Religionskunskap",
+      "stage": "gymnasiet",
+      "stageLabel": "Gymnasiet",
+      "title": "Jämför etiska teorier",
+      "teacherProblem": "Eleverna kan följa en visad modell men har svårt att välja och motivera arbetssättet i ett nytt fall.",
+      "goal": "Eleverna ska kunna använda konsekvensetik, pliktetik och dygdetik för att analysera ett komplext fall.",
+      "principle": "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
+      "lessonSequence": [
+        "Knyt modellen till ämnets disciplinära arbetssätt och låt eleverna pröva den på ett mer komplext eller autentiskt material.",
+        "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
+        "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd."
+      ],
+      "check": "Begär en självständig motivering där begrepp, metod och evidens kopplas samman i ett nytt sammanhang.",
+      "nextStep": "Ge precis återkoppling (<em>feedback</em>) på den viktigaste kvalitetsdimensionen och låt eleven bearbeta svaret direkt."
+    }
+  ]
+}
