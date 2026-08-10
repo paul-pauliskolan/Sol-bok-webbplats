@@ -158,7 +158,7 @@ ol {
 }
 
 .site-updated {
-  margin-left: auto;
+  margin-left: 0;
   color: var(--text-muted);
   font-family: "Trebuchet MS", "Segoe UI", sans-serif;
   font-size: 0.82rem;
@@ -167,6 +167,7 @@ ol {
 
 .logo {
   order: 1;
+  margin-right: auto;
   font-family: "Trebuchet MS", "Segoe UI", sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
@@ -1376,6 +1377,7 @@ th {
 
   .logo {
     order: 1;
+    margin-right: auto;
   }
 
   .site-updated {

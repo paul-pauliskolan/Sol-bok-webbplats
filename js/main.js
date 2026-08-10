@@ -2,7 +2,7 @@
 
 const BOOK_TITLE = "The Science of Learning i praktiken";
 const BOOK_SHORT_TITLE = "SoL";
-const SITE_LAST_UPDATED = "2026-08-10";
+const SITE_LAST_UPDATED = "2026-08-10T13:05:00+02:00";
 
 let chaptersData = [];
 
@@ -70,7 +70,7 @@ function applyBranding() {
     const updated = document.createElement("time");
     updated.className = "site-updated";
     updated.dateTime = SITE_LAST_UPDATED;
-    updated.textContent = "Uppdaterad 10 augusti 2026";
+    updated.textContent = "Uppdaterad 10 aug 2026 13:05";
     const themeToggle = navbar.querySelector(".theme-toggle");
     navbar.insertBefore(updated, themeToggle || null);
   }
