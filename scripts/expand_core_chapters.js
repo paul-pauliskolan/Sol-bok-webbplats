@@ -426,6 +426,59 @@ const quizAdditions = {
   ],
 };
 
+const factCheckAdditions = {
+  1: `
+<h2>Forskningsläge och viktiga avgränsningar</h2>
+<p>Definitionen av lärande som en relativt varaktig förändring är en användbar arbetsdefinition, men lärande kan inte observeras direkt. Det måste <em>slutas till</em> från prestation vid flera tillfällen och i relevanta uppgifter. Ett enstaka lyckat eller misslyckat svar är därför osäkert som mått på vad som finns i långtidsminnet.</p>
+<p>Lagringsstyrka och framplockningsstyrka är teoretiska begrepp som hjälper oss att förklara varför tillgänglighet just nu och hållbarhet över tid kan skilja sig. De är inte separata ”mätare” i hjärnan som läraren kan avläsa. Fördröjd kontroll, varierade uppgifter och minskat stöd ger tillsammans bättre belägg än någon enskild kontroll.</p>
+<p>Glömska betyder inte alltid att undervisningen saknade effekt. Kunskap kan vara svår att plocka fram men lättare att återlära. Lärarens fråga bör därför vara både vad eleven kan återkalla nu och hur snabbt kunskapen återetableras med begränsat stöd.</p>`,
+  2: `
+<h2>Forskningsläge och viktiga avgränsningar</h2>
+<p>Modellen mål, hinder, val, sortering och kontroll är bokens egen praktiska syntes. Den ska inte presenteras som ett färdigt program som i just denna femstegsform har visats ge en bestämd effekt. Delarna stöds av bredare forskning om tydliga mål, förkunskaper, undervisningsdesign, kontroll av förståelse och formativ användning av elevsvar.</p>
+<p>Ett identifierat hinder är alltid en arbetshypotes. Samma felsvar kan bero på olika saker: saknad kunskap, missförstådd instruktion, språk, uppmärksamhet eller en felaktig begreppsmodell. Därför måste kontrollen kunna bekräfta eller förändra lärarens första tolkning.</p>
+<p>Modellen avgör inte automatiskt vilken metod som är bäst. Ämnesinnehåll, elevgrupp, mål och genomförandekvalitet påverkar. Dess styrka ligger i att göra lärarens motivering prövbar: om elevsvaren inte förändras behöver hypotesen eller undervisningsvalet omprövas.</p>`,
+  3: `
+<h2>Forskningsläge och viktiga avgränsningar</h2>
+<p>Kognitiv belastningsteori utgår från begränsningar i arbetsminnet när informationen är ny och relationsrik. Belastningen kan inte bestämmas enbart genom att räkna bilder, ord eller steg. Den beror på hur många delar eleven måste samordna och på vilka scheman som redan finns i långtidsminnet.</p>
+<p>Terminologin har förändrats över tid. Äldre framställningar talar ofta om inneboende, extern och inlärningsfrämjande belastning som tre separata kategorier. I senare formuleringar behandlas den inlärningsfrämjande aktiviteten snarare som de arbetsminnesresurser som ägnas åt att hantera den inneboende belastningen, inte som en helt fristående belastning.</p>
+<p>En viktig gräns är expertisomvändning: stöd som hjälper en nybörjare kan bli redundant och störande när eleven kan mer. Segmentering, signalering och exempel ska därför anpassas och avvecklas utifrån elevsvar. Målet är inte minimal belastning, utan att så mycket som möjligt av elevens ansträngning riktas mot det som ska läras.</p>`,
+  4: `
+<h2>Forskningsläge och viktiga avgränsningar</h2>
+<p>Återkallningsövning har ett starkt forskningsstöd för senare minne jämfört med enbart omläsning, men effekten är inte identisk för alla frågor och situationer. Eleven måste först ha haft en rimlig möjlighet att lära sig innehållet, och försöket behöver vara tillräckligt svårt för att kräva återkallning men inte så svårt att det bara blir upprepat misslyckande.</p>
+<p>Återkoppling är särskilt viktig när svaren är felaktiga eller osäkra. Den hindrar att fel lämnas okorrigerade och ger en ny möjlighet att lagra det korrekta svaret. Samtidigt kan även återkallning utan omedelbar återkoppling gynna minnet när återkallningen lyckas.</p>
+<p>Frågeformat och slutmål spelar roll. En kortsvarsfråga kräver ofta mer självständig framplockning än igenkänning i ett flervalsalternativ, men välkonstruerade flervalsfrågor kan pröva viktiga distinktioner. Överföring till nya uppgifter är inte automatisk; återkallningen behöver ibland följas av förklaring, jämförelse och tillämpning.</p>`,
+  5: `
+<h2>Forskningsläge och viktiga avgränsningar</h2>
+<p>Stödet för utspridd övning är omfattande, men det finns inget enda optimalt mellanrum för all undervisning. Ett längre önskat bevarande talar vanligen för längre mellanrum, samtidigt som eleverna måste kunna återkalla tillräckligt för att återkomsten ska bli meningsfull. Praktiskt behöver intervallen justeras med hjälp av elevsvar.</p>
+<p>Blandad övning har i metaanalyser en positiv genomsnittlig effekt, men resultaten varierar tydligt med materialet. För kategorier som är lätta att blanda ihop kan kontrasten vara värdefull. För ordmaterial och vissa texter har effekten varit liten, oklar eller ibland gynnat blockvis övning. Blandning ska därför lösa ett urskiljnings- eller metodvalsproblem, inte användas som en allmän regel.</p>
+<p>Utspridd och blandad övning sammanfaller ofta: när uppgiftstyper blandas sprids också varje typ över tid. Läraren bör därför vara försiktig med att tillskriva en förbättring en enda mekanism. Nybörjaren behöver dessutom tillräcklig initial modellering innan svårigheten ökas.</p>`,
+  6: `
+<h2>Forskningsläge och viktiga avgränsningar</h2>
+<p>Förkunskaper är ämnes- och uppgiftsspecifika. En elev kan ha omfattande vardagskunskap men sakna just de relationer som krävs för en vetenskaplig förklaring. En allmän aktivitet för att ”aktivera förkunskaper” är därför inte tillräcklig; läraren behöver kontrollera de byggstenar som det nya innehållet faktiskt förutsätter.</p>
+<p>Ett schema är en teoretisk beskrivning av organiserad kunskap, inte en bokstavlig mapp i minnet. Scheman blir användbara när fakta och begrepp binds samman genom förklaringar, jämförelser och upprepad användning. En begreppskarta kan synliggöra relationer men är inte i sig bevis på att eleven kan återkalla eller använda dem.</p>
+<p>Felaktiga förkunskaper försvinner inte alltid när det korrekta svaret sägs. Elever kan behöva göra en förutsägelse, se att den inte håller, möta en bättre modell och använda den i flera fall. Samtidigt bör läraren undvika att låta felaktiga alternativ dominera innan eleverna har en stabil korrekt grund.</p>`,
+  7: `
+<h2>Forskningsläge och viktiga avgränsningar</h2>
+<p>Fördelen med genomarbetade exempel är tydligast när elever är nybörjare i den aktuella uppgiftstypen. När deras kunskap växer kan fullständiga exempel bli överflödiga, och självständig problemlösning kan ge mer. Detta kallas expertisomvändning och innebär att stöd måste anpassas efter kunnande inom just området, inte efter en allmän etikett på eleven.</p>
+<p>Att visa en lösning räcker inte alltid. Elever kan läsa exemplet ytligt eller kopiera steg utan att förstå vad som styr dem. Frågor för självförklaring, jämförelser mellan exempel och delvis lösta problem kan rikta uppmärksamheten mot principerna. Frågorna bör dock vara få och fokuserade så att de inte skapar ny onödig belastning.</p>
+<p>Avveckling bör styras av belägg: korrekta steg, rimliga motiveringar och framgång i närliggande uppgifter. En gradvis övergång är ofta bättre än ett hopp från full modell till helt fri problemlösning.</p>`,
+  8: `
+<h2>Forskningsläge och viktiga avgränsningar</h2>
+<p>Ord och bild kan stödja lärande när de hjälper eleven att bygga samma ämnesmässiga modell. Detta är inte ett argument för att varje elev ska få material i en föredragen ”visuell” eller ”auditiv” lärstil. Representationen ska väljas efter innehållet: en karta lämpar sig för rumsliga relationer, uttal kräver ljud och en rörelse kan behöva visas.</p>
+<p>Mer media innebär inte automatiskt mer lärande. En bild som upprepar text utan funktion, en animation som går för snabbt eller uppläst text som konkurrerar med läsning kan öka onödig belastning. Signalering hjälper främst när den pekar ut relevant struktur; om nästan allt markeras förlorar den sin funktion.</p>
+<p>Tillgänglighet måste också vägas in. Färg får inte vara den enda informationsbäraren, bilder behöver begripliga förklaringar och elever ska kunna pausa eller återvända till komplex information. En förenklad bild är värdefull endast om den fortfarande representerar den centrala idén korrekt.</p>`,
+  9: `
+<h2>Forskningsläge och viktiga avgränsningar</h2>
+<p>Återkoppling har mycket varierande effekter. Den kan hjälpa, vara neutral eller försämra prestationen beroende på vad den riktas mot och hur eleven kan använda den. Kommentarer om den aktuella uppgiften, processen eller nästa strategi är oftast mer handlingsbara än allmänt beröm eller omdömen om personen.</p>
+<p>Information blir inte formativ bara för att den samlas in ofta. Den blir formativ när läraren eller eleven använder den för att ändra nästa handling. En kontroll som inte kan påverka undervisningen är i första hand dokumentation. Därför bör läraren planera möjliga beslut samtidigt som frågan planeras.</p>
+<p>Alla-elever-svar ger bredare information än frivillig handuppräckning, men svaret är fortfarande ett stickprov. En korrekt bokstav på en skrivtavla visar inte säkert resonemanget bakom. Följ vid behov upp med motivering, ett kontrasterande fall eller en ny fråga. Återkoppling kräver också tid för bearbetning; annars blir den lätt information som aldrig omsätts.</p>`,
+  10: `
+<h2>Forskningsläge och viktiga avgränsningar</h2>
+<p>Kritiken mot lärstilar gäller framför allt matchningshypotesen: påståendet att en elev lär sig bättre när undervisningsformen matchas till en diagnostiserad visuell, auditiv eller kinestetisk stil. Människor har preferenser och olika förmågeprofiler, men det är inte samma sak som stöd för denna matchning. Undervisningsformen bör i första hand följa innehållets struktur och tillgänglighetsbehov.</p>
+<p>Evidens är graderad, inte binär. En enskild studie kan vara välgjord men ändå ge ett osäkert eller snävt resultat. Större tilltro kräver samstämmighet mellan flera studier, relevanta jämförelser, rimliga mätningar och helst sammanvägda översikter. Även en metaanalys beror på kvaliteten, variationen och publiceringen av de studier som ingår.</p>
+<p>När en metod införs lokalt bör uppföljningen inte användas som ett enkelt bevis på orsak. Förbättring kan sammanfalla med andra förändringar. Använd därför resultatet som beslutsunderlag: dokumentera vad som ändrades, kontrollera lärande efter tid och leta aktivt efter alternativa förklaringar.</p>`,
+};
+
 for (const chapter of data.chapters) {
   if (expanded[chapter.number]) {
     chapter.contentHtml = expanded[chapter.number].trim();
@@ -458,6 +511,71 @@ if (chapter2 && !chapter2.contentHtml.includes("Reflektion och arbetsuppgift")) 
     "<h2>Övergång till kapitel 3</h2>",
     `<h2>Reflektion och arbetsuppgift</h2><p>Planera en kommande lektion med modellens fem rubriker. Be sedan en kollega granska om kontrollen verkligen prövar målet och om valet matchar det identifierade hindret. Ändra en del utifrån granskningen.</p>\n\n<h2>Övergång till kapitel 3</h2>`,
   );
+}
+
+for (const chapter of data.chapters.slice(0, 10)) {
+  const addition = factCheckAdditions[chapter.number];
+  if (addition && !chapter.contentHtml.includes("Forskningsläge och viktiga avgränsningar")) {
+    chapter.contentHtml = chapter.contentHtml.replace(
+      "<h2>Reflektion och arbetsuppgift</h2>",
+      `${addition.trim()}\n\n<h2>Reflektion och arbetsuppgift</h2>`,
+    );
+  }
+}
+
+const factCheckResources = {
+  1: [{
+    title: "Learning Versus Performance: An Integrative Review",
+    reference: "Soderstrom, N. C., & Bjork, R. A. (2015). Learning versus performance: An integrative review. Perspectives on Psychological Science, 10(2), 176–199.",
+    url: "https://doi.org/10.1177/1745691615569000",
+    description: "Skiljer mellan observerad prestation under övning och mer varaktigt lärande.",
+  }],
+  2: [{
+    title: "Assessment and Classroom Learning",
+    reference: "Black, P., & Wiliam, D. (1998). Assessment and classroom learning. Assessment in Education: Principles, Policy & Practice, 5(1), 7–74.",
+    url: "https://doi.org/10.1080/0969595980050102",
+    description: "Grundläggande översikt om hur information från bedömning kan användas för att anpassa undervisning och lärande.",
+  }],
+  4: [{
+    title: "Practicing Retrieval Facilitates Learning",
+    reference: "McDermott, K. B. (2021). Practicing retrieval facilitates learning. Annual Review of Psychology, 72, 609–633.",
+    url: "https://doi.org/10.1146/annurev-psych-010419-051019",
+    description: "Översikt över effekter, mekanismer och användningsområden för återkallningsövning.",
+  }],
+  5: [
+    {
+      title: "Distributed Practice in Verbal Recall Tasks",
+      reference: "Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis. Psychological Bulletin, 132(3), 354–380.",
+      url: "https://doi.org/10.1037/0033-2909.132.3.354",
+      description: "Metaanalys av hur mellanrum och önskad bevarandetid samspelar vid utspridd övning.",
+    },
+    {
+      title: "Similarity Matters: A Meta-analysis of Interleaved Learning and Its Moderators",
+      reference: "Brunmair, M., & Richter, T. (2019). Similarity matters: A meta-analysis of interleaved learning and its moderators. Psychological Bulletin, 145(11), 1029–1052.",
+      url: "https://doi.org/10.1037/bul0000209",
+      description: "Visar en positiv genomsnittlig effekt av blandad övning men också tydliga skillnader mellan material och uppgifter.",
+    },
+  ],
+  7: [{
+    title: "Expertise Reversal Effect and Its Instructional Implications",
+    reference: "Kalyuga, S., & Renkl, A. (2010). Expertise reversal effect and its instructional implications: Introduction to the special issue. Instructional Science, 38, 209–215.",
+    url: "https://doi.org/10.1007/s11251-009-9102-0",
+    description: "Förklarar varför stöd som hjälper nybörjare kan bli redundant när ämnesspecifik expertis växer.",
+  }],
+  10: [{
+    title: "Learning Styles: Concepts and Evidence",
+    reference: "Pashler, H., McDaniel, M., Rohrer, D., & Bjork, R. (2008). Learning styles: Concepts and evidence. Psychological Science in the Public Interest, 9(3), 105–119.",
+    url: "https://doi.org/10.1111/j.1539-6053.2009.01038.x",
+    description: "Granskar matchningshypotesen bakom lärstilar och finner inte tillräckligt stöd för generell användning i undervisning.",
+  }],
+};
+
+for (const chapter of data.chapters.slice(0, 10)) {
+  for (const resource of factCheckResources[chapter.number] || []) {
+    if (!chapter.resources.some((existing) => existing.url === resource.url)) {
+      chapter.resources.push(resource);
+    }
+  }
 }
 
 const swedishTerms = [
@@ -621,6 +739,11 @@ if (firstChapter) {
 }
 
 const everyOccurrenceTerms = [
+  [/expertisomvändning/gi, "expertise reversal"],
+  [/matchningshypotesen/gi, "meshing hypothesis"],
+  [/matchningshypotes/gi, "meshing hypothesis"],
+  [/metaanalyser/gi, "meta-analyses"],
+  [/metaanalys/gi, "meta-analysis"],
   [/kognitiv belastningsteori/gi, "cognitive load theory"],
   [/inneboende belastning/gi, "intrinsic cognitive load"],
   [/extern belastning/gi, "extraneous cognitive load"],
