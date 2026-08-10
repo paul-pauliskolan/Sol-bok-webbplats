@@ -2,6 +2,7 @@
 
 const BOOK_TITLE = "The Science of Learning i praktiken";
 const BOOK_SHORT_TITLE = "SoL";
+const SITE_LAST_UPDATED = "2026-08-10";
 
 let chaptersData = [];
 
@@ -64,6 +65,16 @@ function setupThemeToggle() {
 }
 
 function applyBranding() {
+  const navbar = document.querySelector(".navbar");
+  if (navbar && !navbar.querySelector(".site-updated")) {
+    const updated = document.createElement("time");
+    updated.className = "site-updated";
+    updated.dateTime = SITE_LAST_UPDATED;
+    updated.textContent = "Uppdaterad 10 augusti 2026";
+    const themeToggle = navbar.querySelector(".theme-toggle");
+    navbar.insertBefore(updated, themeToggle || null);
+  }
+
   const logo = document.querySelector(".navbar .logo");
   if (logo) {
     logo.textContent = "SoL - The Science of Learning i praktiken";
