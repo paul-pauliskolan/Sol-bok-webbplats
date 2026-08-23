@@ -2,32 +2,14 @@
 
 const fs = require("fs");
 const path = require("path");
+const teacherExamplePlans = require("./teacher_example_plans");
+const teacherExampleCurriculum = require("./teacher_example_curriculum");
 
 const stages = {
-  "f-3": {
-    label: "F–3",
-    planning: "Arbeta i korta steg med muntlig modellering, konkreta exempel och gemensam övning.",
-    check: "Låt alla elever visa, peka, rita eller säga ett kort svar innan du går vidare.",
-    next: "Ge ett nytt närliggande exempel med samma stöd om svaren är osäkra; minska stödet om de flesta kan förklara.",
-  },
-  "4-6": {
-    label: "4–6",
-    planning: "Modellera först, låt eleverna jämföra två exempel och gå sedan över till en kort självständig tillämpning.",
-    check: "Samla svar från hela gruppen och be eleverna motivera vilket kännetecken eller steg de använde.",
-    next: "Återvänd till ett kontrasterande exempel vid en gemensam missuppfattning; gå vidare till variation om valet är säkert.",
-  },
-  "7-9": {
-    label: "7–9",
-    planning: "Synliggör ämnesspråk och beslutspunkter, jämför närliggande fall och avveckla stödet under lektionen.",
-    check: "Låt eleverna först svara enskilt och sedan använda kunskapen i ett nytt fall utan att metoden anges.",
-    next: "Sortera svaren efter tankesätt och rikta nästa förklaring mot det vanligaste hindret.",
-  },
-  gymnasiet: {
-    label: "Gymnasiet",
-    planning: "Knyt modellen till ämnets disciplinära arbetssätt och låt eleverna pröva den på ett mer komplext eller autentiskt material.",
-    check: "Begär en självständig motivering där begrepp, metod och evidens kopplas samman i ett nytt sammanhang.",
-    next: "Ge precis återkoppling (<em>feedback</em>) på den viktigaste kvalitetsdimensionen och låt eleven bearbeta svaret direkt.",
-  },
+  "f-3": { label: "F–3" },
+  "4-6": { label: "4–6" },
+  "7-9": { label: "7–9" },
+  gymnasiet: { label: "Gymnasiet" },
 };
 
 const subjects = {
@@ -171,13 +153,13 @@ Object.assign(subjects, {
     ],
     gymnasiet: [
       ["Koppla genuttryck till protein", "Eleverna ska kunna förklara informationsflödet från DNA via RNA till protein och förutsäga följder av en förändring."],
-      ["Analysera reglering i ett ekosystem", "Eleverna ska kunna använda återkopplingsmekanismer och begränsande faktorer för att analysera populationsförändringar."],
+      ["Analysera reglering i ett ekosystem", "Eleverna ska kunna använda återkopplingsmekanismer (<em>feedback mechanisms</em>) och begränsande faktorer för att analysera populationsförändringar."],
     ],
   }),
   fysik: createSubject("Fysik", {
     "f-3": [
       ["Undersök ljus och skugga", "Eleverna ska kunna förutsäga hur en skugga förändras när ljuskällan eller föremålet flyttas."],
-      ["Beskriv ljud som vibration", "Eleverna ska kunna koppla synliga eller kännbara vibrationer till att ljud uppstår."],
+      ["Undersök hur ljud uppfattas", "Eleverna ska kunna jämföra hur samma ljud uppfattas på olika avstånd och beskriva att hörseln används för att uppfatta ljud."],
     ],
     "4-6": [
       ["Bygg en fungerande elektrisk krets", "Eleverna ska kunna förklara villkoren för en sluten krets och felsöka en enkel koppling."],
@@ -284,47 +266,149 @@ Object.assign(subjects, {
   }),
 });
 
-const principles = [
-  "Begreppsundervisning, återkallningsövning (<em>retrieval practice</em>) och utspridd övning (<em>spacing</em>)",
-  "Genomarbetat exempel (<em>worked example</em>), modellering (<em>modeling</em>) och avvecklat stöd",
-];
-
 const examples = [];
 for (const [subjectId, subject] of Object.entries(subjects)) {
   for (const [stageId, stage] of Object.entries(stages)) {
     subject.examples[stageId].forEach(([title, problem, goal], index) => {
+      const id = `${subjectId}-${stageId}-${index + 1}`;
+      const plan = teacherExamplePlans[id];
+      if (!plan) throw new Error(`Saknar konkret plan för ${id}: ${title}`);
+      const curriculum = teacherExampleCurriculum[id];
+      if (!curriculum) throw new Error(`Saknar kontrollerad styrdokumentskoppling för ${id}: ${title}`);
+
       examples.push({
-        id: `${subjectId}-${stageId}-${index + 1}`,
+        id,
         subject: subjectId,
         subjectLabel: subject.label,
         stage: stageId,
         stageLabel: stage.label,
         title,
-        teacherProblem: problem,
+        teacherProblem: plan.problem || problem,
         goal,
-        principle: principles[index],
-        lessonSequence: [
-          stage.planning,
-          index === 0
-            ? "Aktivera nödvändiga förkunskaper och låt eleverna först försöka återkalla det centrala utan stöd."
-            : "Visa ett tydligt exempel, tänk högt om de avgörande valen och låt eleverna förklara varför stegen fungerar.",
-          index === 0
-            ? "Jämför ett korrekt exempel med ett närliggande icke-exempel och låt eleverna motivera skillnaden."
-            : "Gå över till ett delvis löst exempel och därefter en självständig tillämpning med mindre stöd.",
-        ],
-        check: stage.check,
-        nextStep: stage.next,
+        curriculum,
+        chapterLinks: plan.chapterLinks,
+        lessonSequence: plan.lessonSequence,
+        check: plan.check,
+        nextStep: plan.nextStep,
+        delayedCheck: plan.delayedCheck,
       });
     });
   }
 }
 
+const generatedIds = new Set(examples.map((example) => example.id));
+const unusedPlans = Object.keys(teacherExamplePlans).filter((id) => !generatedIds.has(id));
+if (unusedPlans.length) {
+  throw new Error(`Planer utan motsvarande exempel: ${unusedPlans.join(", ")}`);
+}
+const unusedCurriculumMappings = Object.keys(teacherExampleCurriculum).filter(
+  (id) => !generatedIds.has(id),
+);
+if (unusedCurriculumMappings.length) {
+  throw new Error(
+    `Styrdokumentskopplingar utan motsvarande exempel: ${unusedCurriculumMappings.join(", ")}`,
+  );
+}
+
+if (examples.length !== 80) {
+  throw new Error(`Exempelbanken ska innehålla exakt 80 exempel, inte ${examples.length}.`);
+}
+
+const bannedPhrases = [
+  /disciplinära\s+arbetssätt/i,
+  /autentiskt\s+material/i,
+  /knyt\s+modellen/i,
+  /mer\s+komplext\s+material/i,
+];
+for (const example of examples) {
+  if (example.chapterLinks.length < 2) {
+    throw new Error(`${example.id} måste kopplas till minst två kapitel.`);
+  }
+  if (example.lessonSequence.length < 4) {
+    throw new Error(`${example.id} måste ha minst fyra konkreta lektionssteg.`);
+  }
+  const requiredCurriculumFields = ["framework", "placement", "alignment", "sourceTitle", "sourceUrl"];
+  for (const field of requiredCurriculumFields) {
+    if (!example.curriculum[field]) {
+      throw new Error(`${example.id} saknar styrdokumentsfältet ${field}.`);
+    }
+  }
+  if (!example.curriculum.sourceUrl.startsWith("https://syllabuswebb.skolverket.se/")) {
+    throw new Error(`${example.id} länkar inte till Skolverkets officiella kursplanswebb.`);
+  }
+  if (example.stage === "gymnasiet") {
+    if (example.curriculum.framework !== "Gy25" || !example.curriculum.levelCode) {
+      throw new Error(`${example.id} måste ha Gy25-placering och nivåkod.`);
+    }
+  } else {
+    if (example.curriculum.framework !== "Lgr22") {
+      throw new Error(`${example.id} måste ha en Lgr22-placering.`);
+    }
+    if (
+      example.stage === "f-3" &&
+      (!example.curriculum.preschoolAlignment || !example.curriculum.additionalSourceUrl)
+    ) {
+      throw new Error(`${example.id} måste redovisa förskoleklassens separata styrning.`);
+    }
+  }
+  for (const [field, value] of Object.entries({
+    teacherProblem: example.teacherProblem,
+    check: example.check,
+    nextStep: example.nextStep,
+    delayedCheck: example.delayedCheck,
+  })) {
+    if (!value || value.length < 45) {
+      throw new Error(`${example.id} har ett för kort eller tomt fält: ${field}.`);
+    }
+  }
+  const allText = JSON.stringify(example).toLowerCase();
+  const banned = bannedPhrases.find((phrase) => phrase.test(allText));
+  if (banned) throw new Error(`${example.id} innehåller en förbjuden standardfras.`);
+}
+
+const signatures = new Set();
+for (const example of examples) {
+  const signature = JSON.stringify([
+    example.teacherProblem,
+    example.lessonSequence,
+    example.check,
+    example.nextStep,
+    example.delayedCheck,
+  ]);
+  if (signatures.has(signature)) throw new Error(`Duplicerad exempelplan: ${example.id}`);
+  signatures.add(signature);
+}
+
+// Kapitel 11 är avgränsat till Gy25-ämnen som ingår i Teknikprogrammet på
+// Pauliskolan. Den fullständiga källdatan ovan behålls tills ämnesbanken byggs
+// ut med skolans övriga teknikämnen och inriktningar.
+const pauliSubjectIds = [
+  "svenska",
+  "matematik",
+  "engelska",
+  "fysik",
+  "kemi",
+  "historia",
+  "samhällskunskap",
+  "religionskunskap",
+];
+const pauliExamples = examples.filter(
+  (example) =>
+    example.stage === "gymnasiet" && pauliSubjectIds.includes(example.subject),
+);
+
 const output = {
-  subjects: Object.entries(subjects).map(([id, subject]) => ({ id, label: subject.label })),
-  stages: Object.entries(stages).map(([id, stage]) => ({ id, label: stage.label })),
-  examples,
+  scope: {
+    school: "Pauliskolan",
+    programme: "Teknikprogrammet",
+    framework: "Gy25",
+    sourceUrl: "https://malmo.se/Ditt-gymnasieval/Pauliskolan/Teknikprogrammet.html",
+  },
+  subjects: pauliSubjectIds.map((id) => ({ id, label: subjects[id].label })),
+  stages: [{ id: "gymnasiet", label: "Gymnasiet · Gy25" }],
+  examples: pauliExamples,
 };
 
 const outputPath = path.join(__dirname, "..", "data", "teacher-examples.json");
 fs.writeFileSync(outputPath, `${JSON.stringify(output, null, 2)}\n`);
-console.log(`Skapade ${examples.length} lärar­exempel.`);
+console.log(`Skapade ${pauliExamples.length} lärar­exempel för Pauliskolans Teknikprogram.`);

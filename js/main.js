@@ -578,6 +578,7 @@ function getSelectedExampleFilters(bank, filterName) {
 }
 
 function renderTeacherExampleBank(bank, data) {
+  const hasMultipleStages = data.stages.length > 1;
   const subjectControls = data.subjects
     .map(
       (subject) => `
@@ -612,11 +613,23 @@ function renderTeacherExampleBank(bank, data) {
           <div class="teacher-example-content">
             <p><strong>Lärarproblem:</strong> ${example.teacherProblem}</p>
             <p><strong>Mål:</strong> ${example.goal}</p>
-            <p><strong>Principer:</strong> ${example.principle}</p>
+            <div class="teacher-example-curriculum">
+              <h3>Kontrollerad styrdokumentskoppling</h3>
+              <p><strong>${escapeHtml(example.curriculum.framework)} · ${escapeHtml(example.curriculum.placement)}${example.curriculum.levelCode ? ` · ${escapeHtml(example.curriculum.levelCode)}` : ""}</strong></p>
+              <p>${escapeHtml(example.curriculum.alignment)}</p>
+              ${example.curriculum.preschoolAlignment ? `<p><strong>Förskoleklass:</strong> ${escapeHtml(example.curriculum.preschoolAlignment)}</p>` : ""}
+              <p><a href="${escapeHtml(example.curriculum.sourceUrl)}" target="_blank" rel="noopener noreferrer">Öppna ${escapeHtml(example.curriculum.sourceTitle)} hos Skolverket</a></p>
+              ${example.curriculum.additionalSourceUrl ? `<p><a href="${escapeHtml(example.curriculum.additionalSourceUrl)}" target="_blank" rel="noopener noreferrer">Öppna ${escapeHtml(example.curriculum.additionalSourceTitle)}</a></p>` : ""}
+            </div>
+            <h3>Koppling till kapitel 1–10</h3>
+            <ul class="teacher-example-chapter-links">
+              ${example.chapterLinks.map((link) => `<li>${link}</li>`).join("")}
+            </ul>
             <h3>Lektionsgång</h3>
             <ol>${example.lessonSequence.map((step) => `<li>${step}</li>`).join("")}</ol>
             <p><strong>Kontroll av förståelse (<em>check for understanding</em>):</strong> ${example.check}</p>
             <p><strong>Nästa undervisningsbeslut:</strong> ${example.nextStep}</p>
+            <p><strong>Fördröjd kontroll:</strong> ${example.delayedCheck}</p>
           </div>
         </details>`,
     )
@@ -627,8 +640,8 @@ function renderTeacherExampleBank(bank, data) {
       <div class="example-filter-intro">
         <div>
           <p class="eyebrow">Gör ditt urval</p>
-          <h3>Välj flera alternativ om du undervisar i mer än ett ämne eller stadium</h3>
-          <p>Inga val visar hela banken. Flera ämnen kombineras med flera stadier.</p>
+          <h3>Välj ett eller flera ämnen på Teknikprogrammet</h3>
+          <p>Inga val visar hela banken. Alla exempel är för gymnasiet enligt Gy25.</p>
         </div>
         <button type="button" class="example-filter-reset" disabled>Rensa val</button>
       </div>
@@ -637,10 +650,10 @@ function renderTeacherExampleBank(bank, data) {
           <legend>Ämne</legend>
           <div class="example-filter-options">${subjectControls}</div>
         </fieldset>
-        <fieldset>
+        ${hasMultipleStages ? `<fieldset>
           <legend>Stadium</legend>
           <div class="example-filter-options">${stageControls}</div>
-        </fieldset>
+        </fieldset>` : ""}
       </div>
       <p class="example-filter-status" role="status"></p>
     </div>
@@ -691,17 +704,179 @@ function renderTeacherExampleBank(bank, data) {
   applyFilters();
 }
 
+function renderSolPlanner(bank, data) {
+  bank.innerHTML = `
+    <section class="sol-planner" aria-labelledby="sol-planner-title">
+      <div class="sol-planner-intro">
+        <p class="eyebrow">Pauliskolan · Teknikprogrammet · Gy25</p>
+        <h3 id="sol-planner-title">Planera från centralt innehåll</h3>
+        <p>Välj i ordningen ämne, nivå och centralt innehåll. Därefter visas ett redaktionellt SoL-förslag med kontrollerade källor.</p>
+      </div>
+      <div class="sol-planner-selectors">
+        <label>
+          <span>1. Ämne</span>
+          <select id="sol-subject"><option value="">Välj ämne</option></select>
+        </label>
+        <label>
+          <span>2. Nivå</span>
+          <select id="sol-level" disabled><option value="">Välj nivå</option></select>
+        </label>
+        <label>
+          <span>3. Centralt innehåll</span>
+          <select id="sol-content" disabled><option value="">Välj punkt</option></select>
+        </label>
+      </div>
+      <p class="sol-planner-status" role="status">Börja med att välja ämne.</p>
+      <div class="sol-planner-result" aria-live="polite"></div>
+    </section>`;
+
+  const subjectSelect = bank.querySelector("#sol-subject");
+  const levelSelect = bank.querySelector("#sol-level");
+  const contentSelect = bank.querySelector("#sol-content");
+  const status = bank.querySelector(".sol-planner-status");
+  const result = bank.querySelector(".sol-planner-result");
+
+  data.subjects.forEach((subject) => {
+    subjectSelect.insertAdjacentHTML(
+      "beforeend",
+      `<option value="${escapeHtml(subject.id)}">${escapeHtml(subject.name)}</option>`,
+    );
+  });
+
+  const resetSelect = (select, label) => {
+    select.innerHTML = `<option value="">${label}</option>`;
+    select.disabled = true;
+  };
+
+  subjectSelect.addEventListener("change", () => {
+    resetSelect(levelSelect, "Välj nivå");
+    resetSelect(contentSelect, "Välj punkt");
+    result.innerHTML = "";
+    const subject = data.subjects.find((item) => item.id === subjectSelect.value);
+    if (!subject) {
+      status.textContent = "Börja med att välja ämne.";
+      return;
+    }
+    subject.levels.forEach((level) => {
+      levelSelect.insertAdjacentHTML(
+        "beforeend",
+        `<option value="${escapeHtml(level.id)}">${escapeHtml(level.name)} · ${escapeHtml(level.levelCode)} · ${escapeHtml(level.points)} poäng</option>`,
+      );
+    });
+    levelSelect.disabled = false;
+    status.textContent = `Välj nivå i ${subject.name}.`;
+  });
+
+  levelSelect.addEventListener("change", () => {
+    resetSelect(contentSelect, "Välj punkt");
+    result.innerHTML = "";
+    const subject = data.subjects.find((item) => item.id === subjectSelect.value);
+    const level = subject?.levels.find((item) => item.id === levelSelect.value);
+    if (!level) {
+      status.textContent = "Välj nivå.";
+      return;
+    }
+    level.centralContent.forEach((item, index) => {
+      contentSelect.insertAdjacentHTML(
+        "beforeend",
+        `<option value="${escapeHtml(item.id)}">${index + 1}. ${escapeHtml(item.area)} – ${escapeHtml(item.text)}</option>`,
+      );
+    });
+    contentSelect.disabled = false;
+    status.textContent = `${level.centralContent.length} punkter i centralt innehåll. Välj en punkt.`;
+  });
+
+  contentSelect.addEventListener("change", () => {
+    const subject = data.subjects.find((item) => item.id === subjectSelect.value);
+    const level = subject?.levels.find((item) => item.id === levelSelect.value);
+    const item = level?.centralContent.find((entry) => entry.id === contentSelect.value);
+    if (!item) {
+      result.innerHTML = "";
+      status.textContent = "Välj en punkt i centralt innehåll.";
+      return;
+    }
+
+    const sources = item.sources.length
+      ? `<ul class="sol-source-list">${item.sources
+          .map(
+            (source) => `<li>
+              <strong>${escapeHtml(source.type)}:</strong>
+              <a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.title)}</a>
+              <p>${escapeHtml(source.assessment)}</p>
+            </li>`,
+          )
+          .join("")}</ul>`
+      : "<p>Ingen tillräckligt nära publicerad lektionsplanering har ännu verifierats för denna punkt. Förslaget är en egen SoL-tillämpning.</p>";
+
+    result.innerHTML = `
+      <article class="sol-plan-card">
+        <header>
+          <p class="eyebrow">${escapeHtml(item.area)}</p>
+          <h3>${escapeHtml(item.lesson.title)}</h3>
+          <p class="sol-level-meta">${escapeHtml(subject.name)} · ${escapeHtml(level.name)} · ${escapeHtml(level.levelCode)} · ${escapeHtml(level.points)} poäng</p>
+        </header>
+        <section class="sol-official-content">
+          <h4>Skolverkets centrala innehåll</h4>
+          <p>${escapeHtml(item.text)}</p>
+          <p><a href="${escapeHtml(level.sourceUrl)}" target="_blank" rel="noopener noreferrer">Öppna den officiella ämnesplanen</a></p>
+        </section>
+        <h4>Förslag på lärandemål</h4>
+        <p>${escapeHtml(item.goal)}</p>
+        <div class="sol-plan-foundations">
+          <section>
+            <h4>Nödvändiga förkunskaper</h4>
+            <ul>${item.prerequisites.map((entry) => `<li>${escapeHtml(entry)}</li>`).join("")}</ul>
+          </section>
+          <section>
+            <h4>Sannolik svårighet</h4>
+            <p>${escapeHtml(item.likelyDifficulty)}</p>
+          </section>
+        </div>
+        <h4>Lektionsgång · ${escapeHtml(item.lesson.duration)}</h4>
+        <ol>${item.lesson.steps.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}</ol>
+        <details class="sol-plan-details">
+          <summary>Visa undervisningsdesignen bakom lektionsgången</summary>
+          <h4>Modell eller genomarbetat exempel</h4>
+          <p>${escapeHtml(item.exampleOrModel)}</p>
+          <h4>Guidad övning</h4>
+          <p>${escapeHtml(item.guidedPractice)}</p>
+          <h4>Självständig övning</h4>
+          <p>${escapeHtml(item.independentPractice)}</p>
+          <h4>Kontrast eller variation</h4>
+          <p>${escapeHtml(item.contrastOrVariation)}</p>
+        </details>
+        <h4>SoL-metoder</h4>
+        <ul class="sol-method-list">${item.solMethods.map((method) => `<li>${escapeHtml(method)}</li>`).join("")}</ul>
+        <ul class="sol-rationale-list">${item.methodRationale.map((entry) => `<li><strong>${escapeHtml(entry.method)}:</strong> ${escapeHtml(entry.rationale)}</li>`).join("")}</ul>
+        <h4>Kontroll av förståelse</h4>
+        <p>${escapeHtml(item.lesson.check)}</p>
+        <h4>Nästa undervisningsbeslut</h4>
+        <p>${escapeHtml(item.decisionRule)}</p>
+        <h4>Fördröjd kontroll</h4>
+        <p>${escapeHtml(item.lesson.delayedCheck)}</p>
+        <h4>Överföringsuppgift</h4>
+        <p>${escapeHtml(item.transferTask)}</p>
+        <h4>Kontrollerade inspirationskällor</h4>
+        ${sources}
+        <h4>Evidensunderlag för SoL-designen</h4>
+        <ul class="sol-source-list">${item.evidenceSources.map((source) => `<li><a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.title)}</a><p>${escapeHtml(source.role)}</p></li>`).join("")}</ul>
+        <p class="sol-editorial-note"><strong>Granskningsstatus:</strong> ${escapeHtml(item.reviewStatus)}. Skolverkets text är officiell; övriga delar behöver ämneslärarens professionella granskning före användning.</p>
+      </article>`;
+    status.textContent = `Visar SoL-förslag för vald punkt i ${subject.name}, ${level.name}.`;
+  });
+}
+
 function setupTeacherExampleBank(chapterNumber) {
   if (chapterNumber !== 11) return;
   const bank = document.getElementById("teacher-example-bank");
   if (!bank) return;
 
-  fetch("../data/teacher-examples.json")
+  fetch("../data/pauli-sol-planner.json")
     .then((response) => {
       if (!response.ok) throw new Error("Exempelbanken kunde inte hämtas.");
       return response.json();
     })
-    .then((data) => renderTeacherExampleBank(bank, data))
+    .then((data) => renderSolPlanner(bank, data))
     .catch(() => {
       bank.innerHTML =
         '<p class="teacher-example-error">Exempelbanken kunde inte laddas. Försök igen senare.</p>';
@@ -733,7 +908,10 @@ function renderChapterPage(chapterNumber) {
 
   const summary = document.querySelector("#chapter-summary");
   if (summary) {
-    summary.innerHTML = `
+    if (chapterNumber === 11) {
+      summary.innerHTML = renderChapterResources(chapter);
+    } else {
+      summary.innerHTML = `
             <div class="content-section">
           <h2>Sammanfattning</h2>
                 <p>${chapter.summary}</p>
@@ -742,13 +920,14 @@ function renderChapterPage(chapterNumber) {
                 </div>
             </div>
         `;
-    summary.insertAdjacentHTML("beforeend", renderChapterQuiz(chapter));
-    summary.insertAdjacentHTML("beforeend", renderChapterResources(chapter));
+      summary.insertAdjacentHTML("beforeend", renderChapterQuiz(chapter));
+      summary.insertAdjacentHTML("beforeend", renderChapterResources(chapter));
+    }
   }
 
   renderChapterToc();
 
-  setupChapterQuizInteractions(chapter);
+  if (chapterNumber !== 11) setupChapterQuizInteractions(chapter);
   setupTeacherExampleBank(chapterNumber);
 
   const navContainer = document.querySelector(".chapter-nav");

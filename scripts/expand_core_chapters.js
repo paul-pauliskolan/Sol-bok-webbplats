@@ -286,7 +286,7 @@ const expanded = {
 <p>Välj ett befintligt bildspel eller arbetsblad. Skriv målet högst upp i ditt arbetsdokument. Markera varje element som nödvändigt, stödjande eller dekorativt. Förenkla en sida, samordna etiketter med bilden och lägg till en kontrollfråga.</p>
 
 <h2>Reflektion och arbetsuppgift</h2>
-<p>Visa ett material för en kollega utan din muntliga förklaring. Be kollegan peka ut vad ögat dras till först och vad eleverna förväntas förstå. Om svaren skiljer sig behöver designen eller signaleringen justeras.</p>
+<p>Lägg undan ett material en stund och granska det sedan utan din muntliga förklaring. Notera vad ögat dras till först och vad eleverna förväntas förstå. Om det visuella fokuset inte motsvarar lärandemålet behöver designen eller signaleringen justeras.</p>
 `,
   9: `
 <h2>Mål</h2>
@@ -365,7 +365,7 @@ const expanded = {
 <h3>En digital plattform</h3>
 <p>Leverantören visar hög aktivitet och nöjda användare. Skolan frågar om elevernas lärande jämförts med ordinarie undervisning, om effekten kvarstår och vilka undervisningsmoment verktyget ersätter.</p>
 <h3>En ny lektionsrutin</h3>
-<p>Arbetslaget prövar återkallningsstarter i ett avgränsat område. Frågorna, tidsåtgången och ett fördröjt kunskapsmått bestäms gemensamt. Resultatet används för förbättring, inte för att bevisa en favoritteori.</p>
+<p>Läraren prövar återkallningsstarter i ett avgränsat område. Frågorna, tidsåtgången och ett fördröjt kunskapsmått bestäms i förväg. Resultatet används för förbättring, inte för att bevisa en favoritteori.</p>
 <h3>Ett uppmärksammat forskningsresultat</h3>
 <p>Läraren söker originalkällan eller en systematisk översikt, granskar population och utfall och skiljer forskarnas slutsats från rubrikens mer långtgående påstående.</p>
 
@@ -479,6 +479,197 @@ const factCheckAdditions = {
 <p>När en metod införs lokalt bör uppföljningen inte användas som ett enkelt bevis på orsak. Förbättring kan sammanfalla med andra förändringar. Använd därför resultatet som beslutsunderlag: dokumentera vad som ändrades, kontrollera lärande efter tid och leta aktivt efter alternativa förklaringar.</p>`,
 };
 
+const deepeningAdditions = {
+  3: `
+<h2>Diagnostisera belastning i en verklig lektion</h2>
+<p>Att en elev säger ”det är för mycket” kan vara viktig information, men visar inte vilken belastning som orsakar problemet. Börja med en uppgiftsanalys. Vilka nya begrepp, symboler, relationer och handlingar måste hållas aktiva samtidigt? Vilka av dem borde redan vara automatiserade? Var behöver eleven växla mellan tavla, text, tabell och muntlig instruktion?</p>
+<p>Tre mönster kan vägleda nästa beslut:</p>
+<ul>
+<li><strong>Många fastnar på samma punkt.</strong> Granska förklaringen, ordningsföljden och nödvändiga förkunskaper.</li>
+<li><strong>Nybörjare fastnar men kunniga elever lyckas.</strong> Lägg till stöd för den första gruppen utan att göra det obligatoriskt för alla.</li>
+<li><strong>Elever kan återge steg men inte använda dem.</strong> Problemet är kanske inte mängden information utan att relationerna och beslutspunkterna inte blivit synliga.</li>
+</ul>
+
+<h2>Från tydlig förklaring till självständig användning</h2>
+<ol>
+<li><strong>Förbered.</strong> Kontrollera två eller tre nödvändiga förkunskaper.</li>
+<li><strong>Orientera.</strong> Ange vad eleverna ska förstå och vad de ska bortse från just nu.</li>
+<li><strong>Modellera i sammanhängande steg.</strong> Visa både vad du gör och varför.</li>
+<li><strong>Kontrollera mellan stegen.</strong> Be alla svara på en fråga som visar om relationen har förståtts.</li>
+<li><strong>Foga samman och avveckla.</strong> Visa helheten och låt eleverna använda den med mindre stöd.</li>
+</ol>
+<p>Små steg är alltså ett medel, inte målet. Om undervisningen aldrig återgår till helheten kan eleverna lära isolerade procedurer utan att förstå när och varför de ska användas.</p>
+
+<h2>Ytterligare ämnesexempel</h2>
+<h3>Engelska</h3>
+<p>Vid hörförståelse får eleverna först två frågor som riktar uppmärksamheten mot huvudidé och talare. Först vid en andra lyssning tillkommer detaljer. Att läsa tio frågor samtidigt som ljudet spelas kan annars flytta resurser från lyssnandet till sökandet i frågebladet.</p>
+<h3>Historia</h3>
+<p>En komplex orsaksmodell byggs i lager: bakgrundsvillkor, utlösande händelse och aktörers beslut. När varje lager har förklarats fogas de samman och eleverna får pröva vilken typ av orsak ett nytt exempel representerar.</p>`,
+  4: `
+<h2>Välj vad eleverna ska återkalla</h2>
+<p>En frågebank bör spegla ämnets kunskapsstruktur. Om frågorna nästan bara gäller termer kan eleverna förbättra faktaminnet utan att träna relationer, procedurval eller förklaringar. Fördela därför frågorna mellan minst fyra typer:</p>
+<ul>
+<li><strong>Fakta och begrepp:</strong> Vad betyder erosion?</li>
+<li><strong>Relationer:</strong> Hur hänger erosion och transport ihop?</li>
+<li><strong>Procedurer och beslut:</strong> Vilken metod passar och varför?</li>
+<li><strong>Organisation:</strong> Rita processen eller ordna delarna i en struktur.</li>
+</ul>
+<p>Frågan ska ligga nära det framtida användningsmålet. Om eleven senare ska skriva en förklaring bör åtminstone några återkallningar kräva att relationerna uttrycks, inte bara att rätt alternativ känns igen.</p>
+
+<h2>En återkallningscykel över flera veckor</h2>
+<p>Planera återkallning på kursnivå, inte bara som en spontan startaktivitet. Efter första undervisningen kan en idé återkomma nästa lektion, följande vecka och senare i ett blandat sammanhang. Varje återkomst kan förändras från enkel framplockning till jämförelse och tillämpning.</p>
+<ol>
+<li>Första återkomsten: återge kärnan med kort svar.</li>
+<li>Andra återkomsten: förklara sambandet eller rekonstruera en modell.</li>
+<li>Tredje återkomsten: skilj idén från ett närliggande begrepp.</li>
+<li>Senare återkomst: använd kunskapen i en ny uppgift.</li>
+</ol>
+
+<h2>Använd svarsmönstret som undervisningsdata</h2>
+<p>Räkna inte bara rätt och fel. Sortera orsaken till felen. Om nästan alla saknar samma del behövs sannolikt ny undervisning. Om svaren är splittrade kan två kontrasterande exempel vara bättre. Om eleverna kan svaret men inte motivera det behöver nästa aktivitet rikta sig mot relationen. Om kunskapen återkommer efter en liten ledtråd kan ett kortare mellanrum eller mer självständig återkallning vara nästa steg.</p>
+<p>Återkallning är inte ett neutralt tillägg till en full kurs. Den tar tid. Prioritera därför generativ kunskap som behövs för senare förståelse och använd hellre några väl valda frågor återkommande än en stor mängd perifera fakta.</p>`,
+  5: `
+<h2>Planera återkomst i läroplanen</h2>
+<p>Utspridd övning fungerar bäst när återkomsten byggs in redan vid långtidsplaneringen. Gör en enkel återkomstkarta: välj fem till åtta kärnidéer, ange när de först undervisas och reservera korta tillfällen för återkallning, jämförelse och senare tillämpning. Då blir repetition inte något som läggs in först när provet närmar sig.</p>
+<p>En återkomst behöver inte vara en kopia av den första lektionen. Den kan vara en enda startfråga, ett exempel i en ny text, ett metodval eller en kort förklaring. Det avgörande är att eleven åter behöver aktivera och använda samma kunskapsstruktur.</p>
+
+<h2>Så väljer du vad som ska blandas</h2>
+<p>Blanda kategorier som elever behöver kunna skilja åt. Bra kandidater är metoder som har liknande yta men olika villkor, begrepp som ofta förväxlas eller texttyper där elever måste urskilja funktion. Undvik att blanda enbart för variationens skull.</p>
+<ol>
+<li>Undervisa och modellera varje kategori till en grundläggande nivå.</li>
+<li>Välj två eller tre kategorier med en meningsfull kontrast.</li>
+<li>Låt eleven ange kategori eller metod före själva lösningen.</li>
+<li>Be om kännetecknet som styr valet.</li>
+<li>Lägg senare till fler kategorier och mindre typiska exempel.</li>
+</ol>
+
+<h2>Skilj önskvärd svårighet från dålig design</h2>
+<p>Att prestationen sjunker under blandad eller utspridd övning kan vara väntat, men varje svårighet är inte önskvärd. Svårigheten är produktiv när den får eleven att återkalla, urskilja eller välja relevant kunskap och när återkoppling gör en korrigering möjlig. Den är mindre produktiv när instruktionen är oklar, förkunskaper saknas eller uppgiften kräver flera nya saker samtidigt.</p>
+
+<h2>Ytterligare ämnesexempel</h2>
+<p>I språk kan ord återkomma i läsning, muntligt samtal och senare skrivande, men blockvis träning kan fortfarande behövas när en ny böjningsform introduceras. I kemi kan reaktionstyper blandas först när eleverna har en grundmodell för varje typ. I historia kan olika orsaksförklaringar jämföras över arbetsområden så att eleverna övar på att välja förklaringsnivå, inte bara minnas en tidsperiod.</p>`,
+  6: `
+<h2>Bygg en kunskapsarkitektur före arbetsområdet</h2>
+<p>Innan material och aktiviteter väljs kan läraren rita en enkel ämneskarta. Börja med slutmålet och arbeta bakåt: vilka begrepp, fakta, procedurer och relationer måste finnas för att eleven ska kunna resonera? Markera vad som är nödvändigt, vad som kan undervisas parallellt och vad som bör vänta.</p>
+<p>En användbar karta skiljer mellan att känna till en term och att förstå dess relationer. För fotosyntes räcker det exempelvis inte att känna igen koldioxid och syre. Eleven behöver koppla materia, energi, växtens massa och cellernas processer. Den kartan hjälper läraren att formulera frågor som prövar mer än ordkunskap.</p>
+
+<h2>En fullständig sekvens för begreppsundervisning</h2>
+<ol>
+<li><strong>Diagnos:</strong> Ge ett fall som avslöjar hur eleverna redan kategoriserar.</li>
+<li><strong>Definition:</strong> Formulera de avgörande egenskaperna med ämnesmässig precision.</li>
+<li><strong>Typiska exempel:</strong> Gör kärnan lätt att se.</li>
+<li><strong>Icke-exempel:</strong> Visa vad som saknas och varför fallet inte tillhör kategorin.</li>
+<li><strong>Gränsfall:</strong> Pröva om eleverna använder egenskaperna i stället för ytliga kännetecken.</li>
+<li><strong>Relationer:</strong> Placera begreppet i ett nät av över-, under- och sidobegrepp.</li>
+<li><strong>Återkomst:</strong> Låt eleverna använda begreppet i förklaring och nytt sammanhang.</li>
+</ol>
+
+<h2>Förkunskaper och läsförståelse</h2>
+<p>Strategier som att sammanfatta och ställa frågor är användbara, men förståelsen av en ämnestext beror också på kunskap om textens ord, referenser och innehåll. Inför svår läsning kan läraren därför förundervisa ett begränsat antal generativa begrepp, ge en orienterande modell och sedan låta eleverna läsa med en tydlig ämnesfråga.</p>
+<p>Det betyder inte att varje detalj ska berättas före läsningen. För mycket förundervisning kan göra texten överflödig och ta bort elevens meningsskapande. Välj sådant som annars skulle blockera förståelsen.</p>
+
+<h2>Ytterligare ämnesexempel</h2>
+<p>I matematik kan funktion organiseras genom relationerna representation, förändring och beroende, inte som en samling separata formler. I religionskunskap kan ritual, symbol och berättelse jämföras utan att alla traditioner framställs som likadana. I svenska kan berättarperspektiv kopplas till vilken information läsaren får och vilken effekt det skapar.</p>`,
+  7: `
+<h2>Vad läraren behöver modellera</h2>
+<p>Modellering bör omfatta tre lager. Det första är handlingen: vad gör jag? Det andra är beslutet: varför väljer jag just detta steg? Det tredje är kontrollen: hur vet jag att resultatet håller? Om bara handlingen visas kan eleverna imitera proceduren men sakna grund för att välja den självständigt.</p>
+<p>Ett tänk-högt behöver vara förberett. Expertens verkliga tänkande är ofta snabbt och komprimerat. Läraren behöver därför sakta ned, välja de beslut som är undervisningsbara och undvika långa sidospår som belastar mer än de förklarar.</p>
+
+<h2>Designa en serie av exempel</h2>
+<p>Ett enda exempel kan göra att eleverna kopplar principen till oviktiga ytdrag. Planera i stället exempelpar:</p>
+<ul>
+<li><strong>Samma princip, olika yta:</strong> visar vad som är stabilt.</li>
+<li><strong>Liknande yta, olika princip:</strong> tränar urskiljning och metodval.</li>
+<li><strong>Korrekt och bristfälligt exempel:</strong> synliggör kvalitetskriterier.</li>
+<li><strong>Fullständigt och delvis löst exempel:</strong> skapar en bro till eget arbete.</li>
+</ul>
+<p>Be eleverna jämföra exemplen innan de producerar en generell regel. Läraren behöver sedan precisera regeln så att en tillfällig elevformulering inte blir den slutliga ämnesdefinitionen.</p>
+
+<h2>Beslutspunkter för avvecklat stöd</h2>
+<p>Planera stödet som nivåer: full modell, markerade beslut, delvis lösning, kontrollista och självständig uppgift. Bestäm vilket belägg som krävs för nästa nivå. Det kan vara två korrekta lösningar med motivering eller att eleven upptäcker och rättar ett fel.</p>
+<p>Om elever misslyckas efter att stödet minskat behöver läraren avgöra om de saknar principen eller bara behöver en mindre ledtråd för att återkalla den. Att direkt ge hela modellen igen kan göra elever passiva; att lämna dem utan stöd kan befästa gissning.</p>
+
+<h2>Ytterligare ämnesexempel</h2>
+<p>I bild kan läraren modellera hur komposition bedöms, inte bara hur ett verktyg används. I samhällskunskap kan en modellanalys visa hur ett påstående kopplas till belägg och ett perspektiv. I programmering kan ett kodexempel kommenteras utifrån problemuppdelning, villkor och kontroll, följt av en version där strategiska rader saknas.</p>`,
+  8: `
+<h2>Bestäm representationens funktion</h2>
+<p>Varje representation bör ha ett tydligt jobb. En bild kan visa rumslig relation, en tidslinje ordning, en graf förändring, en tabell jämförelse och en animation en process över tid. Om läraren inte kan formulera vad representationen tillför bör den tas bort eller omarbetas.</p>
+<p>Olika representationer av samma innehåll behöver översättas explicit. Elever ser inte alltid att en kemisk formel, en partikelbild och en observation beskriver samma förlopp. Peka ut motsvarigheter och låt eleverna själva gå från en form till en annan.</p>
+
+<h2>Granska ett bildspel sida för sida</h2>
+<ol>
+<li>Vilken enda idé ska sidan hjälpa eleven att förstå?</li>
+<li>Vad drar blicken till sig först, och är det rätt sak?</li>
+<li>Måste eleven samtidigt läsa och lyssna på konkurrerande formuleringar?</li>
+<li>Finns etiketter och förklaringar nära den del de beskriver?</li>
+<li>Behöver figuren byggas stegvis eller kunna pausas?</li>
+<li>Vilken fråga får eleven att använda informationen?</li>
+</ol>
+<p>En presentationsbild är inte en lärobokssida. Lång text kan ibland behövas för självständig läsning, men då bör läraren ge lästid och inte samtidigt hålla en annan muntlig förklaring.</p>
+
+<h2>Anteckningar som bearbetning</h2>
+<p>Att kopiera en färdig bild kan ge ett dokument utan att skapa förståelse. Ge i stället korta pauser där eleverna rekonstruerar en modell, skriver en relation eller kompletterar en delvis färdig figur. Därefter behöver de jämföra med en korrekt version så att fel inte lämnas okorrigerade.</p>
+
+<h2>Ytterligare ämnesexempel</h2>
+<p>I geografi kan lager i en karta visas ett i taget innan eleverna kombinerar höjd, nederbörd och markanvändning. I matematik kan samma lutning markeras i graf, tabell och formel. I musik kan notbild, ljud och handrörelse samordnas vid den punkt där relationen ska uppmärksammas. I alla fallen ska kombinationen följa ämnet, inte en påstådd lärstil.</p>
+
+<h2>När rörelse och animation tillför något</h2>
+<p>Animation är särskilt motiverad när själva förändringen över tid är innehållet, exempelvis blodets väg, en geometrisk transformation eller hur en mekanism rör sig. Men informationen försvinner medan eleven tittar. Ge därför kontroll över tempo och paus, markera den aktuella delen och komplettera vid behov med en beständig översiktsbild. Om en serie stillbilder visar samma relation tydligare och gör jämförelse lättare kan de vara ett bättre val.</p>`,
+  9: `
+<h2>Konstruera frågor bakifrån från felsvaret</h2>
+<p>Börja inte bara med rätt svar. Lista två eller tre sätt som elever rimligen kan tänka fel på och bygg alternativ eller följdfrågor som skiljer dem åt. En fråga är diagnostisk när olika svar leder till olika tolkningar och undervisningsbeslut.</p>
+<p>Frågor kan fylla olika funktioner: kontrollera en nödvändig förkunskap, följa ett steg i en förklaring, skilja närliggande begrepp eller pröva överföring. Märk frågorna i planeringen så att inte alla råkar ligga på igenkänningsnivå.</p>
+
+<h2>Planera beslutströsklar</h2>
+<ul>
+<li><strong>Nästan alla korrekta med rimlig motivering:</strong> minska stödet eller gå vidare.</li>
+<li><strong>Gruppen är delad mellan två tankesätt:</strong> jämför svaren och använd ett avgörande exempel.</li>
+<li><strong>Ett felsvar dominerar:</strong> undervisa om relationen på nytt i stället för att bara upprepa facit.</li>
+<li><strong>Svaren är slumpmässiga:</strong> kontrollera instruktion, språk och nödvändiga förkunskaper.</li>
+</ul>
+<p>Procentsatserna är inte universella. En säkerhetsregel i kemi kan kräva full behärskning, medan en tidig hypotesfråga främst kartlägger variationen i tänkandet.</p>
+
+<h2>En återkopplingscykel som leder till arbete</h2>
+<ol>
+<li>Påminn om målet eller kvalitetskriteriet.</li>
+<li>Peka ut den viktigaste skillnaden mellan nuvarande svar och målet.</li>
+<li>Ge en konkret nästa handling, fråga eller ledtråd.</li>
+<li>Låt eleven bearbeta medan stödet fortfarande är tillgängligt.</li>
+<li>Kontrollera en ny version eller närliggande uppgift.</li>
+</ol>
+<p>Kamratåterkoppling kräver också undervisning. Elever behöver se exempel på användbara kommentarer, arbeta med en begränsad kvalitetsdimension och ha ansvar för att förbättra sin egen produkt. Att bara byta texter skapar inte automatiskt god återkoppling.</p>
+
+<h2>Ytterligare ämnesexempel</h2>
+<p>I fysik kan alla först rita kraftpilar och därefter motivera en vald pil. I engelska kan läraren samla tre anonyma meningar och fråga vilket register de signalerar. I historia kan samma källa bedömas mot två olika frågor för att visa att användbarhet beror på syftet.</p>`,
+  10: `
+<h2>En trappa för evidensstyrka</h2>
+<p>Olika källor kan besvara olika frågor. En teori föreslår en mekanism. Ett kontrollerat experiment kan stärka ett orsakspåstående under avgränsade villkor. En klassrumsstudie prövar genomförbarhet i en mer autentisk miljö. En systematisk översikt sammanväger ett område men är beroende av de ingående studierna. Ingen nivå gör de andra överflödiga.</p>
+<p>När du läser en sammanfattning, försök hitta kedjan tillbaka: originalstudie, jämförelse, deltagare, uppgift, utfall och tidsintervall. Ett påstående om ”bättre lärande” kan annars bygga på snabbare prestation direkt efter aktiviteten.</p>
+
+<h2>Granska ett påstående i sex steg</h2>
+<ol>
+<li><strong>Precisera:</strong> Vad påstås fungera, för vem och till vilket mål?</li>
+<li><strong>Jämför:</strong> Vad fick kontrollgruppen eller den alternativa undervisningen?</li>
+<li><strong>Mät:</strong> Var utfallet minne, förståelse, överföring, motivation eller upplevelse?</li>
+<li><strong>Tid:</strong> Mättes effekten direkt eller efter ett relevant intervall?</li>
+<li><strong>Variation:</strong> Hur säkert och hur enhetligt var resultatet?</li>
+<li><strong>Kostnad:</strong> Vad tränger metoden undan och vilka elever riskerar att missgynnas?</li>
+</ol>
+
+<h2>Från forskning till lokalt beslut</h2>
+<p>Översätt inte en princip direkt till ett skolövergripande krav. Formulera först vilket lokalt problem den ska lösa. Bestäm en liten förändring, vad som ska vara oförändrat och vilket elevnära utfall som följs. Använd både korta processmått och ett fördröjt lärandemått.</p>
+<p>Ett lokalt före- och efterresultat kan ge viktig information men bevisar sällan ensam orsak. Elevgrupp, innehåll, bedömning och andra förändringar kan skilja sig. Ställ därför frågan ”är detta tillräckligt lovande för att fortsätta och förbättra?” snarare än ”har vi bevisat att metoden fungerar?”.</p>
+
+<h2>Vanliga varningssignaler</h2>
+<ul>
+<li>Metoden sägs fungera för alla mål, ämnen och åldrar.</li>
+<li>Endast nöjdhet eller aktivitet redovisas som lärande.</li>
+<li>Jämförelsealternativet är oklart eller uppenbart svagt.</li>
+<li>En liten studie presenteras som slutgiltig.</li>
+<li>Begränsningar försvinner när resultatet återges i sociala medier eller marknadsföring.</li>
+</ul>`,
+};
+
 for (const chapter of data.chapters) {
   if (expanded[chapter.number]) {
     chapter.contentHtml = expanded[chapter.number].trim();
@@ -509,11 +700,18 @@ const chapter2 = data.chapters.find((chapter) => chapter.number === 2);
 if (chapter2 && !chapter2.contentHtml.includes("Reflektion och arbetsuppgift")) {
   chapter2.contentHtml = chapter2.contentHtml.replace(
     "<h2>Övergång till kapitel 3</h2>",
-    `<h2>Reflektion och arbetsuppgift</h2><p>Planera en kommande lektion med modellens fem rubriker. Be sedan en kollega granska om kontrollen verkligen prövar målet och om valet matchar det identifierade hindret. Ändra en del utifrån granskningen.</p>\n\n<h2>Övergång till kapitel 3</h2>`,
+    `<h2>Reflektion och arbetsuppgift</h2><p>Planera en kommande lektion med modellens fem rubriker. Granska sedan själv om kontrollen verkligen prövar målet och om valet matchar det identifierade hindret. Ändra en del utifrån granskningen.</p>\n\n<h2>Övergång till kapitel 3</h2>`,
   );
 }
-
 for (const chapter of data.chapters.slice(0, 10)) {
+  const deepening = deepeningAdditions[chapter.number];
+  if (deepening && !chapter.contentHtml.includes("Diagnostisera belastning i en verklig lektion") && !chapter.contentHtml.includes("Välj vad eleverna ska återkalla") && !chapter.contentHtml.includes("Planera återkomst i läroplanen") && !chapter.contentHtml.includes("Bygg en kunskapsarkitektur före arbetsområdet") && !chapter.contentHtml.includes("Vad läraren behöver modellera") && !chapter.contentHtml.includes("Bestäm representationens funktion") && !chapter.contentHtml.includes("Konstruera frågor bakifrån från felsvaret") && !chapter.contentHtml.includes("En trappa för evidensstyrka")) {
+    chapter.contentHtml = chapter.contentHtml.replace(
+      "<h2>Reflektion och arbetsuppgift</h2>",
+      `${deepening.trim()}\n\n<h2>Reflektion och arbetsuppgift</h2>`,
+    );
+  }
+
   const addition = factCheckAdditions[chapter.number];
   if (addition && !chapter.contentHtml.includes("Forskningsläge och viktiga avgränsningar")) {
     chapter.contentHtml = chapter.contentHtml.replace(
@@ -541,6 +739,11 @@ const factCheckResources = {
     reference: "McDermott, K. B. (2021). Practicing retrieval facilitates learning. Annual Review of Psychology, 72, 609–633.",
     url: "https://doi.org/10.1146/annurev-psych-010419-051019",
     description: "Översikt över effekter, mekanismer och användningsområden för återkallningsövning.",
+  }, {
+    title: "Testing (Quizzing) Boosts Classroom Learning",
+    reference: "Yang, C., Luo, L., Vadillo, M. A., Yu, R., & Shanks, D. R. (2021). Testing (quizzing) boosts classroom learning: A systematic and meta-analytic review. Psychological Bulletin, 147(4), 399–435.",
+    url: "https://doi.org/10.1037/bul0000309",
+    description: "Systematisk översikt och metaanalys av testförstärkt lärande i verkliga utbildningsmiljöer.",
   }],
   5: [
     {
@@ -561,6 +764,24 @@ const factCheckResources = {
     reference: "Kalyuga, S., & Renkl, A. (2010). Expertise reversal effect and its instructional implications: Introduction to the special issue. Instructional Science, 38, 209–215.",
     url: "https://doi.org/10.1007/s11251-009-9102-0",
     description: "Förklarar varför stöd som hjälper nybörjare kan bli redundant när ämnesspecifik expertis växer.",
+  }],
+  6: [{
+    title: "The Landscape of Research on Prior Knowledge and Learning",
+    reference: "Bittermann, A., McNamara, D., Simonsmeier, B. A., & Schneider, M. (2023). The landscape of research on prior knowledge and learning: A bibliometric analysis. Educational Psychology Review, 35, 58.",
+    url: "https://doi.org/10.1007/s10648-023-09775-9",
+    description: "Kartlägger forskning om hur ämnesspecifika förkunskaper kan stödja, hindra eller ha liten effekt på nytt lärande.",
+  }],
+  8: [{
+    title: "Principles for Reducing Extraneous Processing in Multimedia Learning",
+    reference: "Mayer, R. E., & Fiorella, L. (2014). Principles for reducing extraneous processing in multimedia learning. In R. E. Mayer (Ed.), The Cambridge Handbook of Multimedia Learning (2nd ed., pp. 279–315). Cambridge University Press.",
+    url: "https://doi.org/10.1017/CBO9781139547369.015",
+    description: "Sammanfattar forskning om koherens, signalering, redundans samt rumslig och tidsmässig närhet.",
+  }],
+  9: [{
+    title: "A Meta-analysis of Digitally Delivered Instructional Feedback",
+    reference: "Brummer, L., de Boer, H., Mouw, J. M., & Strijbos, J.-W. (2024). A meta-analysis of the effects of context, content, and task factors of digitally delivered instructional feedback on learning performance. Learning Environments Research, 27, 453–476.",
+    url: "https://doi.org/10.1007/s10984-024-09501-4",
+    description: "Visar att återkopplingens effekt varierar med fokus, ämne, uppgift, bedömningsform och elevens möjlighet att använda informationen.",
   }],
   10: [{
     title: "Learning Styles: Concepts and Evidence",
@@ -803,11 +1024,27 @@ if (teacherExampleChapter) {
   if (!teacherExampleChapter.contentHtml.includes('id="teacher-example-bank"')) {
     teacherExampleChapter.contentHtml += `
 <h2>Exempelbank för din undervisning</h2>
-<p>Välj ett eller flera ämnen och ett eller flera stadier. Du kan därför göra ett gemensamt urval även om du undervisar i två ämnen eller flera kurser. Inom ämnesgruppen och stadiumgruppen kan flera alternativ kombineras.</p>
+<p>Välj ett eller flera ämnen och ett eller flera stadier. Du kan därför göra ett kombinerat urval om du undervisar i två ämnen eller flera kurser. Varje exempel anger ett konkret lärarproblem, lektionssteg, kontroll av förståelse (<em>check for understanding</em>), nästa undervisningsbeslut, fördröjd kontroll, kopplingar till kapitel 1–10 och en kontrollerad koppling till Skolverkets styrdokument.</p>
+<p>Exemplen för F–3, 4–6 och 7–9 är placerade mot Lgr22. För F–3 redovisas förskoleklassens ämnesövergripande del 3 separat från ämnenas centrala innehåll för årskurs 1–3. Gymnasieexemplen är placerade mot aktuella ämnesnivåer i Gy25 och visar även nivåkod. Kopplingen visar vilket centralt innehåll exemplet kan användas för; den ersätter inte lärarens planering av ämnets hela centrala innehåll.</p>
 <div id="teacher-example-bank" class="teacher-example-bank" aria-live="polite">
   <p>Exempelbanken laddas …</p>
 </div>`;
   }
+
+  teacherExampleChapter.contentHtml = teacherExampleChapter.contentHtml.replace(
+    "Välj ett eller flera ämnen och ett eller flera stadier. Du kan därför göra ett gemensamt urval även om du undervisar i två ämnen eller flera kurser. Inom ämnesgruppen och stadiumgruppen kan flera alternativ kombineras.",
+    "Välj ett eller flera ämnen och ett eller flera stadier. Du kan därför göra ett kombinerat urval om du undervisar i två ämnen eller flera kurser. Varje exempel anger ett konkret lärarproblem, lektionssteg, kontroll av förståelse (<em>check for understanding</em>), nästa undervisningsbeslut, fördröjd kontroll, kopplingar till kapitel 1–10 och en kontrollerad koppling till Skolverkets styrdokument. Exemplen för F–3, 4–6 och 7–9 är placerade mot Lgr22. För F–3 redovisas förskoleklassens ämnesövergripande del 3 separat från ämnenas centrala innehåll för årskurs 1–3. Gymnasieexemplen är placerade mot aktuella ämnesnivåer i Gy25 och visar även nivåkod. Kopplingen visar vilket centralt innehåll exemplet kan användas för; den ersätter inte lärarens planering av ämnets hela centrala innehåll.",
+  );
+
+  teacherExampleChapter.contentHtml = teacherExampleChapter.contentHtml.replace(
+    "<p>Exemplen för F–3, 4–6 och 7–9 är placerade mot Lgr22. Gymnasieexemplen är placerade mot aktuella ämnesnivåer i Gy25 och visar även nivåkod. Kopplingen visar vilket centralt innehåll exemplet kan användas för; den ersätter inte lärarens planering av ämnets hela centrala innehåll.</p>",
+    "<p>Exemplen för F–3, 4–6 och 7–9 är placerade mot Lgr22. För F–3 redovisas förskoleklassens ämnesövergripande del 3 separat från ämnenas centrala innehåll för årskurs 1–3. Gymnasieexemplen är placerade mot aktuella ämnesnivåer i Gy25 och visar även nivåkod. Kopplingen visar vilket centralt innehåll exemplet kan användas för; den ersätter inte lärarens planering av ämnets hela centrala innehåll.</p>",
+  );
+
+  teacherExampleChapter.contentHtml = teacherExampleChapter.contentHtml.replace(
+    "<p>Välj ett eller flera ämnen och ett eller flera stadier. Du kan därför göra ett kombinerat urval om du undervisar i två ämnen eller flera kurser. Varje exempel anger ett konkret lärarproblem, lektionssteg, kontroll av förståelse (<em>check for understanding</em>), nästa undervisningsbeslut, fördröjd kontroll och kopplingar till kapitel 1–10.</p>",
+    "<p>Välj ett eller flera ämnen och ett eller flera stadier. Du kan därför göra ett kombinerat urval om du undervisar i två ämnen eller flera kurser. Varje exempel anger ett konkret lärarproblem, lektionssteg, kontroll av förståelse (<em>check for understanding</em>), nästa undervisningsbeslut, fördröjd kontroll, kopplingar till kapitel 1–10 och en kontrollerad koppling till Skolverkets styrdokument.</p><p>Exemplen för F–3, 4–6 och 7–9 är placerade mot Lgr22. För F–3 redovisas förskoleklassens ämnesövergripande del 3 separat från ämnenas centrala innehåll för årskurs 1–3. Gymnasieexemplen är placerade mot aktuella ämnesnivåer i Gy25 och visar även nivåkod. Kopplingen visar vilket centralt innehåll exemplet kan användas för; den ersätter inte lärarens planering av ämnets hela centrala innehåll.</p>",
+  );
 }
 
 fs.writeFileSync(dataPath, `${JSON.stringify(data, null, 2)}\n`);

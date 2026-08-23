@@ -19,7 +19,7 @@
 1. Lärare i grundskola och gymnasium.
 2. Lärare i svenska, matematik, engelska, samhällskunskap, historia, biologi, kemi och fysik.
 3. Lärarstudenter som vill förstå hur forskning om lärande kan omsättas i undervisning.
-4. Pedagogiska ledare och kollegiala lärgrupper som vill utveckla undervisning på skolnivå.
+4. Lärare som vill utveckla och följa upp sin egen undervisning.
 
 ### Grundidé
 Boken ska inte främst vara en uppslagsbok över kognitionsvetenskapliga begrepp. Den ska vara en praktisk handbok för undervisningsbeslut.
@@ -61,7 +61,7 @@ Varje huvudkapitel bör följa samma grundstruktur:
 6. **Gränsvillkor** - när principen fungerar bättre eller sämre.
 7. **Checklista** - få punkter som går att använda vid planering.
 8. **Miniquiz** - kort återkallning av kapitlets huvudidéer.
-9. **Reflektionsfrågor** - för egen planering eller kollegialt lärande.
+9. **Reflektionsfrågor** - för lärarens egen planering.
 
 ### Viktig ton
 Boken bör vara tydlig men inte dogmatisk. Den ska undvika formuleringar som antyder att en metod alltid fungerar. I stället bör den visa:
@@ -425,7 +425,7 @@ Bilagorna ska samla sådant som är användbart men som skulle göra huvudkapitl
 - Formativ bedömning
 
 ### Bilaga B: Quizbank
-**Syfte:** Ge färdiga frågor för återkallning, kollegialt lärande och självtest.
+**Syfte:** Ge färdiga frågor för återkallning och självtest.
 
 **Innehåll:**
 - Flervalsfrågor.
@@ -443,7 +443,7 @@ Bilagorna ska samla sådant som är användbart men som skulle göra huvudkapitl
 - Mall för worked examples.
 - Mall för begreppsundervisning.
 - Mall för laboration med förutsägelse, observation och förklaring.
-- Mall för kollegial lektionsplanering.
+- Mall för individuell lektionsplanering.
 
 ### Bilaga D: Forskningskarta
 **Syfte:** Visa vilka rapporter, böcker och forskningsområden som ligger bakom boken.
