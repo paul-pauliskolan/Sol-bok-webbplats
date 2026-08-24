@@ -2,7 +2,7 @@
   "metadata": {
     "programme": "Teknikprogrammet",
     "framework": "Gy25",
-    "updated": "2026-08-23",
+    "updated": "2026-08-24",
     "apiSource": "https://api.skolverket.se/syllabus/v2/subjects/TEKI",
     "note": "Skolverkets formuleringar återges oförändrade. Undervisningsförslagen är redaktionella SoL-tillämpningar och ska lärargranskas."
   },
@@ -13376,6 +13376,1127 @@
                   "chapter": 6,
                   "usedIn": "Moment 3 – eleverna jämför fall som kräver olika slutsatser eller val",
                   "rationale": "synliggör den avgörande skillnaden mellan närliggande fall"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engelska",
+      "name": "Engelska",
+      "subjectCode": "ENGE",
+      "levels": [
+        {
+          "id": "enge-1",
+          "name": "Nivå 1",
+          "levelCode": "ENGE1000X",
+          "points": 100,
+          "status": "Redaktionellt piloturval",
+          "sourceUrl": "https://syllabuswebb.skolverket.se/syllabuscw/jsp/subject.htm?subjectCode=ENGE&tos=gy",
+          "centralContent": [
+            {
+              "id": "enge1-01",
+              "area": "Kommunikationens innehåll",
+              "text": "Aktuella och bekanta ämnesområden, även med anknytning till samhälls- och arbetsliv och till elevernas utbildning.",
+              "goal": "Eleven kan presentera en teknisk lösning med relevant ämnesspråk och tydlig mottagaranpassning.",
+              "lesson": {
+                "title": "Pitcha en teknisk lösning på engelska",
+                "duration": "2 × 70 minuter",
+                "steps": [
+                  "Starta individuellt utan stöd: skriv fem engelska ord för problem, funktion, krav och nytta",
+                  "Läraren modellerar och tänker högt: en kort pitch byggs från problem till lösning, belägg och nästa steg",
+                  "Eleverna arbetar parvis med stöd: förbättra en vag pitch genom att precisera fackord och mottagare",
+                  "Varje elev genomför självständigt: spela in en 90-sekunders pitch för en vald teknisk idé"
+                ],
+                "check": "Kan en ny lyssnare återge problemet, lösningen och ett belägg?",
+                "delayedCheck": "En vecka senare görs en ny pitch utan skrivmall."
+              },
+              "solMethods": [
+                "Aktiv återkallning",
+                "Kontrasterande exempel"
+              ],
+              "sources": [],
+              "prerequisites": [
+                "muntlig disposition",
+                "ämnesord",
+                "mottagare"
+              ],
+              "likelyDifficulty": "ämnesinnehållet blir allmänt och språket anpassas inte till mottagaren",
+              "exampleOrModel": "en kort pitch byggs från problem till lösning, belägg och nästa steg",
+              "guidedPractice": "förbättra en vag pitch genom att precisera fackord och mottagare",
+              "independentPractice": "spela in en 90-sekunders pitch för en vald teknisk idé",
+              "contrastOrVariation": "Jämför samma idé presenterad för en ingenjör och en möjlig användare.",
+              "decisionRule": "Om fler än 25 procent visar att eleven radar upp tekniska ord utan begriplig förklaring, modellerar läraren den kritiska skillnaden igen med ett nytt exempel. Annars går gruppen vidare till överföringsuppgiften.",
+              "transferTask": "Förklara samma lösning i ett kort engelskt supportmeddelande.",
+              "methodRationale": [
+                {
+                  "method": "Aktiv återkallning",
+                  "rationale": "stärker framplockning och visar vad eleven kan återkalla utan stöd"
+                },
+                {
+                  "method": "Kontrasterande exempel",
+                  "rationale": "synliggör den avgörande skillnaden mellan närliggande fall"
+                }
+              ],
+              "evidenceSources": [
+                {
+                  "title": "A Little Guide for Teachers: Cognitive Load Theory - Greg Ashman",
+                  "url": "https://www.sagepub.com/shop/buy-a-book/a-little-guide-for-teachers-cognitive-load-theory-1-283309",
+                  "role": "Arbetsminne, genomarbetade exempel och gradvis minskat stöd"
+                },
+                {
+                  "title": "Embedded Formative Assessment, Second Edition - Dylan Wiliam",
+                  "url": "https://hawkerbrownlow.com/products/embedded-formative-assessment-second-edition",
+                  "role": "Kontroll av förståelse och nästa undervisningsbeslut"
+                },
+                {
+                  "title": "The Science of Learning, Second Edition - Deans for Impact",
+                  "url": "https://www.deansforimpact.org/resources/the-science-of-learning/",
+                  "role": "Förkunskaper, minne, övning och självreglering"
+                }
+              ],
+              "reviewStatus": "Redaktionellt SoL-förslag - ej ämneslärargranskat",
+              "teachingMethods": [
+                "Lärarmodellering"
+              ],
+              "studentActivities": [
+                "Överföringsuppgift"
+              ],
+              "solPrincipleReferences": [
+                {
+                  "method": "Aktiv återkallning",
+                  "chapter": 4
+                },
+                {
+                  "method": "Kontrasterande exempel",
+                  "chapter": 6
+                }
+              ],
+              "implementation": {
+                "preparation": "Förbered ett lärarvisat exempel och en ny självständig uppgift för ”Pitcha en teknisk lösning på engelska”. Numrera materialet så att inget facit eller senare stöd syns under startuppgiften.",
+                "materials": [
+                  "Projektor eller skrivtavla",
+                  "Individuella svarsblad eller digital avslutningsfråga"
+                ],
+                "sequence": [
+                  {
+                    "title": "Start och förkunskaper",
+                    "time": "15 minuter",
+                    "teacherAction": "Visa startuppgiften utan facit. Ge tyst betänketid och samla svar från samtliga innan diskussionen börjar. Uppgiften är: Starta individuellt utan stöd: skriv fem engelska ord för problem, funktion, krav och nytta",
+                    "studentAction": "Arbeta individuellt utan stöd och lämna ett första svar: Starta individuellt utan stöd: skriv fem engelska ord för problem, funktion, krav och nytta",
+                    "evidence": "Ett individuellt startsvar som visar vilka förkunskaper som kan återkallas utan hjälp."
+                  },
+                  {
+                    "title": "Lärarens modell",
+                    "time": "30 minuter",
+                    "teacherAction": "Genomför exemplet stegvis och tänk högt om vad som uppmärksammas, vilket val som görs och hur valet kontrolleras: modellerar och tänker högt: en kort pitch byggs från problem till lösning, belägg och nästa steg",
+                    "studentAction": "Följ modellen, markera det avgörande beslutet och skriv en fråga om ett steg som ännu inte är tydligt.",
+                    "evidence": "En markering och kort förklaring av det avgörande valet i lärarens exempel."
+                  },
+                  {
+                    "title": "Guidad bearbetning",
+                    "time": "45 minuter",
+                    "teacherAction": "Fördela den guidade uppgiften, stanna vid den kritiska skillnaden och begär motivering före besked om rätt svar: förbättra en vag pitch genom att precisera fackord och mottagare",
+                    "studentAction": "Lös uppgiften parvis, jämför lösningarna och formulera en gemensam motivering: förbättra en vag pitch genom att precisera fackord och mottagare",
+                    "evidence": "En gemensam lösning där paret kan förklara varför den fungerar trots den sannolika svårigheten: ämnesinnehållet blir allmänt och språket anpassas inte till mottagaren"
+                  },
+                  {
+                    "title": "Självständig tillämpning",
+                    "time": "50 minuter",
+                    "teacherAction": "Ta bort stödmallen och ge den självständiga uppgiften. Samla ett svar från varje elev: spela in en 90-sekunders pitch för en vald teknisk idé",
+                    "studentAction": "Genomför och lämna den avslutande prestationen individuellt: spela in en 90-sekunders pitch för en vald teknisk idé",
+                    "evidence": "Kan en ny lyssnare återge problemet, lösningen och ett belägg?"
+                  }
+                ],
+                "teacherQuestions": [
+                  "Kan en ny lyssnare återge problemet, lösningen och ett belägg?",
+                  "Vilket val eller textställe är avgörande för att nå målet: Eleven kan presentera en teknisk lösning med relevant ämnesspråk och tydlig mottagaranpassning.",
+                  "Hur kan du kontrollera att ditt svar inte bygger på följande vanliga svårighet: ämnesinnehållet blir allmänt och språket anpassas inte till mottagaren"
+                ],
+                "expectedEvidence": "Ett godtagbart individuellt svar visar med relevanta steg, belägg eller representationer att eleven kan presentera en teknisk lösning med relevant ämnesspråk och tydlig mottagaranpassning.",
+                "commonDifficulty": "ämnesinnehållet blir allmänt och språket anpassas inte till mottagaren",
+                "adjustment": "Om fler än 25 procent visar att eleven radar upp tekniska ord utan begriplig förklaring, modellerar läraren den kritiska skillnaden igen med ett nytt exempel. Annars går gruppen vidare till överföringsuppgiften.",
+                "delayedFollowUp": "En vecka senare görs en ny pitch utan skrivmall."
+              },
+              "solAnalysis": [
+                {
+                  "principle": "Aktiv återkallning",
+                  "chapter": 4,
+                  "usedIn": "Moment 1 – start och individuell återkallning",
+                  "rationale": "stärker framplockning och visar vad eleven kan återkalla utan stöd"
+                },
+                {
+                  "principle": "Kontrasterande exempel",
+                  "chapter": 6,
+                  "usedIn": "Moment 3 – eleverna jämför fall som kräver olika slutsatser eller val",
+                  "rationale": "synliggör den avgörande skillnaden mellan närliggande fall"
+                }
+              ]
+            },
+            {
+              "id": "enge1-02",
+              "area": "Reception",
+              "text": "Talad engelska och texter som är berättande, förklarande, diskuterande, argumenterande och rapporterande, till exempel intervjuer, reportage, manualer och enklare populärvetenskapliga texter.",
+              "goal": "Eleven kan urskilja texttyp, huvudbudskap, belägg och reservationer i en engelskspråkig text.",
+              "lesson": {
+                "title": "Läs en populärvetenskaplig tekniktext",
+                "duration": "2 × 70 minuter",
+                "steps": [
+                  "Starta individuellt utan stöd: sortera signalord för förklaring, argument och reservation",
+                  "Läraren modellerar och tänker högt: ett stycke annoteras från huvudidé till belägg och försiktig slutsats",
+                  "Eleverna arbetar parvis med stöd: jämför en manual, ett reportage och en argumenterande text om samma teknik",
+                  "Varje elev genomför självständigt: skriv en källnära sammanfattning av en ny text"
+                ],
+                "check": "Markera den mening som bäst bär textens huvudbudskap och motivera.",
+                "delayedCheck": "Efter fem dagar sammanfattas en ny text utan annoteringsmall."
+              },
+              "solMethods": [
+                "Aktiv återkallning",
+                "Kontrasterande exempel"
+              ],
+              "sources": [],
+              "prerequisites": [
+                "huvudidé",
+                "texttyp",
+                "signalord"
+              ],
+              "likelyDifficulty": "eleven översätter mening för mening men rekonstruerar inte textens resonemang",
+              "exampleOrModel": "ett stycke annoteras från huvudidé till belägg och försiktig slutsats",
+              "guidedPractice": "jämför en manual, ett reportage och en argumenterande text om samma teknik",
+              "independentPractice": "skriv en källnära sammanfattning av en ny text",
+              "contrastOrVariation": "Jämför en korrekt detaljlista med en sammanfattning som visar relationerna.",
+              "decisionRule": "Om fler än 25 procent visar att sammanfattningen består av detaljer utan relation, modellerar läraren den kritiska skillnaden igen med ett nytt exempel. Annars går gruppen vidare till överföringsuppgiften.",
+              "transferTask": "Använd läsmodellen på en engelskspråkig manual.",
+              "methodRationale": [
+                {
+                  "method": "Aktiv återkallning",
+                  "rationale": "stärker framplockning och visar vad eleven kan återkalla utan stöd"
+                },
+                {
+                  "method": "Kontrasterande exempel",
+                  "rationale": "synliggör den avgörande skillnaden mellan närliggande fall"
+                }
+              ],
+              "evidenceSources": [
+                {
+                  "title": "A Little Guide for Teachers: Cognitive Load Theory - Greg Ashman",
+                  "url": "https://www.sagepub.com/shop/buy-a-book/a-little-guide-for-teachers-cognitive-load-theory-1-283309",
+                  "role": "Arbetsminne, genomarbetade exempel och gradvis minskat stöd"
+                },
+                {
+                  "title": "Embedded Formative Assessment, Second Edition - Dylan Wiliam",
+                  "url": "https://hawkerbrownlow.com/products/embedded-formative-assessment-second-edition",
+                  "role": "Kontroll av förståelse och nästa undervisningsbeslut"
+                },
+                {
+                  "title": "The Science of Learning, Second Edition - Deans for Impact",
+                  "url": "https://www.deansforimpact.org/resources/the-science-of-learning/",
+                  "role": "Förkunskaper, minne, övning och självreglering"
+                }
+              ],
+              "reviewStatus": "Redaktionellt SoL-förslag - ej ämneslärargranskat",
+              "teachingMethods": [
+                "Lärarmodellering"
+              ],
+              "studentActivities": [
+                "Överföringsuppgift"
+              ],
+              "solPrincipleReferences": [
+                {
+                  "method": "Aktiv återkallning",
+                  "chapter": 4
+                },
+                {
+                  "method": "Kontrasterande exempel",
+                  "chapter": 6
+                }
+              ],
+              "implementation": {
+                "preparation": "Förbered ett lärarvisat exempel och en ny självständig uppgift för ”Läs en populärvetenskaplig tekniktext”. Numrera materialet så att inget facit eller senare stöd syns under startuppgiften.",
+                "materials": [
+                  "Projektor eller skrivtavla",
+                  "Individuella svarsblad eller digital avslutningsfråga",
+                  "Ett fungerande och ett problematiskt textexempel"
+                ],
+                "sequence": [
+                  {
+                    "title": "Start och förkunskaper",
+                    "time": "15 minuter",
+                    "teacherAction": "Visa startuppgiften utan facit. Ge tyst betänketid och samla svar från samtliga innan diskussionen börjar. Uppgiften är: Starta individuellt utan stöd: sortera signalord för förklaring, argument och reservation",
+                    "studentAction": "Arbeta individuellt utan stöd och lämna ett första svar: Starta individuellt utan stöd: sortera signalord för förklaring, argument och reservation",
+                    "evidence": "Ett individuellt startsvar som visar vilka förkunskaper som kan återkallas utan hjälp."
+                  },
+                  {
+                    "title": "Lärarens modell",
+                    "time": "30 minuter",
+                    "teacherAction": "Genomför exemplet stegvis och tänk högt om vad som uppmärksammas, vilket val som görs och hur valet kontrolleras: modellerar och tänker högt: ett stycke annoteras från huvudidé till belägg och försiktig slutsats",
+                    "studentAction": "Följ modellen, markera det avgörande beslutet och skriv en fråga om ett steg som ännu inte är tydligt.",
+                    "evidence": "En markering och kort förklaring av det avgörande valet i lärarens exempel."
+                  },
+                  {
+                    "title": "Guidad bearbetning",
+                    "time": "45 minuter",
+                    "teacherAction": "Fördela den guidade uppgiften, stanna vid den kritiska skillnaden och begär motivering före besked om rätt svar: jämför en manual, ett reportage och en argumenterande text om samma teknik",
+                    "studentAction": "Lös uppgiften parvis, jämför lösningarna och formulera en gemensam motivering: jämför en manual, ett reportage och en argumenterande text om samma teknik",
+                    "evidence": "En gemensam lösning där paret kan förklara varför den fungerar trots den sannolika svårigheten: eleven översätter mening för mening men rekonstruerar inte textens resonemang"
+                  },
+                  {
+                    "title": "Självständig tillämpning",
+                    "time": "50 minuter",
+                    "teacherAction": "Ta bort stödmallen och ge den självständiga uppgiften. Samla ett svar från varje elev: skriv en källnära sammanfattning av en ny text",
+                    "studentAction": "Genomför och lämna den avslutande prestationen individuellt: skriv en källnära sammanfattning av en ny text",
+                    "evidence": "Markera den mening som bäst bär textens huvudbudskap och motivera."
+                  }
+                ],
+                "teacherQuestions": [
+                  "Markera den mening som bäst bär textens huvudbudskap och motivera.",
+                  "Vilket val eller textställe är avgörande för att nå målet: Eleven kan urskilja texttyp, huvudbudskap, belägg och reservationer i en engelskspråkig text.",
+                  "Hur kan du kontrollera att ditt svar inte bygger på följande vanliga svårighet: eleven översätter mening för mening men rekonstruerar inte textens resonemang"
+                ],
+                "expectedEvidence": "Ett godtagbart individuellt svar visar med relevanta steg, belägg eller representationer att eleven kan urskilja texttyp, huvudbudskap, belägg och reservationer i en engelskspråkig text.",
+                "commonDifficulty": "eleven översätter mening för mening men rekonstruerar inte textens resonemang",
+                "adjustment": "Om fler än 25 procent visar att sammanfattningen består av detaljer utan relation, modellerar läraren den kritiska skillnaden igen med ett nytt exempel. Annars går gruppen vidare till överföringsuppgiften.",
+                "delayedFollowUp": "Efter fem dagar sammanfattas en ny text utan annoteringsmall."
+              },
+              "solAnalysis": [
+                {
+                  "principle": "Aktiv återkallning",
+                  "chapter": 4,
+                  "usedIn": "Moment 1 – start och individuell återkallning",
+                  "rationale": "stärker framplockning och visar vad eleven kan återkalla utan stöd"
+                },
+                {
+                  "principle": "Kontrasterande exempel",
+                  "chapter": 6,
+                  "usedIn": "Moment 3 – eleverna jämför fall som kräver olika slutsatser eller val",
+                  "rationale": "synliggör den avgörande skillnaden mellan närliggande fall"
+                }
+              ]
+            },
+            {
+              "id": "enge1-03",
+              "area": "Reception",
+              "text": "Sökning av innehåll i källor av olika slag och utifrån olika syften. Värdering av källornas relevans och trovärdighet.",
+              "goal": "Eleven kan söka lateralt, hitta ursprungskällan och värdera relevans och trovärdighet på engelska.",
+              "lesson": {
+                "title": "Spåra ett tekniskt påstående",
+                "duration": "2 × 70 minuter",
+                "steps": [
+                  "Starta individuellt utan stöd: skilj primärkälla, rapportering och kommentar",
+                  "Läraren modellerar och tänker högt: ett viralt batteripåstående spåras tillbaka till rapportens faktiska resultat",
+                  "Eleverna arbetar parvis med stöd: kartlägg beroenden mellan tre engelskspråkiga webbkällor",
+                  "Varje elev genomför självständigt: skriv en kort source evaluation med belägg och begränsning"
+                ],
+                "check": "Är källorna oberoende, och stöder originalet verkligen påståendet?",
+                "delayedCheck": "En vecka senare granskas ett nytt AI-påstående utan källmatris."
+              },
+              "solMethods": [
+                "Aktiv återkallning"
+              ],
+              "sources": [],
+              "prerequisites": [
+                "avsändare",
+                "primärkälla",
+                "relevans"
+              ],
+              "likelyDifficulty": "professionell form eller många träffar förväxlas med oberoende belägg",
+              "exampleOrModel": "ett viralt batteripåstående spåras tillbaka till rapportens faktiska resultat",
+              "guidedPractice": "kartlägg beroenden mellan tre engelskspråkiga webbkällor",
+              "independentPractice": "skriv en kort source evaluation med belägg och begränsning",
+              "contrastOrVariation": "Jämför tre återpubliceringar med två verkligt oberoende källor.",
+              "decisionRule": "Om fler än 25 procent visar att eleven inte kan hitta eller beskriva originalkällan, modellerar läraren den kritiska skillnaden igen med ett nytt exempel. Annars går gruppen vidare till överföringsuppgiften.",
+              "transferTask": "Granska ett engelskspråkigt produktpåstående från en tillverkare.",
+              "methodRationale": [
+                {
+                  "method": "Aktiv återkallning",
+                  "rationale": "stärker framplockning och visar vad eleven kan återkalla utan stöd"
+                }
+              ],
+              "evidenceSources": [
+                {
+                  "title": "A Little Guide for Teachers: Cognitive Load Theory - Greg Ashman",
+                  "url": "https://www.sagepub.com/shop/buy-a-book/a-little-guide-for-teachers-cognitive-load-theory-1-283309",
+                  "role": "Arbetsminne, genomarbetade exempel och gradvis minskat stöd"
+                },
+                {
+                  "title": "Embedded Formative Assessment, Second Edition - Dylan Wiliam",
+                  "url": "https://hawkerbrownlow.com/products/embedded-formative-assessment-second-edition",
+                  "role": "Kontroll av förståelse och nästa undervisningsbeslut"
+                },
+                {
+                  "title": "The Science of Learning, Second Edition - Deans for Impact",
+                  "url": "https://www.deansforimpact.org/resources/the-science-of-learning/",
+                  "role": "Förkunskaper, minne, övning och självreglering"
+                }
+              ],
+              "reviewStatus": "Redaktionellt SoL-förslag - ej ämneslärargranskat",
+              "teachingMethods": [
+                "Lärarmodellering",
+                "Felanalys"
+              ],
+              "studentActivities": [
+                "Överföringsuppgift"
+              ],
+              "solPrincipleReferences": [
+                {
+                  "method": "Aktiv återkallning",
+                  "chapter": 4
+                }
+              ],
+              "implementation": {
+                "preparation": "Förbered ett lärarvisat exempel och en ny självständig uppgift för ”Spåra ett tekniskt påstående”. Numrera materialet så att inget facit eller senare stöd syns under startuppgiften.",
+                "materials": [
+                  "Projektor eller skrivtavla",
+                  "Individuella svarsblad eller digital avslutningsfråga"
+                ],
+                "sequence": [
+                  {
+                    "title": "Start och förkunskaper",
+                    "time": "15 minuter",
+                    "teacherAction": "Visa startuppgiften utan facit. Ge tyst betänketid och samla svar från samtliga innan diskussionen börjar. Uppgiften är: Starta individuellt utan stöd: skilj primärkälla, rapportering och kommentar",
+                    "studentAction": "Arbeta individuellt utan stöd och lämna ett första svar: Starta individuellt utan stöd: skilj primärkälla, rapportering och kommentar",
+                    "evidence": "Ett individuellt startsvar som visar vilka förkunskaper som kan återkallas utan hjälp."
+                  },
+                  {
+                    "title": "Lärarens modell",
+                    "time": "30 minuter",
+                    "teacherAction": "Genomför exemplet stegvis och tänk högt om vad som uppmärksammas, vilket val som görs och hur valet kontrolleras: modellerar och tänker högt: ett viralt batteripåstående spåras tillbaka till rapportens faktiska resultat",
+                    "studentAction": "Följ modellen, markera det avgörande beslutet och skriv en fråga om ett steg som ännu inte är tydligt.",
+                    "evidence": "En markering och kort förklaring av det avgörande valet i lärarens exempel."
+                  },
+                  {
+                    "title": "Guidad bearbetning",
+                    "time": "45 minuter",
+                    "teacherAction": "Fördela den guidade uppgiften, stanna vid den kritiska skillnaden och begär motivering före besked om rätt svar: kartlägg beroenden mellan tre engelskspråkiga webbkällor",
+                    "studentAction": "Lös uppgiften parvis, jämför lösningarna och formulera en gemensam motivering: kartlägg beroenden mellan tre engelskspråkiga webbkällor",
+                    "evidence": "En gemensam lösning där paret kan förklara varför den fungerar trots den sannolika svårigheten: professionell form eller många träffar förväxlas med oberoende belägg"
+                  },
+                  {
+                    "title": "Självständig tillämpning",
+                    "time": "50 minuter",
+                    "teacherAction": "Ta bort stödmallen och ge den självständiga uppgiften. Samla ett svar från varje elev: skriv en kort source evaluation med belägg och begränsning",
+                    "studentAction": "Genomför och lämna den avslutande prestationen individuellt: skriv en kort source evaluation med belägg och begränsning",
+                    "evidence": "Är källorna oberoende, och stöder originalet verkligen påståendet?"
+                  }
+                ],
+                "teacherQuestions": [
+                  "Är källorna oberoende, och stöder originalet verkligen påståendet?",
+                  "Vilket val eller textställe är avgörande för att nå målet: Eleven kan söka lateralt, hitta ursprungskällan och värdera relevans och trovärdighet på engelska.",
+                  "Hur kan du kontrollera att ditt svar inte bygger på följande vanliga svårighet: professionell form eller många träffar förväxlas med oberoende belägg"
+                ],
+                "expectedEvidence": "Ett godtagbart individuellt svar visar med relevanta steg, belägg eller representationer att eleven kan söka lateralt, hitta ursprungskällan och värdera relevans och trovärdighet på engelska.",
+                "commonDifficulty": "professionell form eller många träffar förväxlas med oberoende belägg",
+                "adjustment": "Om fler än 25 procent visar att eleven inte kan hitta eller beskriva originalkällan, modellerar läraren den kritiska skillnaden igen med ett nytt exempel. Annars går gruppen vidare till överföringsuppgiften.",
+                "delayedFollowUp": "En vecka senare granskas ett nytt AI-påstående utan källmatris."
+              },
+              "solAnalysis": [
+                {
+                  "principle": "Aktiv återkallning",
+                  "chapter": 4,
+                  "usedIn": "Moment 1 – start och individuell återkallning",
+                  "rationale": "stärker framplockning och visar vad eleven kan återkalla utan stöd"
+                }
+              ]
+            },
+            {
+              "id": "enge1-04",
+              "area": "Produktion och interaktion",
+              "text": "Muntlig och skriftlig produktion och interaktion av olika slag, även i mer formella sammanhang, där eleverna instruerar, berättar, sammanfattar, förklarar, motiverar sina åsikter, värderar och diskuterar.",
+              "goal": "Eleven kan föreslå, motivera, bemöta och sammanfatta beslut i ett formellt samtal.",
+              "lesson": {
+                "title": "Tekniskt designmöte på engelska",
+                "duration": "2 × 70 minuter",
+                "steps": [
+                  "Starta individuellt utan stöd: återkalla fraser för förslag, invändning, förtydligande och sammanfattning",
+                  "Läraren modellerar och tänker högt: ett designbeslut diskuteras med tydliga språkhandlingar och sakliga skäl",
+                  "Eleverna arbetar parvis med stöd: genomför ett rollkortssamtal med turordnings- och frasstöd",
+                  "Varje elev genomför självständigt: leda ett kort designmöte och skriva en beslutssammanfattning"
+                ],
+                "check": "Kan eleven både utveckla eget skäl och korrekt återge någon annans?",
+                "delayedCheck": "Nästa projektmöte genomförs med minskat frasstöd."
+              },
+              "solMethods": [
+                "Aktiv återkallning",
+                "Gradvis minskat stöd"
+              ],
+              "sources": [],
+              "prerequisites": [
+                "samtalsstrategier",
+                "motivering",
+                "sammanfattning"
+              ],
+              "likelyDifficulty": "samtalet blir parallella monologer utan bemötande eller gemensamt beslut",
+              "exampleOrModel": "ett designbeslut diskuteras med tydliga språkhandlingar och sakliga skäl",
+              "guidedPractice": "genomför ett rollkortssamtal med turordnings- och frasstöd",
+              "independentPractice": "leda ett kort designmöte och skriva en beslutssammanfattning",
+              "contrastOrVariation": "Jämför artig oenighet som utvecklar sakfrågan med en fras som bara låter formell.",
+              "decisionRule": "Om fler än 25 procent visar att eleven endast framför egen åsikt, modellerar läraren den kritiska skillnaden igen med ett nytt exempel. Annars går gruppen vidare till överföringsuppgiften.",
+              "transferTask": "Använd strategierna i en muntlig kamratgranskning.",
+              "methodRationale": [
+                {
+                  "method": "Aktiv återkallning",
+                  "rationale": "stärker framplockning och visar vad eleven kan återkalla utan stöd"
+                },
+                {
+                  "method": "Gradvis minskat stöd",
+                  "rationale": "flyttar ansvaret stegvis från lärarens modell till elevens självständiga arbete"
+                }
+              ],
+              "evidenceSources": [
+                {
+                  "title": "A Little Guide for Teachers: Cognitive Load Theory - Greg Ashman",
+                  "url": "https://www.sagepub.com/shop/buy-a-book/a-little-guide-for-teachers-cognitive-load-theory-1-283309",
+                  "role": "Arbetsminne, genomarbetade exempel och gradvis minskat stöd"
+                },
+                {
+                  "title": "Embedded Formative Assessment, Second Edition - Dylan Wiliam",
+                  "url": "https://hawkerbrownlow.com/products/embedded-formative-assessment-second-edition",
+                  "role": "Kontroll av förståelse och nästa undervisningsbeslut"
+                },
+                {
+                  "title": "The Science of Learning, Second Edition - Deans for Impact",
+                  "url": "https://www.deansforimpact.org/resources/the-science-of-learning/",
+                  "role": "Förkunskaper, minne, övning och självreglering"
+                }
+              ],
+              "reviewStatus": "Redaktionellt SoL-förslag - ej ämneslärargranskat",
+              "teachingMethods": [
+                "Lärarmodellering"
+              ],
+              "studentActivities": [
+                "Överföringsuppgift"
+              ],
+              "solPrincipleReferences": [
+                {
+                  "method": "Aktiv återkallning",
+                  "chapter": 4
+                },
+                {
+                  "method": "Gradvis minskat stöd",
+                  "chapter": 7
+                }
+              ],
+              "implementation": {
+                "preparation": "Förbered ett lärarvisat exempel och en ny självständig uppgift för ”Tekniskt designmöte på engelska”. Numrera materialet så att inget facit eller senare stöd syns under startuppgiften.",
+                "materials": [
+                  "Projektor eller skrivtavla",
+                  "Individuella svarsblad eller digital avslutningsfråga"
+                ],
+                "sequence": [
+                  {
+                    "title": "Start och förkunskaper",
+                    "time": "15 minuter",
+                    "teacherAction": "Visa startuppgiften utan facit. Ge tyst betänketid och samla svar från samtliga innan diskussionen börjar. Uppgiften är: Starta individuellt utan stöd: återkalla fraser för förslag, invändning, förtydligande och sammanfattning",
+                    "studentAction": "Arbeta individuellt utan stöd och lämna ett första svar: Starta individuellt utan stöd: återkalla fraser för förslag, invändning, förtydligande och sammanfattning",
+                    "evidence": "Ett individuellt startsvar som visar vilka förkunskaper som kan återkallas utan hjälp."
+                  },
+                  {
+                    "title": "Lärarens modell",
+                    "time": "30 minuter",
+                    "teacherAction": "Genomför exemplet stegvis och tänk högt om vad som uppmärksammas, vilket val som görs och hur valet kontrolleras: modellerar och tänker högt: ett designbeslut diskuteras med tydliga språkhandlingar och sakliga skäl",
+                    "studentAction": "Följ modellen, markera det avgörande beslutet och skriv en fråga om ett steg som ännu inte är tydligt.",
+                    "evidence": "En markering och kort förklaring av det avgörande valet i lärarens exempel."
+                  },
+                  {
+                    "title": "Guidad bearbetning",
+                    "time": "45 minuter",
+                    "teacherAction": "Fördela den guidade uppgiften, stanna vid den kritiska skillnaden och begär motivering före besked om rätt svar: genomför ett rollkortssamtal med turordnings- och frasstöd",
+                    "studentAction": "Lös uppgiften parvis, jämför lösningarna och formulera en gemensam motivering: genomför ett rollkortssamtal med turordnings- och frasstöd",
+                    "evidence": "En gemensam lösning där paret kan förklara varför den fungerar trots den sannolika svårigheten: samtalet blir parallella monologer utan bemötande eller gemensamt beslut"
+                  },
+                  {
+                    "title": "Självständig tillämpning",
+                    "time": "50 minuter",
+                    "teacherAction": "Ta bort stödmallen och ge den självständiga uppgiften. Samla ett svar från varje elev: leda ett kort designmöte och skriva en beslutssammanfattning",
+                    "studentAction": "Genomför och lämna den avslutande prestationen individuellt: leda ett kort designmöte och skriva en beslutssammanfattning",
+                    "evidence": "Kan eleven både utveckla eget skäl och korrekt återge någon annans?"
+                  }
+                ],
+                "teacherQuestions": [
+                  "Kan eleven både utveckla eget skäl och korrekt återge någon annans?",
+                  "Vilket val eller textställe är avgörande för att nå målet: Eleven kan föreslå, motivera, bemöta och sammanfatta beslut i ett formellt samtal.",
+                  "Hur kan du kontrollera att ditt svar inte bygger på följande vanliga svårighet: samtalet blir parallella monologer utan bemötande eller gemensamt beslut"
+                ],
+                "expectedEvidence": "Ett godtagbart individuellt svar visar med relevanta steg, belägg eller representationer att eleven kan föreslå, motivera, bemöta och sammanfatta beslut i ett formellt samtal.",
+                "commonDifficulty": "samtalet blir parallella monologer utan bemötande eller gemensamt beslut",
+                "adjustment": "Om fler än 25 procent visar att eleven endast framför egen åsikt, modellerar läraren den kritiska skillnaden igen med ett nytt exempel. Annars går gruppen vidare till överföringsuppgiften.",
+                "delayedFollowUp": "Nästa projektmöte genomförs med minskat frasstöd."
+              },
+              "solAnalysis": [
+                {
+                  "principle": "Aktiv återkallning",
+                  "chapter": 4,
+                  "usedIn": "Moment 1 – start och individuell återkallning",
+                  "rationale": "stärker framplockning och visar vad eleven kan återkalla utan stöd"
+                },
+                {
+                  "principle": "Gradvis minskat stöd",
+                  "chapter": 7,
+                  "usedIn": "Moment 2–4 – modell följs av guidad och sedan självständig tillämpning",
+                  "rationale": "flyttar ansvaret stegvis från lärarens modell till elevens självständiga arbete"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fysik",
+      "name": "Fysik",
+      "subjectCode": "FYSK",
+      "levels": [
+        {
+          "id": "fysk-1b",
+          "name": "Nivå 1b",
+          "levelCode": "FYSK1B00X",
+          "points": 150,
+          "status": "Redaktionellt piloturval",
+          "sourceUrl": "https://syllabuswebb.skolverket.se/syllabuscw/jsp/subject.htm?subjectCode=FYSK&tos=gy",
+          "centralContent": [
+            {
+              "id": "fysk1b-01",
+              "area": "Krafter och rörelse",
+              "text": "Likformig och likformigt accelererad rätlinjig rörelse. Krafter och impuls som orsak till förändring av hastighet och rörelsemängd.",
+              "goal": "Eleven kan koppla position, hastighet, acceleration och resulterande kraft i flera representationer.",
+              "lesson": {
+                "title": "Från rörelsediagram till kraftmodell",
+                "duration": "2 × 70 minuter",
+                "steps": [
+                  "Starta individuellt utan stöd: skissa grafer för konstant hastighet och konstant acceleration",
+                  "Läraren modellerar och tänker högt: en vagnrörelse översätts mellan video, tabell, grafer och kraftdiagram",
+                  "Eleverna arbetar parvis med stöd: matcha rörelsefall med grafer och diagnostisera två typiska fel",
+                  "Varje elev genomför självständigt: analysera en ny rörelse och motivera kraftens riktning"
+                ],
+                "check": "Vilken observation visar acceleration, och vad säger den om resulterande kraft?",
+                "delayedCheck": "Efter en vecka blandas rörelsefall med och utan acceleration."
+              },
+              "solMethods": [
+                "Aktiv återkallning",
+                "Kontrasterande exempel"
+              ],
+              "sources": [],
+              "prerequisites": [
+                "hastighet",
+                "acceleration",
+                "kraft"
+              ],
+              "likelyDifficulty": "hastighet och acceleration blandas ihop och kraft antas krävas i rörelseriktningen",
+              "exampleOrModel": "en vagnrörelse översätts mellan video, tabell, grafer och kraftdiagram",
+              "guidedPractice": "matcha rörelsefall med grafer och diagnostisera två typiska fel",
+              "independentPractice": "analysera en ny rörelse och motivera kraftens riktning",
+              "contrastOrVariation": "Jämför samma hastighet med olika acceleration och samma acceleration med olika hastighet.",
+              "decisionRule": "Om fler än 25 procent visar att eleven ritar framåtriktad nettokraft vid konstant hastighet, modellerar läraren den kritiska skillnaden igen med ett nytt exempel. Annars går gruppen vidare till överföringsuppgiften.",
+              "transferTask": "Analysera en hiss eller elcykel med samma representationskedja.",
+              "methodRationale": [
+                {
+                  "method": "Aktiv återkallning",
+                  "rationale": "stärker framplockning och visar vad eleven kan återkalla utan stöd"
+                },
+                {
+                  "method": "Kontrasterande exempel",
+                  "rationale": "synliggör den avgörande skillnaden mellan närliggande fall"
+                }
+              ],
+              "evidenceSources": [
+                {
+                  "title": "A Little Guide for Teachers: Cognitive Load Theory - Greg Ashman",
+                  "url": "https://www.sagepub.com/shop/buy-a-book/a-little-guide-for-teachers-cognitive-load-theory-1-283309",
+                  "role": "Arbetsminne, genomarbetade exempel och gradvis minskat stöd"
+                },
+                {
+                  "title": "Embedded Formative Assessment, Second Edition - Dylan Wiliam",
+                  "url": "https://hawkerbrownlow.com/products/embedded-formative-assessment-second-edition",
+                  "role": "Kontroll av förståelse och nästa undervisningsbeslut"
+                },
+                {
+                  "title": "The Science of Learning, Second Edition - Deans for Impact",
+                  "url": "https://www.deansforimpact.org/resources/the-science-of-learning/",
+                  "role": "Förkunskaper, minne, övning och självreglering"
+                }
+              ],
+              "reviewStatus": "Redaktionellt SoL-förslag - ej ämneslärargranskat",
+              "teachingMethods": [
+                "Lärarmodellering"
+              ],
+              "studentActivities": [
+                "Överföringsuppgift"
+              ],
+              "solPrincipleReferences": [
+                {
+                  "method": "Aktiv återkallning",
+                  "chapter": 4
+                },
+                {
+                  "method": "Kontrasterande exempel",
+                  "chapter": 6
+                }
+              ],
+              "implementation": {
+                "preparation": "Förbered ett lärarvisat exempel och en ny självständig uppgift för ”Från rörelsediagram till kraftmodell”. Numrera materialet så att inget facit eller senare stöd syns under startuppgiften.",
+                "materials": [
+                  "Projektor eller skrivtavla",
+                  "Individuella svarsblad eller digital avslutningsfråga",
+                  "Exempelmodell eller ritning med avsiktliga tolkningsproblem"
+                ],
+                "sequence": [
+                  {
+                    "title": "Start och förkunskaper",
+                    "time": "15 minuter",
+                    "teacherAction": "Visa startuppgiften utan facit. Ge tyst betänketid och samla svar från samtliga innan diskussionen börjar. Uppgiften är: Starta individuellt utan stöd: skissa grafer för konstant hastighet och konstant acceleration",
+                    "studentAction": "Arbeta individuellt utan stöd och lämna ett första svar: Starta individuellt utan stöd: skissa grafer för konstant hastighet och konstant acceleration",
+                    "evidence": "Ett individuellt startsvar som visar vilka förkunskaper som kan återkallas utan hjälp."
+                  },
+                  {
+                    "title": "Lärarens modell",
+                    "time": "30 minuter",
+                    "teacherAction": "Genomför exemplet stegvis och tänk högt om vad som uppmärksammas, vilket val som görs och hur valet kontrolleras: modellerar och tänker högt: en vagnrörelse översätts mellan video, tabell, grafer och kraftdiagram",
+                    "studentAction": "Följ modellen, markera det avgörande beslutet och skriv en fråga om ett steg som ännu inte är tydligt.",
+                    "evidence": "En markering och kort förklaring av det avgörande valet i lärarens exempel."
+                  },
+                  {
+                    "title": "Guidad bearbetning",
+                    "time": "45 minuter",
+                    "teacherAction": "Fördela den guidade uppgiften, stanna vid den kritiska skillnaden och begär motivering före besked om rätt svar: matcha rörelsefall med grafer och diagnostisera två typiska fel",
+                    "studentAction": "Lös uppgiften parvis, jämför lösningarna och formulera en gemensam motivering: matcha rörelsefall med grafer och diagnostisera två typiska fel",
+                    "evidence": "En gemensam lösning där paret kan förklara varför den fungerar trots den sannolika svårigheten: hastighet och acceleration blandas ihop och kraft antas krävas i rörelseriktningen"
+                  },
+                  {
+                    "title": "Självständig tillämpning",
+                    "time": "50 minuter",
+                    "teacherAction": "Ta bort stödmallen och ge den självständiga uppgiften. Samla ett svar från varje elev: analysera en ny rörelse och motivera kraftens riktning",
+                    "studentAction": "Genomför och lämna den avslutande prestationen individuellt: analysera en ny rörelse och motivera kraftens riktning",
+                    "evidence": "Vilken observation visar acceleration, och vad säger den om resulterande kraft?"
+                  }
+                ],
+                "teacherQuestions": [
+                  "Vilken observation visar acceleration, och vad säger den om resulterande kraft?",
+                  "Vilket val eller textställe är avgörande för att nå målet: Eleven kan koppla position, hastighet, acceleration och resulterande kraft i flera representationer.",
+                  "Hur kan du kontrollera att ditt svar inte bygger på följande vanliga svårighet: hastighet och acceleration blandas ihop och kraft antas krävas i rörelseriktningen"
+                ],
+                "expectedEvidence": "Ett godtagbart individuellt svar visar med relevanta steg, belägg eller representationer att eleven kan koppla position, hastighet, acceleration och resulterande kraft i flera representationer.",
+                "commonDifficulty": "hastighet och acceleration blandas ihop och kraft antas krävas i rörelseriktningen",
+                "adjustment": "Om fler än 25 procent visar att eleven ritar framåtriktad nettokraft vid konstant hastighet, modellerar läraren den kritiska skillnaden igen med ett nytt exempel. Annars går gruppen vidare till överföringsuppgiften.",
+                "delayedFollowUp": "Efter en vecka blandas rörelsefall med och utan acceleration."
+              },
+              "solAnalysis": [
+                {
+                  "principle": "Aktiv återkallning",
+                  "chapter": 4,
+                  "usedIn": "Moment 1 – start och individuell återkallning",
+                  "rationale": "stärker framplockning och visar vad eleven kan återkalla utan stöd"
+                },
+                {
+                  "principle": "Kontrasterande exempel",
+                  "chapter": 6,
+                  "usedIn": "Moment 3 – eleverna jämför fall som kräver olika slutsatser eller val",
+                  "rationale": "synliggör den avgörande skillnaden mellan närliggande fall"
+                }
+              ]
+            },
+            {
+              "id": "fysk1b-02",
+              "area": "Energi, energiresurser och elektromagnetism",
+              "text": "Energiprincipen samt begreppen arbete, effekt och verkningsgrad för att beskriva omvandling, nyttjande och lagring av energi.",
+              "goal": "Eleven kan avgränsa ett system, beräkna energi och effekt samt förklara verkningsgrad utan att energi försvinner.",
+              "lesson": {
+                "title": "Energibokföring för en elcykel",
+                "duration": "2 × 70 minuter",
+                "steps": [
+                  "Starta individuellt utan stöd: ange enheter och relationer för energi, arbete, effekt och verkningsgrad",
+                  "Läraren modellerar och tänker högt: en elcykels energikedja ritas och beräknas med tydlig systemgräns",
+                  "Eleverna arbetar parvis med stöd: felsök energidiagram där värme felaktigt saknas",
+                  "Varje elev genomför självständigt: beräkna räckvidd och ange modellens antaganden"
+                ],
+                "check": "Var finns den energi som inte blir önskad rörelse?",
+                "delayedCheck": "Senare analyseras en vattenkokare med samma energibokföring."
+              },
+              "solMethods": [
+                "Aktiv återkallning",
+                "Kontrasterande exempel"
+              ],
+              "sources": [],
+              "prerequisites": [
+                "energi",
+                "arbete",
+                "procent"
+              ],
+              "likelyDifficulty": "verkningsgrad tolkas som att energi försvinner och systemgränsen förblir oklar",
+              "exampleOrModel": "en elcykels energikedja ritas och beräknas med tydlig systemgräns",
+              "guidedPractice": "felsök energidiagram där värme felaktigt saknas",
+              "independentPractice": "beräkna räckvidd och ange modellens antaganden",
+              "contrastOrVariation": "Jämför nyttig energi med total energi och visa båda i ett Sankeydiagram.",
+              "decisionRule": "Om fler än 25 procent visar att energisumman inte bevaras i elevens modell, modellerar läraren den kritiska skillnaden igen med ett nytt exempel. Annars går gruppen vidare till överföringsuppgiften.",
+              "transferTask": "Jämför energikedjor för batterilagring och vätgas.",
+              "methodRationale": [
+                {
+                  "method": "Aktiv återkallning",
+                  "rationale": "stärker framplockning och visar vad eleven kan återkalla utan stöd"
+                },
+                {
+                  "method": "Kontrasterande exempel",
+                  "rationale": "synliggör den avgörande skillnaden mellan närliggande fall"
+                }
+              ],
+              "evidenceSources": [
+                {
+                  "title": "A Little Guide for Teachers: Cognitive Load Theory - Greg Ashman",
+                  "url": "https://www.sagepub.com/shop/buy-a-book/a-little-guide-for-teachers-cognitive-load-theory-1-283309",
+                  "role": "Arbetsminne, genomarbetade exempel och gradvis minskat stöd"
+                },
+                {
+                  "title": "Embedded Formative Assessment, Second Edition - Dylan Wiliam",
+                  "url": "https://hawkerbrownlow.com/products/embedded-formative-assessment-second-edition",
+                  "role": "Kontroll av förståelse och nästa undervisningsbeslut"
+                },
+                {
+                  "title": "The Science of Learning, Second Edition - Deans for Impact",
+                  "url": "https://www.deansforimpact.org/resources/the-science-of-learning/",
+                  "role": "Förkunskaper, minne, övning och självreglering"
+                }
+              ],
+              "reviewStatus": "Redaktionellt SoL-förslag - ej ämneslärargranskat",
+              "teachingMethods": [
+                "Lärarmodellering"
+              ],
+              "studentActivities": [
+                "Överföringsuppgift"
+              ],
+              "solPrincipleReferences": [
+                {
+                  "method": "Aktiv återkallning",
+                  "chapter": 4
+                },
+                {
+                  "method": "Kontrasterande exempel",
+                  "chapter": 6
+                }
+              ],
+              "implementation": {
+                "preparation": "Förbered ett lärarvisat exempel och en ny självständig uppgift för ”Energibokföring för en elcykel”. Numrera materialet så att inget facit eller senare stöd syns under startuppgiften.",
+                "materials": [
+                  "Projektor eller skrivtavla",
+                  "Individuella svarsblad eller digital avslutningsfråga"
+                ],
+                "sequence": [
+                  {
+                    "title": "Start och förkunskaper",
+                    "time": "15 minuter",
+                    "teacherAction": "Visa startuppgiften utan facit. Ge tyst betänketid och samla svar från samtliga innan diskussionen börjar. Uppgiften är: Starta individuellt utan stöd: ange enheter och relationer för energi, arbete, effekt och verkningsgrad",
+                    "studentAction": "Arbeta individuellt utan stöd och lämna ett första svar: Starta individuellt utan stöd: ange enheter och relationer för energi, arbete, effekt och verkningsgrad",
+                    "evidence": "Ett individuellt startsvar som visar vilka förkunskaper som kan återkallas utan hjälp."
+                  },
+                  {
+                    "title": "Lärarens modell",
+                    "time": "30 minuter",
+                    "teacherAction": "Genomför exemplet stegvis och tänk högt om vad som uppmärksammas, vilket val som görs och hur valet kontrolleras: modellerar och tänker högt: en elcykels energikedja ritas och beräknas med tydlig systemgräns",
+                    "studentAction": "Följ modellen, markera det avgörande beslutet och skriv en fråga om ett steg som ännu inte är tydligt.",
+                    "evidence": "En markering och kort förklaring av det avgörande valet i lärarens exempel."
+                  },
+                  {
+                    "title": "Guidad bearbetning",
+                    "time": "45 minuter",
+                    "teacherAction": "Fördela den guidade uppgiften, stanna vid den kritiska skillnaden och begär motivering före besked om rätt svar: felsök energidiagram där värme felaktigt saknas",
+                    "studentAction": "Lös uppgiften parvis, jämför lösningarna och formulera en gemensam motivering: felsök energidiagram där värme felaktigt saknas",
+                    "evidence": "En gemensam lösning där paret kan förklara varför den fungerar trots den sannolika svårigheten: verkningsgrad tolkas som att energi försvinner och systemgränsen förblir oklar"
+                  },
+                  {
+                    "title": "Självständig tillämpning",
+                    "time": "50 minuter",
+                    "teacherAction": "Ta bort stödmallen och ge den självständiga uppgiften. Samla ett svar från varje elev: beräkna räckvidd och ange modellens antaganden",
+                    "studentAction": "Genomför och lämna den avslutande prestationen individuellt: beräkna räckvidd och ange modellens antaganden",
+                    "evidence": "Var finns den energi som inte blir önskad rörelse?"
+                  }
+                ],
+                "teacherQuestions": [
+                  "Var finns den energi som inte blir önskad rörelse?",
+                  "Vilket val eller textställe är avgörande för att nå målet: Eleven kan avgränsa ett system, beräkna energi och effekt samt förklara verkningsgrad utan att energi försvinner.",
+                  "Hur kan du kontrollera att ditt svar inte bygger på följande vanliga svårighet: verkningsgrad tolkas som att energi försvinner och systemgränsen förblir oklar"
+                ],
+                "expectedEvidence": "Ett godtagbart individuellt svar visar med relevanta steg, belägg eller representationer att eleven kan avgränsa ett system, beräkna energi och effekt samt förklara verkningsgrad utan att energi försvinner.",
+                "commonDifficulty": "verkningsgrad tolkas som att energi försvinner och systemgränsen förblir oklar",
+                "adjustment": "Om fler än 25 procent visar att energisumman inte bevaras i elevens modell, modellerar läraren den kritiska skillnaden igen med ett nytt exempel. Annars går gruppen vidare till överföringsuppgiften.",
+                "delayedFollowUp": "Senare analyseras en vattenkokare med samma energibokföring."
+              },
+              "solAnalysis": [
+                {
+                  "principle": "Aktiv återkallning",
+                  "chapter": 4,
+                  "usedIn": "Moment 1 – start och individuell återkallning",
+                  "rationale": "stärker framplockning och visar vad eleven kan återkalla utan stöd"
+                },
+                {
+                  "principle": "Kontrasterande exempel",
+                  "chapter": 6,
+                  "usedIn": "Moment 3 – eleverna jämför fall som kräver olika slutsatser eller val",
+                  "rationale": "synliggör den avgörande skillnaden mellan närliggande fall"
+                }
+              ]
+            },
+            {
+              "id": "fysk1b-03",
+              "area": "Energi, energiresurser och elektromagnetism",
+              "text": "Elektrisk laddning och elektriska fält samt spänning, ström och resistans. Elektriska kretsar och tillämpningar.",
+              "goal": "Eleven kan förutsäga och förklara ström och spänning i serie- och parallellkretsar.",
+              "lesson": {
+                "title": "Kretsen före formeln",
+                "duration": "2 × 70 minuter",
+                "steps": [
+                  "Starta individuellt utan stöd: rita en sluten krets och markera var ström respektive spänning mäts",
+                  "Läraren modellerar och tänker högt: en krets analyseras kvalitativt före Ohms lag och beräkning",
+                  "Eleverna arbetar parvis med stöd: jämför tre nästan lika kretsar och förutsäg mätvärden före simulering",
+                  "Varje elev genomför självständigt: konstruera en krets som uppfyller givna krav och verifiera den"
+                ],
+                "check": "Förutsäg vilket mätvärde som ändras innan komponenten kopplas om.",
+                "delayedCheck": "Efter fem dagar felsöks en okänd krets utan kopplingsmall."
+              },
+              "solMethods": [
+                "Aktiv återkallning",
+                "Kontrasterande exempel"
+              ],
+              "sources": [],
+              "prerequisites": [
+                "laddning",
+                "potentialskillnad",
+                "sluten krets"
+              ],
+              "likelyDifficulty": "ström förbrukas av komponenter eller spänning och ström behandlas som samma storhet",
+              "exampleOrModel": "en krets analyseras kvalitativt före Ohms lag och beräkning",
+              "guidedPractice": "jämför tre nästan lika kretsar och förutsäg mätvärden före simulering",
+              "independentPractice": "konstruera en krets som uppfyller givna krav och verifiera den",
+              "contrastOrVariation": "Jämför vattenflödesanalogins användbara delar med de delar där den blir missvisande.",
+              "decisionRule": "Om fler än 25 procent visar att eleven förutsäger mindre ström efter en seriekopplad lampa, modellerar läraren den kritiska skillnaden igen med ett nytt exempel. Annars går gruppen vidare till överföringsuppgiften.",
+              "transferTask": "Dimensionera en enkel LED-krets med säkerhetsmotstånd.",
+              "methodRationale": [
+                {
+                  "method": "Aktiv återkallning",
+                  "rationale": "stärker framplockning och visar vad eleven kan återkalla utan stöd"
+                },
+                {
+                  "method": "Kontrasterande exempel",
+                  "rationale": "synliggör den avgörande skillnaden mellan närliggande fall"
+                }
+              ],
+              "evidenceSources": [
+                {
+                  "title": "A Little Guide for Teachers: Cognitive Load Theory - Greg Ashman",
+                  "url": "https://www.sagepub.com/shop/buy-a-book/a-little-guide-for-teachers-cognitive-load-theory-1-283309",
+                  "role": "Arbetsminne, genomarbetade exempel och gradvis minskat stöd"
+                },
+                {
+                  "title": "Embedded Formative Assessment, Second Edition - Dylan Wiliam",
+                  "url": "https://hawkerbrownlow.com/products/embedded-formative-assessment-second-edition",
+                  "role": "Kontroll av förståelse och nästa undervisningsbeslut"
+                },
+                {
+                  "title": "The Science of Learning, Second Edition - Deans for Impact",
+                  "url": "https://www.deansforimpact.org/resources/the-science-of-learning/",
+                  "role": "Förkunskaper, minne, övning och självreglering"
+                }
+              ],
+              "reviewStatus": "Redaktionellt SoL-förslag - ej ämneslärargranskat",
+              "teachingMethods": [
+                "Felanalys"
+              ],
+              "studentActivities": [
+                "Överföringsuppgift"
+              ],
+              "solPrincipleReferences": [
+                {
+                  "method": "Aktiv återkallning",
+                  "chapter": 4
+                },
+                {
+                  "method": "Kontrasterande exempel",
+                  "chapter": 6
+                }
+              ],
+              "implementation": {
+                "preparation": "Förbered ett lärarvisat exempel och en ny självständig uppgift för ”Kretsen före formeln”. Numrera materialet så att inget facit eller senare stöd syns under startuppgiften.",
+                "materials": [
+                  "Projektor eller skrivtavla",
+                  "Individuella svarsblad eller digital avslutningsfråga"
+                ],
+                "sequence": [
+                  {
+                    "title": "Start och förkunskaper",
+                    "time": "15 minuter",
+                    "teacherAction": "Visa startuppgiften utan facit. Ge tyst betänketid och samla svar från samtliga innan diskussionen börjar. Uppgiften är: Starta individuellt utan stöd: rita en sluten krets och markera var ström respektive spänning mäts",
+                    "studentAction": "Arbeta individuellt utan stöd och lämna ett första svar: Starta individuellt utan stöd: rita en sluten krets och markera var ström respektive spänning mäts",
+                    "evidence": "Ett individuellt startsvar som visar vilka förkunskaper som kan återkallas utan hjälp."
+                  },
+                  {
+                    "title": "Lärarens modell",
+                    "time": "30 minuter",
+                    "teacherAction": "Genomför exemplet stegvis och tänk högt om vad som uppmärksammas, vilket val som görs och hur valet kontrolleras: modellerar och tänker högt: en krets analyseras kvalitativt före Ohms lag och beräkning",
+                    "studentAction": "Följ modellen, markera det avgörande beslutet och skriv en fråga om ett steg som ännu inte är tydligt.",
+                    "evidence": "En markering och kort förklaring av det avgörande valet i lärarens exempel."
+                  },
+                  {
+                    "title": "Guidad bearbetning",
+                    "time": "45 minuter",
+                    "teacherAction": "Fördela den guidade uppgiften, stanna vid den kritiska skillnaden och begär motivering före besked om rätt svar: jämför tre nästan lika kretsar och förutsäg mätvärden före simulering",
+                    "studentAction": "Lös uppgiften parvis, jämför lösningarna och formulera en gemensam motivering: jämför tre nästan lika kretsar och förutsäg mätvärden före simulering",
+                    "evidence": "En gemensam lösning där paret kan förklara varför den fungerar trots den sannolika svårigheten: ström förbrukas av komponenter eller spänning och ström behandlas som samma storhet"
+                  },
+                  {
+                    "title": "Självständig tillämpning",
+                    "time": "50 minuter",
+                    "teacherAction": "Ta bort stödmallen och ge den självständiga uppgiften. Samla ett svar från varje elev: konstruera en krets som uppfyller givna krav och verifiera den",
+                    "studentAction": "Genomför och lämna den avslutande prestationen individuellt: konstruera en krets som uppfyller givna krav och verifiera den",
+                    "evidence": "Förutsäg vilket mätvärde som ändras innan komponenten kopplas om."
+                  }
+                ],
+                "teacherQuestions": [
+                  "Förutsäg vilket mätvärde som ändras innan komponenten kopplas om.",
+                  "Vilket val eller textställe är avgörande för att nå målet: Eleven kan förutsäga och förklara ström och spänning i serie- och parallellkretsar.",
+                  "Hur kan du kontrollera att ditt svar inte bygger på följande vanliga svårighet: ström förbrukas av komponenter eller spänning och ström behandlas som samma storhet"
+                ],
+                "expectedEvidence": "Ett godtagbart individuellt svar visar med relevanta steg, belägg eller representationer att eleven kan förutsäga och förklara ström och spänning i serie- och parallellkretsar.",
+                "commonDifficulty": "ström förbrukas av komponenter eller spänning och ström behandlas som samma storhet",
+                "adjustment": "Om fler än 25 procent visar att eleven förutsäger mindre ström efter en seriekopplad lampa, modellerar läraren den kritiska skillnaden igen med ett nytt exempel. Annars går gruppen vidare till överföringsuppgiften.",
+                "delayedFollowUp": "Efter fem dagar felsöks en okänd krets utan kopplingsmall."
+              },
+              "solAnalysis": [
+                {
+                  "principle": "Aktiv återkallning",
+                  "chapter": 4,
+                  "usedIn": "Moment 1 – start och individuell återkallning",
+                  "rationale": "stärker framplockning och visar vad eleven kan återkalla utan stöd"
+                },
+                {
+                  "principle": "Kontrasterande exempel",
+                  "chapter": 6,
+                  "usedIn": "Moment 3 – eleverna jämför fall som kräver olika slutsatser eller val",
+                  "rationale": "synliggör den avgörande skillnaden mellan närliggande fall"
+                }
+              ]
+            },
+            {
+              "id": "fysk1b-04",
+              "area": "Fysikens arbetsmetoder",
+              "text": "Insamling av data från observationer, mätningar och simuleringar. Formulering av frågeställningar samt planering, riskbedömning och utförande av systematiska undersökningar. Bearbetning av data, värdering av metod och resultat samt redovisning med olika uttrycksformer.",
+              "goal": "Eleven kan planera en systematisk undersökning, analysera mätdata och värdera osäkerhet och metod.",
+              "lesson": {
+                "title": "Bestäm g och granska mätningen",
+                "duration": "2 × 70 minuter",
+                "steps": [
+                  "Starta individuellt utan stöd: skilj slumpmässigt fel, systematiskt fel och variation",
+                  "Läraren modellerar och tänker högt: en fallrörelsemätning planeras från fråga till graf, regression och slutsats",
+                  "Eleverna arbetar parvis med stöd: jämför två datamängder och identifiera vilken metodskillnad som förklarar avvikelsen",
+                  "Varje elev genomför självständigt: genomför mätning, redovisa osäkerhet och föreslå en prioriterad förbättring"
+                ],
+                "check": "Vilket belägg stöder slutsatsen och vilken felkälla påverkar mest?",
+                "delayedCheck": "Två veckor senare planeras en ny undersökning utan färdig metodmall."
+              },
+              "solMethods": [
+                "Aktiv återkallning"
+              ],
+              "sources": [],
+              "prerequisites": [
+                "variabel",
+                "graf",
+                "mätnoggrannhet"
+              ],
+              "likelyDifficulty": "många mätningar antas automatiskt ge ett korrekt resultat och felkällor listas utan konsekvens",
+              "exampleOrModel": "en fallrörelsemätning planeras från fråga till graf, regression och slutsats",
+              "guidedPractice": "jämför två datamängder och identifiera vilken metodskillnad som förklarar avvikelsen",
+              "independentPractice": "genomför mätning, redovisa osäkerhet och föreslå en prioriterad förbättring",
+              "contrastOrVariation": "Jämför hög precision med låg riktighet och tvärtom.",
+              "decisionRule": "Om fler än 25 procent visar att eleven inte kan koppla osäkerhet till slutsatsens räckvidd, modellerar läraren den kritiska skillnaden igen med ett nytt exempel. Annars går gruppen vidare till överföringsuppgiften.",
+              "transferTask": "Använd samma granskningsram på data från en simulering.",
+              "methodRationale": [
+                {
+                  "method": "Aktiv återkallning",
+                  "rationale": "stärker framplockning och visar vad eleven kan återkalla utan stöd"
+                }
+              ],
+              "evidenceSources": [
+                {
+                  "title": "A Little Guide for Teachers: Cognitive Load Theory - Greg Ashman",
+                  "url": "https://www.sagepub.com/shop/buy-a-book/a-little-guide-for-teachers-cognitive-load-theory-1-283309",
+                  "role": "Arbetsminne, genomarbetade exempel och gradvis minskat stöd"
+                },
+                {
+                  "title": "Embedded Formative Assessment, Second Edition - Dylan Wiliam",
+                  "url": "https://hawkerbrownlow.com/products/embedded-formative-assessment-second-edition",
+                  "role": "Kontroll av förståelse och nästa undervisningsbeslut"
+                },
+                {
+                  "title": "The Science of Learning, Second Edition - Deans for Impact",
+                  "url": "https://www.deansforimpact.org/resources/the-science-of-learning/",
+                  "role": "Förkunskaper, minne, övning och självreglering"
+                }
+              ],
+              "reviewStatus": "Redaktionellt SoL-förslag - ej ämneslärargranskat",
+              "teachingMethods": [
+                "Lärarmodellering",
+                "Felanalys"
+              ],
+              "studentActivities": [
+                "Överföringsuppgift"
+              ],
+              "solPrincipleReferences": [
+                {
+                  "method": "Aktiv återkallning",
+                  "chapter": 4
+                }
+              ],
+              "implementation": {
+                "preparation": "Förbered ett lärarvisat exempel och en ny självständig uppgift för ”Bestäm g och granska mätningen”. Numrera materialet så att inget facit eller senare stöd syns under startuppgiften.",
+                "materials": [
+                  "Projektor eller skrivtavla",
+                  "Individuella svarsblad eller digital avslutningsfråga",
+                  "Förberedd datamängd i kalkylblad"
+                ],
+                "sequence": [
+                  {
+                    "title": "Start och förkunskaper",
+                    "time": "15 minuter",
+                    "teacherAction": "Visa startuppgiften utan facit. Ge tyst betänketid och samla svar från samtliga innan diskussionen börjar. Uppgiften är: Starta individuellt utan stöd: skilj slumpmässigt fel, systematiskt fel och variation",
+                    "studentAction": "Arbeta individuellt utan stöd och lämna ett första svar: Starta individuellt utan stöd: skilj slumpmässigt fel, systematiskt fel och variation",
+                    "evidence": "Ett individuellt startsvar som visar vilka förkunskaper som kan återkallas utan hjälp."
+                  },
+                  {
+                    "title": "Lärarens modell",
+                    "time": "30 minuter",
+                    "teacherAction": "Genomför exemplet stegvis och tänk högt om vad som uppmärksammas, vilket val som görs och hur valet kontrolleras: modellerar och tänker högt: en fallrörelsemätning planeras från fråga till graf, regression och slutsats",
+                    "studentAction": "Följ modellen, markera det avgörande beslutet och skriv en fråga om ett steg som ännu inte är tydligt.",
+                    "evidence": "En markering och kort förklaring av det avgörande valet i lärarens exempel."
+                  },
+                  {
+                    "title": "Guidad bearbetning",
+                    "time": "45 minuter",
+                    "teacherAction": "Fördela den guidade uppgiften, stanna vid den kritiska skillnaden och begär motivering före besked om rätt svar: jämför två datamängder och identifiera vilken metodskillnad som förklarar avvikelsen",
+                    "studentAction": "Lös uppgiften parvis, jämför lösningarna och formulera en gemensam motivering: jämför två datamängder och identifiera vilken metodskillnad som förklarar avvikelsen",
+                    "evidence": "En gemensam lösning där paret kan förklara varför den fungerar trots den sannolika svårigheten: många mätningar antas automatiskt ge ett korrekt resultat och felkällor listas utan konsekvens"
+                  },
+                  {
+                    "title": "Självständig tillämpning",
+                    "time": "50 minuter",
+                    "teacherAction": "Ta bort stödmallen och ge den självständiga uppgiften. Samla ett svar från varje elev: genomför mätning, redovisa osäkerhet och föreslå en prioriterad förbättring",
+                    "studentAction": "Genomför och lämna den avslutande prestationen individuellt: genomför mätning, redovisa osäkerhet och föreslå en prioriterad förbättring",
+                    "evidence": "Vilket belägg stöder slutsatsen och vilken felkälla påverkar mest?"
+                  }
+                ],
+                "teacherQuestions": [
+                  "Vilket belägg stöder slutsatsen och vilken felkälla påverkar mest?",
+                  "Vilket val eller textställe är avgörande för att nå målet: Eleven kan planera en systematisk undersökning, analysera mätdata och värdera osäkerhet och metod.",
+                  "Hur kan du kontrollera att ditt svar inte bygger på följande vanliga svårighet: många mätningar antas automatiskt ge ett korrekt resultat och felkällor listas utan konsekvens"
+                ],
+                "expectedEvidence": "Ett godtagbart individuellt svar visar med relevanta steg, belägg eller representationer att eleven kan planera en systematisk undersökning, analysera mätdata och värdera osäkerhet och metod.",
+                "commonDifficulty": "många mätningar antas automatiskt ge ett korrekt resultat och felkällor listas utan konsekvens",
+                "adjustment": "Om fler än 25 procent visar att eleven inte kan koppla osäkerhet till slutsatsens räckvidd, modellerar läraren den kritiska skillnaden igen med ett nytt exempel. Annars går gruppen vidare till överföringsuppgiften.",
+                "delayedFollowUp": "Två veckor senare planeras en ny undersökning utan färdig metodmall."
+              },
+              "solAnalysis": [
+                {
+                  "principle": "Aktiv återkallning",
+                  "chapter": 4,
+                  "usedIn": "Moment 1 – start och individuell återkallning",
+                  "rationale": "stärker framplockning och visar vad eleven kan återkalla utan stöd"
                 }
               ]
             }
