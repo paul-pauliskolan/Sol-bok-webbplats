@@ -1,9 +1,8 @@
 {
   "scope": {
-    "school": "Pauliskolan",
     "programme": "Teknikprogrammet",
     "framework": "Gy25",
-    "sourceUrl": "https://malmo.se/Ditt-gymnasieval/Pauliskolan/Teknikprogrammet.html"
+    "scopeDescription": "Ämnen och nivåer som förekommer på Teknikprogrammet"
   },
   "subjects": [
     {

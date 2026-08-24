@@ -2,7 +2,7 @@
 
 const BOOK_TITLE = "The Science of Learning i praktiken";
 const BOOK_SHORT_TITLE = "SoL";
-const SITE_LAST_UPDATED = "2026-08-10T13:05:00+02:00";
+const SITE_LAST_UPDATED = "2026-08-23T20:23:00+02:00";
 
 let chaptersData = [];
 
@@ -70,7 +70,7 @@ function applyBranding() {
     const updated = document.createElement("time");
     updated.className = "site-updated";
     updated.dateTime = SITE_LAST_UPDATED;
-    updated.textContent = "Uppdaterad 10 aug 2026 13:05";
+    updated.textContent = "Uppdaterad 23 aug 2026 20:23";
     const themeToggle = navbar.querySelector(".theme-toggle");
     navbar.insertBefore(updated, themeToggle || null);
   }
@@ -708,7 +708,7 @@ function renderSolPlanner(bank, data) {
   bank.innerHTML = `
     <section class="sol-planner" aria-labelledby="sol-planner-title">
       <div class="sol-planner-intro">
-        <p class="eyebrow">Pauliskolan · Teknikprogrammet · Gy25</p>
+        <p class="eyebrow">Teknikprogrammet · Gy25</p>
         <h3 id="sol-planner-title">Planera från centralt innehåll</h3>
         <p>Välj i ordningen ämne, nivå och centralt innehåll. Därefter visas ett redaktionellt SoL-förslag med kontrollerade källor.</p>
       </div>
@@ -820,42 +820,51 @@ function renderSolPlanner(bank, data) {
           <p>${escapeHtml(item.text)}</p>
           <p><a href="${escapeHtml(level.sourceUrl)}" target="_blank" rel="noopener noreferrer">Öppna den officiella ämnesplanen</a></p>
         </section>
-        <h4>Förslag på lärandemål</h4>
-        <p>${escapeHtml(item.goal)}</p>
-        <div class="sol-plan-foundations">
-          <section>
-            <h4>Nödvändiga förkunskaper</h4>
-            <ul>${item.prerequisites.map((entry) => `<li>${escapeHtml(entry)}</li>`).join("")}</ul>
-          </section>
-          <section>
-            <h4>Sannolik svårighet</h4>
-            <p>${escapeHtml(item.likelyDifficulty)}</p>
-          </section>
-        </div>
-        <h4>Lektionsgång · ${escapeHtml(item.lesson.duration)}</h4>
-        <ol>${item.lesson.steps.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}</ol>
-        <details class="sol-plan-details">
-          <summary>Visa undervisningsdesignen bakom lektionsgången</summary>
-          <h4>Modell eller genomarbetat exempel</h4>
-          <p>${escapeHtml(item.exampleOrModel)}</p>
-          <h4>Guidad övning</h4>
-          <p>${escapeHtml(item.guidedPractice)}</p>
-          <h4>Självständig övning</h4>
-          <p>${escapeHtml(item.independentPractice)}</p>
-          <h4>Kontrast eller variation</h4>
-          <p>${escapeHtml(item.contrastOrVariation)}</p>
-        </details>
-        <h4>SoL-metoder</h4>
-        <ul class="sol-method-list">${item.solMethods.map((method) => `<li>${escapeHtml(method)}</li>`).join("")}</ul>
-        <ul class="sol-rationale-list">${item.methodRationale.map((entry) => `<li><strong>${escapeHtml(entry.method)}:</strong> ${escapeHtml(entry.rationale)}</li>`).join("")}</ul>
-        <h4>Kontroll av förståelse</h4>
-        <p>${escapeHtml(item.lesson.check)}</p>
-        <h4>Nästa undervisningsbeslut</h4>
-        <p>${escapeHtml(item.decisionRule)}</p>
-        <h4>Fördröjd kontroll</h4>
-        <p>${escapeHtml(item.lesson.delayedCheck)}</p>
-        <h4>Överföringsuppgift</h4>
-        <p>${escapeHtml(item.transferTask)}</p>
+        <section class="sol-implementation" aria-labelledby="sol-implementation-title">
+          <h3 id="sol-implementation-title">Konkret planerad undervisning</h3>
+          <h4>Lärandemål</h4>
+          <p>${escapeHtml(item.goal)}</p>
+          <div class="sol-plan-foundations">
+            <section>
+              <h4>Förberedelser</h4>
+              <p>${escapeHtml(item.implementation.preparation)}</p>
+            </section>
+            <section>
+              <h4>Material</h4>
+              <ul>${item.implementation.materials.map((entry) => `<li>${escapeHtml(entry)}</li>`).join("")}</ul>
+            </section>
+          </div>
+          <h4>Lektionsgång · ${escapeHtml(item.lesson.duration)}</h4>
+          <ol class="sol-sequence-list">${item.implementation.sequence.map((phase) => `<li>
+            <h5>${escapeHtml(phase.title)} · ${escapeHtml(phase.time)}</h5>
+            <p><strong>Läraren:</strong> ${escapeHtml(phase.teacherAction)}</p>
+            <p><strong>Eleverna:</strong> ${escapeHtml(phase.studentAction)}</p>
+            <p><strong>Belägg att samla:</strong> ${escapeHtml(phase.evidence)}</p>
+          </li>`).join("")}</ol>
+          <h4>Frågor att ställa</h4>
+          <ul>${item.implementation.teacherQuestions.map((question) => `<li>${escapeHtml(question)}</li>`).join("")}</ul>
+          <h4>Förväntat individuellt belägg</h4>
+          <p>${escapeHtml(item.implementation.expectedEvidence)}</p>
+          <h4>Vanlig svårighet att bevaka</h4>
+          <p>${escapeHtml(item.implementation.commonDifficulty)}</p>
+          <h4>Nästa undervisningsbeslut</h4>
+          <p>${escapeHtml(item.implementation.adjustment)}</p>
+          <h4>Fördröjd uppföljning</h4>
+          <p>${escapeHtml(item.implementation.delayedFollowUp)}</p>
+          <h4>Överföringsuppgift</h4>
+          <p>${escapeHtml(item.transferTask)}</p>
+        </section>
+        <section class="sol-analysis" aria-labelledby="sol-analysis-title">
+          <h3 id="sol-analysis-title">Didaktisk motivering – SoL</h3>
+          <p>Analysen nedan förklarar undervisningsdesignen. Den är åtskild från det praktiska genomförandet ovan.</p>
+          <div class="sol-analysis-list">${item.solAnalysis.map((entry) => `<article>
+            <h4>${escapeHtml(entry.principle)} <span class="sol-chapter-reference">· se kapitel ${escapeHtml(entry.chapter)}</span></h4>
+            <p><strong>Var i förslaget:</strong> ${escapeHtml(entry.usedIn)}</p>
+            <p><strong>Varför:</strong> ${escapeHtml(entry.rationale)}</p>
+          </article>`).join("")}</div>
+          ${item.teachingMethods.length ? `<h4>Undervisningsmetoder</h4><ul>${item.teachingMethods.map((method) => `<li>${escapeHtml(method)}</li>`).join("")}</ul>` : ""}
+          ${item.studentActivities.length ? `<h4>Elevaktiviteter</h4><ul>${item.studentActivities.map((activity) => `<li>${escapeHtml(activity)}</li>`).join("")}</ul>` : ""}
+        </section>
         <h4>Kontrollerade inspirationskällor</h4>
         ${sources}
         <h4>Evidensunderlag för SoL-designen</h4>

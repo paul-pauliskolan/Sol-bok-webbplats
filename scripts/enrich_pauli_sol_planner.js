@@ -4,6 +4,8 @@ const fs = require("fs");
 const path = require("path");
 const dataPath = path.join(__dirname, "..", "data", "pauli-sol-planner.json");
 const data = JSON.parse(fs.readFileSync(dataPath, "utf8"));
+const { applyClassification } = require("./sol_taxonomy");
+const { applyPlanningStructure } = require("./planning_structure");
 
 const P = (pre, difficulty, contrast, transfer) => ({ pre, difficulty, contrast, transfer });
 
@@ -90,6 +92,7 @@ for (const subject of data.subjects) {
   let index = 0;
   for (const level of subject.levels) {
     for (const item of level.centralContent) {
+      if (!/^(teki1|mate1c|sven1)-/.test(item.id)) continue;
       const profile = subjectProfiles[index++];
       if (!profile) throw new Error(`Saknar profil för ${item.id}`);
       item.prerequisites = profile.pre;
@@ -103,9 +106,11 @@ for (const subject of data.subjects) {
       item.methodRationale = item.solMethods.map((method) => ({method, rationale: methodExplanations[method] || `används för att möta den identifierade svårigheten i just denna innehållspunkt`}));
       item.evidenceSources = evidenceSources;
       item.reviewStatus = "Redaktionellt SoL-förslag - ej ämneslärargranskat";
+      applyClassification(item, true);
+      applyPlanningStructure(subject, level, item);
     }
   }
-  if (index !== subjectProfiles.length) throw new Error(`Profilantalet stämmer inte för ${subject.id}`);
+  if (index !== subjectProfiles.length) throw new Error(`Profilantalet stämmer inte för ${subject.id}: ${index}/${subjectProfiles.length}`);
 }
 
 fs.writeFileSync(dataPath, `${JSON.stringify(data, null, 2)}\n`);

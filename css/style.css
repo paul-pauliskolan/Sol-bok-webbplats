@@ -1313,6 +1313,71 @@ th {
   margin-top: 0;
 }
 
+.sol-implementation,
+.sol-analysis {
+  margin-top: 1.5rem;
+  padding: 1.15rem;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+}
+
+.sol-implementation {
+  background: var(--panel-bg-soft);
+}
+
+.sol-analysis {
+  border-left: 4px solid var(--accent);
+  background: var(--control-bg-strong);
+}
+
+.sol-implementation > h3,
+.sol-analysis > h3 {
+  margin-top: 0;
+}
+
+.sol-sequence-list {
+  display: grid;
+  gap: 0.9rem;
+  padding-left: 1.5rem;
+}
+
+.sol-sequence-list li {
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--control-bg);
+}
+
+.sol-sequence-list h5 {
+  margin: 0 0 0.55rem;
+  font-size: 1rem;
+}
+
+.sol-sequence-list p {
+  margin: 0.35rem 0;
+}
+
+.sol-analysis-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.sol-analysis-list article {
+  padding: 0.75rem 0.9rem;
+  border-left: 3px solid var(--accent);
+  background: var(--control-bg);
+}
+
+.sol-analysis-list h4 {
+  margin-top: 0;
+}
+
+.sol-chapter-reference {
+  color: var(--text-muted);
+  font-size: 0.88em;
+  font-weight: 600;
+}
+
 .sol-method-list {
   display: flex;
   flex-wrap: wrap;

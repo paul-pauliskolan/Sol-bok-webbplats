@@ -379,9 +379,9 @@ for (const example of examples) {
   signatures.add(signature);
 }
 
-// Kapitel 11 är avgränsat till Gy25-ämnen som ingår i Teknikprogrammet på
-// Pauliskolan. Den fullständiga källdatan ovan behålls tills ämnesbanken byggs
-// ut med skolans övriga teknikämnen och inriktningar.
+// Kapitel 11 är avgränsat till Gy25-ämnen och nivåer som förekommer på
+// Teknikprogrammet. Den fullständiga källdatan ovan behålls tills ämnesbanken
+// byggs ut med programmets övriga ämnen och inriktningar.
 const pauliSubjectIds = [
   "svenska",
   "matematik",
@@ -399,10 +399,8 @@ const pauliExamples = examples.filter(
 
 const output = {
   scope: {
-    school: "Pauliskolan",
     programme: "Teknikprogrammet",
     framework: "Gy25",
-    sourceUrl: "https://malmo.se/Ditt-gymnasieval/Pauliskolan/Teknikprogrammet.html",
   },
   subjects: pauliSubjectIds.map((id) => ({ id, label: subjects[id].label })),
   stages: [{ id: "gymnasiet", label: "Gymnasiet · Gy25" }],
@@ -411,4 +409,4 @@ const output = {
 
 const outputPath = path.join(__dirname, "..", "data", "teacher-examples.json");
 fs.writeFileSync(outputPath, `${JSON.stringify(output, null, 2)}\n`);
-console.log(`Skapade ${pauliExamples.length} lärar­exempel för Pauliskolans Teknikprogram.`);
+console.log(`Skapade ${pauliExamples.length} lärar­exempel för Teknikprogrammet.`);

@@ -1269,12 +1269,12 @@
       "id": 11,
       "number": 11,
       "title": "Visa det som passar din undervisning",
-      "description": "Avslutande tillämpningskapitel för ämnen och nivåer inom Teknikprogrammet på Pauliskolan enligt Gy25.",
+      "description": "Avslutande tillämpningskapitel för ämnen och nivåer som förekommer på Teknikprogrammet enligt Gy25.",
       "sections": [
-        "Avgränsning: Pauliskolans Teknikprogram",
+        "Avgränsning: Teknikprogrammet",
         "Så använder du planeringsbanken"
       ],
-      "contentHtml": "<h2>Mål</h2><p>Efter kapitlet ska du kunna utgå från en vald ämnesnivå och en exakt punkt i centralt innehåll för att planera undervisning med SoL-metoder.</p><h2>Avgränsning: Pauliskolans Teknikprogram</h2><p>Planeringsbanken är avgränsad till gymnasiet och Gy25. Urvalet ska omfatta de ämnen och nivåer som Pauliskolan publicerar för Teknikprogrammet. Teknik nivå 1 är den första kompletta piloten; fler ämnen och nivåer förs in med samma kvalitetssäkrade struktur.</p><h2>Så använder du planeringsbanken</h2><ol><li>Välj ämne.</li><li>Välj nivå.</li><li>Välj en punkt i centralt innehåll.</li><li>Granska förslaget på lärandemål, lektionsgång, SoL-metoder och kontroller av förståelse.</li><li>Kontrollera inspirationskällornas relevans för din elevgrupp.</li></ol><p>Skolverkets formulering visas oförändrad och hålls åtskild från det redaktionella undervisningsförslaget. En extern lektionskälla visar att ett liknande upplägg har publicerats eller genomförts; den är inte automatiskt ett bevis för effekt.</p><p><a href=\"https://malmo.se/Ditt-gymnasieval/Pauliskolan/Teknikprogrammet.html\" target=\"_blank\" rel=\"noopener noreferrer\">Se Pauliskolans aktuella ämnen och nivåer</a>.</p><div id=\"teacher-example-bank\" class=\"teacher-example-bank\" aria-live=\"polite\"><p>Planeringsbanken laddas …</p></div>",
+      "contentHtml": "<h2>Mål</h2><p>Efter kapitlet ska du kunna utgå från en vald ämnesnivå och en exakt punkt i centralt innehåll för att planera undervisning med SoL-metoder.</p><h2>Avgränsning: Teknikprogrammet</h2><p>Planeringsbanken är avgränsad till gymnasiet och Gy25. Urvalet omfattar ämnen och nivåer som förekommer på Teknikprogrammet. Fler ämnen och nivåer förs in med samma kvalitetssäkrade struktur.</p><h2>Så använder du planeringsbanken</h2><ol><li>Välj ämne.</li><li>Välj nivå.</li><li>Välj en punkt i centralt innehåll.</li><li>Granska förslaget på lärandemål, lektionsgång, SoL-metoder och kontroller av förståelse.</li><li>Kontrollera inspirationskällornas relevans för din elevgrupp.</li></ol><p>Skolverkets formulering visas oförändrad och hålls åtskild från det redaktionella undervisningsförslaget. En extern lektionskälla visar att ett liknande upplägg har publicerats eller genomförts; den är inte automatiskt ett bevis för effekt.</p><div id=\"teacher-example-bank\" class=\"teacher-example-bank\" aria-live=\"polite\"><p>Planeringsbanken laddas …</p></div>",
       "summary": "",
       "keyTopics": [
         "Tillämpning",

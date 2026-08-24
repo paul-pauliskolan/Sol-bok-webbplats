@@ -149,6 +149,10 @@ const swedishSubject = {
   }]
 };
 
+const preservedMathLevels = (data.subjects.find(subject => subject.id === "matematik")?.levels || []).filter(level => level.id !== "mate-1c");
+const preservedSwedishLevels = (data.subjects.find(subject => subject.id === "svenska")?.levels || []).filter(level => level.id !== "sven-1");
+mathSubject.levels.push(...preservedMathLevels);
+swedishSubject.levels.push(...preservedSwedishLevels);
 data.subjects = data.subjects.filter((subject) => !["matematik", "svenska"].includes(subject.id));
 data.subjects.push(mathSubject, swedishSubject);
 fs.writeFileSync(dataPath, `${JSON.stringify(data, null, 2)}\n`);
