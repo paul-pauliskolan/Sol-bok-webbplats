@@ -89,6 +89,71 @@ const additions = {
 </section>`,
 };
 
+const principleEmphasis = {
+  1: [
+    ["Minnesåterkallning", "Eleven plockar aktivt fram kunskap utan att svaret ligger synligt. Det skiljer verklig tillgänglighet i minnet från igenkänning och prestation i stunden."],
+    ["Scheman och förståelse", "Ny kunskap blir begriplig när den kopplas till organiserade strukturer i långtidsminnet. Starka scheman avlastar arbetsminnet och gör fortsatt lärande lättare."],
+  ],
+  2: [
+    ["Kognitiv belastning", "Planera mängden ny information, antalet samtidiga steg och vilket stöd eleverna behöver för att kunna tänka på det centrala."],
+    ["Feedback och metakognition", "Bestäm i förväg vilket elevsvar som ska styra nästa undervisningsbeslut och låt eleverna jämföra sin säkerhet med vad de faktiskt kan visa."],
+    ["Fördelad inlärning", "Planera återbesök redan när området introduceras, så att repetitionen sprids över tid i stället för att samlas precis före provet."],
+  ],
+  3: [
+    ["Kognitiv belastning", "Dela upp komplexa förklaringar, ta bort störande information och synliggör relationerna mellan de delar som måste förstås tillsammans."],
+    ["Multimodal kodning", "Kombinera ord och bild när de kompletterar varandra. Undvik att dubblera samma fullständiga budskap eller splittra elevens uppmärksamhet."],
+    ["Scheman och förståelse", "Tydliga exempel hjälper elever att ordna enskilda delar till en sammanhängande mental modell."],
+  ],
+  4: [
+    ["Minnesåterkallning", "Låt eleverna svara, förklara, rita eller använda kunskap utan att först titta i anteckningar. Själva framplockningen stärker minnet."],
+    ["Fördelad inlärning", "Återkom till frågorna efter ökande mellanrum, exempelvis efter 1, 3, 7 och 14 dagar."],
+    ["Feedback och metakognition", "Ge korrigerande information efter försöket och låt eleven bedöma sin säkerhet före svaret för att kalibrera sin uppfattning om det egna kunnandet."],
+  ],
+  5: [
+    ["Fördelad inlärning", "Sprid korta återbesök över dagar och veckor. Att lite glömska hinner uppstå gör nästa minnesåterkallning mer meningsfull."],
+    ["Interfoliering", "Blanda närliggande uppgiftstyper så att eleven måste urskilja vilken princip, kategori eller metod som passar."],
+    ["Minnesåterkallning", "Varje återbesök bör kräva att kunskapen plockas fram, inte bara att samma material läses om."],
+  ],
+  6: [
+    ["Scheman och förståelse", "Aktivera relevanta förkunskaper och bygg explicita samband mellan fakta, begrepp och procedurer."],
+    ["Multimodal kodning", "Använd exempelvis ord och begreppsdiagram tillsammans när diagrammet visar relationer som texten beskriver."],
+    ["Interfoliering", "Kontrastera liknande begrepp och exempel så att eleverna tränar på att upptäcka avgörande skillnader."],
+  ],
+  7: [
+    ["Kognitiv belastning", "Genomarbetade exempel minskar onödigt sökande medan eleven ännu saknar ett användbart schema."],
+    ["Scheman och förståelse", "Självförklaring riktar uppmärksamheten mot principerna bakom stegen och hjälper eleverna att bygga en generell modell."],
+    ["Feedback och metakognition", "Kontrollera elevens förståelse mellan stödnivåerna och låt eleven motivera när och varför en metod används."],
+  ],
+  8: [
+    ["Multimodal kodning", "Ge ord och bild olika men samordnade funktioner. Bilden kan visa struktur eller förändring medan orden namnger och förklarar."],
+    ["Kognitiv belastning", "Ta bort dekoration, redundans och splittrade informationskällor som konkurrerar om arbetsminnets begränsade kapacitet."],
+    ["Scheman och förståelse", "Välj representationer som hjälper eleven att se ämnets relationer, inte bara minnas en snygg yta."],
+  ],
+  9: [
+    ["Feedback och metakognition", "Feedback ska hjälpa eleven och läraren att välja nästa steg. Elever behöver också jämföra sin egen bedömning med konkreta belägg."],
+    ["Minnesåterkallning", "Frågor utan synligt svar visar vad eleverna kan plocka fram och stärker samtidigt den kunskap som återkallas."],
+    ["Fördelad inlärning", "Använd senare kontrollfrågor för att avgöra om förståelsen finns kvar, inte bara om svaret fungerade direkt efter genomgången."],
+  ],
+  10: [
+    ["Minnesåterkallning och fördelad inlärning", "Bedöm påståenden utifrån fördröjt och självständigt lärande, inte bara aktivitet eller omedelbara resultat."],
+    ["Interfoliering och scheman", "Blandning är meningsfull när den tränar relevant urskiljning och hjälper elever att organisera kunskapen."],
+    ["Multimodal kodning och kognitiv belastning", "Flera uttrycksformer är inte automatiskt bättre; de ska komplettera varandra utan att överbelasta arbetsminnet."],
+    ["Feedback och metakognition", "Självskattning behöver jämföras med faktiska prestationer, och feedback behöver leda till ett konkret nästa steg."],
+  ],
+};
+
+function renderPrincipleEmphasis(chapterNumber) {
+  const items = principleEmphasis[chapterNumber]
+    .map(([term, explanation]) => `<li><strong>${term}</strong> – ${explanation}</li>`)
+    .join("\n");
+  return `<section class="sol-principles" data-sol-principles="1">
+<h2>Science of Learning-begrepp att betona</h2>
+<ul>
+${items}
+</ul>
+</section>`;
+}
+
 const bookResources = {
   1: ["Instructional Illusions", "Why Don’t Students Like School?"],
   2: ["Developing Curriculum for Deep Thinking", "How Teaching Happens"],
@@ -118,10 +183,12 @@ const catalog = {
 
 for (const chapter of data.chapters.filter((entry) => entry.number >= 1 && entry.number <= 10)) {
   chapter.contentHtml = chapter.contentHtml.replace(/<section class="book-expansion" data-books-expansion="1">[\s\S]*?<\/section>/g, "");
+  chapter.contentHtml = chapter.contentHtml.replace(/<section class="sol-principles" data-sol-principles="1">[\s\S]*?<\/section>/g, "");
   const marker = chapter.contentHtml.lastIndexOf("<h2>Reflektion och arbetsuppgift</h2>");
+  const expandedContent = `${renderPrincipleEmphasis(chapter.number)}\n${additions[chapter.number]}`;
   chapter.contentHtml = marker === -1
-    ? `${chapter.contentHtml}${additions[chapter.number]}`
-    : `${chapter.contentHtml.slice(0, marker)}${additions[chapter.number]}\n${chapter.contentHtml.slice(marker)}`;
+    ? `${chapter.contentHtml}${expandedContent}`
+    : `${chapter.contentHtml.slice(0, marker)}${expandedContent}\n${chapter.contentHtml.slice(marker)}`;
   chapter.resources ||= [];
   chapter.resources = chapter.resources.filter((resource) => !["books-folder", "original-book-source"].includes(resource.sourceGroup));
   for (const title of bookResources[chapter.number]) {
