@@ -2,7 +2,7 @@
 
 const BOOK_TITLE = "The Science of Learning i praktiken";
 const BOOK_SHORT_TITLE = "SoL";
-const SITE_LAST_UPDATED = "2026-08-24T20:12:00+02:00";
+const SITE_LAST_UPDATED = "2026-08-24T20:16:00+02:00";
 
 let chaptersData = [];
 
@@ -70,7 +70,7 @@ function applyBranding() {
     const updated = document.createElement("time");
     updated.className = "site-updated";
     updated.dateTime = SITE_LAST_UPDATED;
-    updated.textContent = "Uppdaterad 24 aug 2026 20:12";
+    updated.textContent = "Uppdaterad 24 aug 2026 20:16";
     const themeToggle = navbar.querySelector(".theme-toggle");
     navbar.insertBefore(updated, themeToggle || null);
   }
@@ -710,7 +710,7 @@ function renderSolPlanner(bank, data) {
       <div class="sol-planner-intro">
         <p class="eyebrow">Teknikprogrammet · Gy25</p>
         <h3 id="sol-planner-title">Planera från centralt innehåll</h3>
-        <p>Välj i ordningen ämne, nivå och centralt innehåll. Därefter visas ett redaktionellt SoL-förslag med kontrollerade källor.</p>
+        <p>Välj i ordningen ämne, nivå och centralt innehåll. Därefter visas flera alternativa lektionsupplägg med olika arbetsformer.</p>
       </div>
       <div class="sol-planner-selectors">
         <label>
@@ -808,11 +808,71 @@ function renderSolPlanner(bank, data) {
           .join("")}</ul>`
       : "<p>Ingen tillräckligt nära publicerad lektionsplanering har ännu verifierats för denna punkt. Förslaget är en egen SoL-tillämpning.</p>";
 
+    const primaryVariant = {
+      id: `${item.id}-explicit`,
+      approach: "Explicit undervisning",
+      title: item.lesson.title,
+      duration: item.lesson.duration,
+      goal: item.goal,
+      materials: item.implementation.materials,
+      sequence: item.implementation.sequence,
+      teacherQuestions: item.implementation.teacherQuestions,
+      expectedEvidence: item.implementation.expectedEvidence,
+      commonDifficulty: item.implementation.commonDifficulty,
+      adjustment: item.implementation.adjustment,
+      delayedFollowUp: item.implementation.delayedFollowUp,
+      transferTask: item.transferTask,
+      solMethods: item.solMethods,
+    };
+    const variants = [primaryVariant, ...(item.lessonVariants || [])];
+    const variantCards = variants.map((variant, index) => `
+      <details class="sol-variant" ${index === 0 ? "open" : ""}>
+        <summary>
+          <span class="sol-variant-number">Förslag ${index + 1}</span>
+          <span><strong>${escapeHtml(variant.approach)}</strong><small>${escapeHtml(variant.title)} · ${escapeHtml(variant.duration)}</small></span>
+        </summary>
+        <div class="sol-variant-body">
+          <h4>Lärandemål</h4>
+          <p>${escapeHtml(variant.goal)}</p>
+          <div class="sol-plan-foundations">
+            <section>
+              <h4>Arbetsform</h4>
+              <p>${escapeHtml(variant.approach)}</p>
+            </section>
+            <section>
+              <h4>Material</h4>
+              <ul>${variant.materials.map((entry) => `<li>${escapeHtml(entry)}</li>`).join("")}</ul>
+            </section>
+          </div>
+          <h4>Lektionsgång · ${escapeHtml(variant.duration)}</h4>
+          <ol class="sol-sequence-list">${variant.sequence.map((phase) => `<li>
+            <h5>${escapeHtml(phase.title)} · ${escapeHtml(phase.time)}</h5>
+            <p><strong>Läraren:</strong> ${escapeHtml(phase.teacherAction)}</p>
+            <p><strong>Eleverna:</strong> ${escapeHtml(phase.studentAction)}</p>
+            <p><strong>Belägg att samla:</strong> ${escapeHtml(phase.evidence)}</p>
+          </li>`).join("")}</ol>
+          <h4>Frågor att ställa</h4>
+          <ul>${variant.teacherQuestions.map((question) => `<li>${escapeHtml(question)}</li>`).join("")}</ul>
+          <h4>Förväntat individuellt belägg</h4>
+          <p>${escapeHtml(variant.expectedEvidence)}</p>
+          <h4>Vanlig svårighet att bevaka</h4>
+          <p>${escapeHtml(variant.commonDifficulty)}</p>
+          <h4>Nästa undervisningsbeslut</h4>
+          <p>${escapeHtml(variant.adjustment)}</p>
+          <h4>Fördröjd uppföljning</h4>
+          <p>${escapeHtml(variant.delayedFollowUp)}</p>
+          <h4>Överföringsuppgift</h4>
+          <p>${escapeHtml(variant.transferTask)}</p>
+          <h4>SoL-metoder i upplägget</h4>
+          <ul class="sol-method-list">${variant.solMethods.map((method) => `<li>${escapeHtml(method)}</li>`).join("")}</ul>
+        </div>
+      </details>`).join("");
+
     result.innerHTML = `
       <article class="sol-plan-card">
         <header>
           <p class="eyebrow">${escapeHtml(item.area)}</p>
-          <h3>${escapeHtml(item.lesson.title)}</h3>
+          <h3>${variants.length} lektionsförslag för samma centrala innehåll</h3>
           <p class="sol-level-meta">${escapeHtml(subject.name)} · ${escapeHtml(level.name)} · ${escapeHtml(level.levelCode)} · ${escapeHtml(level.points)} poäng</p>
         </header>
         <section class="sol-official-content">
@@ -821,38 +881,9 @@ function renderSolPlanner(bank, data) {
           <p><a href="${escapeHtml(level.sourceUrl)}" target="_blank" rel="noopener noreferrer">Öppna den officiella ämnesplanen</a></p>
         </section>
         <section class="sol-implementation" aria-labelledby="sol-implementation-title">
-          <h3 id="sol-implementation-title">Konkret planerad undervisning</h3>
-          <h4>Lärandemål</h4>
-          <p>${escapeHtml(item.goal)}</p>
-          <div class="sol-plan-foundations">
-            <section>
-              <h4>Förberedelser</h4>
-              <p>${escapeHtml(item.implementation.preparation)}</p>
-            </section>
-            <section>
-              <h4>Material</h4>
-              <ul>${item.implementation.materials.map((entry) => `<li>${escapeHtml(entry)}</li>`).join("")}</ul>
-            </section>
-          </div>
-          <h4>Lektionsgång · ${escapeHtml(item.lesson.duration)}</h4>
-          <ol class="sol-sequence-list">${item.implementation.sequence.map((phase) => `<li>
-            <h5>${escapeHtml(phase.title)} · ${escapeHtml(phase.time)}</h5>
-            <p><strong>Läraren:</strong> ${escapeHtml(phase.teacherAction)}</p>
-            <p><strong>Eleverna:</strong> ${escapeHtml(phase.studentAction)}</p>
-            <p><strong>Belägg att samla:</strong> ${escapeHtml(phase.evidence)}</p>
-          </li>`).join("")}</ol>
-          <h4>Frågor att ställa</h4>
-          <ul>${item.implementation.teacherQuestions.map((question) => `<li>${escapeHtml(question)}</li>`).join("")}</ul>
-          <h4>Förväntat individuellt belägg</h4>
-          <p>${escapeHtml(item.implementation.expectedEvidence)}</p>
-          <h4>Vanlig svårighet att bevaka</h4>
-          <p>${escapeHtml(item.implementation.commonDifficulty)}</p>
-          <h4>Nästa undervisningsbeslut</h4>
-          <p>${escapeHtml(item.implementation.adjustment)}</p>
-          <h4>Fördröjd uppföljning</h4>
-          <p>${escapeHtml(item.implementation.delayedFollowUp)}</p>
-          <h4>Överföringsuppgift</h4>
-          <p>${escapeHtml(item.transferTask)}</p>
+          <h3 id="sol-implementation-title">Välj undervisningsupplägg</h3>
+          <p>Förslagen tränar samma centrala innehåll men använder olika arbetsformer. Öppna ett förslag för full lektionsgång.</p>
+          <div class="sol-variant-list">${variantCards}</div>
         </section>
         <section class="sol-analysis" aria-labelledby="sol-analysis-title">
           <h3 id="sol-analysis-title">Didaktisk motivering – SoL</h3>
@@ -871,7 +902,7 @@ function renderSolPlanner(bank, data) {
         <ul class="sol-source-list">${item.evidenceSources.map((source) => `<li><a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.title)}</a><p>${escapeHtml(source.role)}</p></li>`).join("")}</ul>
         <p class="sol-editorial-note"><strong>Granskningsstatus:</strong> ${escapeHtml(item.reviewStatus)}. Skolverkets text är officiell; övriga delar behöver ämneslärarens professionella granskning före användning.</p>
       </article>`;
-    status.textContent = `Visar SoL-förslag för vald punkt i ${subject.name}, ${level.name}.`;
+    status.textContent = `Visar ${variants.length} olika lektionsförslag för vald punkt i ${subject.name}, ${level.name}.`;
   });
 }
 
@@ -880,7 +911,7 @@ function setupTeacherExampleBank(chapterNumber) {
   const bank = document.getElementById("teacher-example-bank");
   if (!bank) return;
 
-  fetch("../data/pauli-sol-planner.json")
+  fetch("../data/pauli-sol-planner.json?v=202608242016")
     .then((response) => {
       if (!response.ok) throw new Error("Exempelbanken kunde inte hämtas.");
       return response.json();

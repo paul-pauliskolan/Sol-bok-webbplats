@@ -1325,6 +1325,50 @@ th {
   background: var(--panel-bg-soft);
 }
 
+.sol-variant-list {
+  display: grid;
+  gap: 0.85rem;
+  margin-top: 1rem;
+}
+
+.sol-variant {
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--control-bg);
+}
+
+.sol-variant summary {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.8rem;
+  align-items: center;
+  padding: 1rem;
+  cursor: pointer;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+.sol-variant summary small {
+  display: block;
+  margin-top: 0.2rem;
+  color: var(--text-muted);
+  font-family: inherit;
+}
+
+.sol-variant-number {
+  padding: 0.3rem 0.55rem;
+  border-radius: 999px;
+  color: var(--accent-contrast);
+  background: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.sol-variant-body {
+  padding: 0 1rem 1.15rem;
+  border-top: 1px solid var(--border);
+}
+
 .sol-analysis {
   border-left: 4px solid var(--accent);
   background: var(--control-bg-strong);
