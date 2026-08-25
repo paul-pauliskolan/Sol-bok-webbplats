@@ -2,7 +2,6 @@
 
 const BOOK_TITLE = "The Science of Learning i praktiken";
 const BOOK_SHORT_TITLE = "SoL";
-const SITE_LAST_UPDATED = "2026-08-24T20:16:00+02:00";
 
 let chaptersData = [];
 
@@ -65,16 +64,6 @@ function setupThemeToggle() {
 }
 
 function applyBranding() {
-  const navbar = document.querySelector(".navbar");
-  if (navbar && !navbar.querySelector(".site-updated")) {
-    const updated = document.createElement("time");
-    updated.className = "site-updated";
-    updated.dateTime = SITE_LAST_UPDATED;
-    updated.textContent = "Uppdaterad 24 aug 2026 20:16";
-    const themeToggle = navbar.querySelector(".theme-toggle");
-    navbar.insertBefore(updated, themeToggle || null);
-  }
-
   const logo = document.querySelector(".navbar .logo");
   if (logo) {
     logo.textContent = "SoL - The Science of Learning i praktiken";
@@ -826,7 +815,7 @@ function renderSolPlanner(bank, data) {
     };
     const variants = [primaryVariant, ...(item.lessonVariants || [])];
     const variantCards = variants.map((variant, index) => `
-      <details class="sol-variant" ${index === 0 ? "open" : ""}>
+      <details class="sol-variant">
         <summary>
           <span class="sol-variant-number">Förslag ${index + 1}</span>
           <span><strong>${escapeHtml(variant.approach)}</strong><small>${escapeHtml(variant.title)} · ${escapeHtml(variant.duration)}</small></span>
@@ -911,7 +900,7 @@ function setupTeacherExampleBank(chapterNumber) {
   const bank = document.getElementById("teacher-example-bank");
   if (!bank) return;
 
-  fetch("../data/pauli-sol-planner.json?v=202608242016")
+  fetch("../data/pauli-sol-planner.json?v=202608251759")
     .then((response) => {
       if (!response.ok) throw new Error("Exempelbanken kunde inte hämtas.");
       return response.json();

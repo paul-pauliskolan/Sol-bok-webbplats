@@ -10,7 +10,7 @@ HTML = """<!DOCTYPE html>
     <meta name="description"
         content="The Science of Learning i praktiken - kapitelvy med dynamiskt innehåll och innehållsförteckning.">
     <title>Kapitel - The Science of Learning i praktiken</title>
-    <link rel="stylesheet" href="../css/style.css?v=202608242016">
+    <link rel="stylesheet" href="../css/style.css?v=202608251759">
 </head>
 
 <body class="chapter-page">
@@ -51,7 +51,7 @@ HTML = """<!DOCTYPE html>
             target="_blank" rel="noopener noreferrer">Kontakt / Återkoppling</a></p>
     </footer>
 
-    <script src="../js/main.js?v=202608242016"></script>
+    <script src="../js/main.js?v=202608251759"></script>
     <script>
         const match = window.location.pathname.match(/chapter-(\\d+)\\.html/)
         if (match) {
