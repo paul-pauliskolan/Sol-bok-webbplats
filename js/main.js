@@ -158,8 +158,8 @@ function closeMenu() {
 
 function loadChaptersData() {
   const jsonPath = document.body.classList.contains("chapter-page")
-    ? "../data/chapters.json"
-    : "data/chapters.json";
+    ? "../data/chapters.json?v=202608251806"
+    : "data/chapters.json?v=202608251806";
 
   fetch(jsonPath)
     .then((response) => response.json())
@@ -900,7 +900,7 @@ function setupTeacherExampleBank(chapterNumber) {
   const bank = document.getElementById("teacher-example-bank");
   if (!bank) return;
 
-  fetch("../data/pauli-sol-planner.json?v=202608251759")
+  fetch("../data/pauli-sol-planner.json?v=202608251806")
     .then((response) => {
       if (!response.ok) throw new Error("Exempelbanken kunde inte hämtas.");
       return response.json();

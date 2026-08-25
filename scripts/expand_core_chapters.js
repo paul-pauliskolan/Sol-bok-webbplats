@@ -67,11 +67,11 @@ const expanded = {
 `,
   4: `
 <h2>Mål</h2>
-<p>Efter kapitlet ska du kunna planera lågtröskliga återkallningsövningar, välja frågor som speglar målet och använda svaren för repetition och feedback.</p>
+<p>Efter kapitlet ska du kunna planera lågtröskliga övningar i minnesåterkallning, välja frågor som speglar målet och använda svaren för repetition och feedback.</p>
 
 <h2>Ett vanligt lärarproblem</h2>
 <p>Eleverna har arbetat med innehållet, men när det återkommer säger de att de har glömt allt. Ofta har de läst om, markerat eller följt lösningar. Dessa aktiviteter kan skapa igenkänning, men de kräver inte alltid att kunskapen plockas fram ur minnet.</p>
-<p>Retrieval practice, eller återkallningsövning, innebär att eleven försöker hämta fram relevant kunskap utan att först se svaret. Syftet är lärande och information till läraren, inte betygsättning.</p>
+<p>Retrieval practice, eller minnesåterkallning, innebär att eleven försöker hämta fram relevant kunskap utan att först se svaret. Syftet är lärande och information till läraren, inte betygsättning.</p>
 
 <h2>Varför återkallning kan stärka lärandet</h2>
 <p>Att försöka återkalla tränar tillgängligheten till kunskapen och kan göra senare återkallning lättare. Övningen visar också luckor som omläsning lätt döljer. Effekten beror på hur uppgiften utformas, vad eleverna redan kan, om rätt svar klargörs och om innehållet återkommer över tid.</p>
@@ -444,7 +444,7 @@ const factCheckAdditions = {
 <p>En viktig gräns är expertisomvändning: stöd som hjälper en nybörjare kan bli redundant och störande när eleven kan mer. Segmentering, signalering och exempel ska därför anpassas och avvecklas utifrån elevsvar. Målet är inte minimal belastning, utan att så mycket som möjligt av elevens ansträngning riktas mot det som ska läras.</p>`,
   4: `
 <h2>Forskningsläge och viktiga avgränsningar</h2>
-<p>Återkallningsövning har ett starkt forskningsstöd för senare minne jämfört med enbart omläsning, men effekten är inte identisk för alla frågor och situationer. Eleven måste först ha haft en rimlig möjlighet att lära sig innehållet, och försöket behöver vara tillräckligt svårt för att kräva återkallning men inte så svårt att det bara blir upprepat misslyckande.</p>
+<p>Minnesåterkallning har ett starkt forskningsstöd för senare minne jämfört med enbart omläsning, men effekten är inte identisk för alla frågor och situationer. Eleven måste först ha haft en rimlig möjlighet att lära sig innehållet, och försöket behöver vara tillräckligt svårt för att kräva återkallning men inte så svårt att det bara blir upprepat misslyckande.</p>
 <p>Återkoppling är särskilt viktig när svaren är felaktiga eller osäkra. Den hindrar att fel lämnas okorrigerade och ger en ny möjlighet att lagra det korrekta svaret. Samtidigt kan även återkallning utan omedelbar återkoppling gynna minnet när återkallningen lyckas.</p>
 <p>Frågeformat och slutmål spelar roll. En kortsvarsfråga kräver ofta mer självständig framplockning än igenkänning i ett flervalsalternativ, men välkonstruerade flervalsfrågor kan pröva viktiga distinktioner. Överföring till nya uppgifter är inte automatisk; återkallningen behöver ibland följas av förklaring, jämförelse och tillämpning.</p>`,
   5: `
@@ -738,7 +738,7 @@ const factCheckResources = {
     title: "Practicing Retrieval Facilitates Learning",
     reference: "McDermott, K. B. (2021). Practicing retrieval facilitates learning. Annual Review of Psychology, 72, 609–633.",
     url: "https://doi.org/10.1146/annurev-psych-010419-051019",
-    description: "Översikt över effekter, mekanismer och användningsområden för återkallningsövning.",
+    description: "Översikt över effekter, mekanismer och användningsområden för minnesåterkallning.",
   }, {
     title: "Testing (Quizzing) Boosts Classroom Learning",
     reference: "Yang, C., Luo, L., Vadillo, M. A., Yu, R., & Shanks, D. R. (2021). Testing (quizzing) boosts classroom learning: A systematic and meta-analytic review. Psychological Bulletin, 147(4), 399–435.",
@@ -801,7 +801,7 @@ for (const chapter of data.chapters.slice(0, 10)) {
 
 const swedishTerms = [
   [/checks for understanding/gi, "kontroller av förståelse"],
-  [/retrieval practice/gi, "återkallningsövning"],
+  [/retrieval practice/gi, "minnesåterkallning"],
   [/worked examples/gi, "genomarbetade exempel"],
   [/worked example/gi, "genomarbetat exempel"],
   [/storage strength/gi, "lagringsstyrka"],
@@ -853,14 +853,14 @@ for (const chapter of data.chapters) {
 }
 
 const swedishChapterTitles = {
-  4: "Återkallningsövning: att stärka minnet",
+  4: "Minnesåterkallning: att stärka minnet",
   5: "Utspridd, blandad och varierad övning",
   7: "Genomarbetade exempel, modellering och avvecklat stöd",
   9: "Frågor, återkoppling och kontroll av förståelse",
 };
 
 const annotatedChapterTitles = {
-  4: "Återkallningsövning (<em>retrieval practice</em>): att stärka minnet",
+  4: "Minnesåterkallning (<em>retrieval practice</em>): att stärka minnet",
   5: "Utspridd (<em>spacing</em>), blandad (<em>interleaving</em>) och varierad övning",
   7: "Genomarbetade exempel (<em>worked examples</em>), modellering (<em>modeling</em>) och avvecklat stöd",
   9: "Frågor, återkoppling (<em>feedback</em>) och kontroll av förståelse (<em>check for understanding</em>)",
@@ -875,12 +875,12 @@ for (const chapter of data.chapters) {
 
 const originalTermAnnotations = {
   1: [
-    ["återkallningsövning senare i kursen", "återkallningsövning (<em>retrieval practice</em>) senare i kursen"],
+    ["minnesåterkallning senare i kursen", "minnesåterkallning (<em>retrieval practice</em>) senare i kursen"],
     ["<h2>Lagringsstyrka och framplockningsstyrka</h2>", "<h2>Lagringsstyrka och framplockningsstyrka</h2><p class=\"term-note\">I den engelskspråkiga litteraturen används <em>storage strength</em> och <em>retrieval strength</em>.</p>"],
     ["varför intensivpluggande kan kännas effektivt", "varför intensivpluggande (<em>cramming</em>) kan kännas effektivt"],
   ],
   2: [
-    ["återkallningsövning, utspridd övning och korta återkomster", "återkallningsövning (<em>retrieval practice</em>), utspridd övning (<em>spacing</em>) och korta återkomster"],
+    ["minnesåterkallning, utspridd övning och korta återkomster", "minnesåterkallning (<em>retrieval practice</em>), utspridd övning (<em>spacing</em>) och korta återkomster"],
     ["genomarbetade exempel</td>", "genomarbetade exempel (<em>worked examples</em>)</td>"],
   ],
   3: [
@@ -889,7 +889,7 @@ const originalTermAnnotations = {
     ["<strong>Extern belastning</strong>", "<strong>Extern belastning</strong> (<em>extraneous cognitive load</em>)"],
   ],
   4: [
-    ["Återkallningsövning, eller återkallningsövning, innebär", "Återkallningsövning (<em>retrieval practice</em>) innebär"],
+    ["Minnesåterkallning, eller minnesåterkallning, innebär", "Minnesåterkallning (<em>retrieval practice</em>) innebär"],
   ],
   5: [
     ["<h2>Utspridd övning: återkomst med mellanrum</h2>", "<h2>Utspridd övning: återkomst med mellanrum</h2><p class=\"term-note\">Den engelska termen är <em>spacing</em> eller <em>spaced practice</em>.</p>"],
@@ -917,7 +917,7 @@ const originalTermAnnotations = {
     ["Blandad övning kräver", "Blandad övning (<em>interleaving</em>) kräver"],
   ],
   11: [
-    ["Återkallningsövning kan vara", "Återkallningsövning (<em>retrieval practice</em>) kan vara"],
+    ["Minnesåterkallning kan vara", "Minnesåterkallning (<em>retrieval practice</em>) kan vara"],
     ["genomarbetade exempel.</li>", "genomarbetade exempel (<em>worked examples</em>).</li>"],
     ["utspridd övning.</li>", "utspridd övning (<em>spacing</em>).</li>"],
   ],
@@ -934,7 +934,7 @@ for (const chapter of data.chapters) {
   }
 
   chapter.contentHtml = chapter.contentHtml
-    .replace(/<em>återkallningsövning<\/em>/gi, "<em>retrieval practice</em>")
+    .replace(/<em>minnesåterkallning<\/em>/gi, "<em>retrieval practice</em>")
     .replace(/<em>utspridd övning<\/em>/gi, "<em>spacing</em>")
     .replace(/<em>blandad övning<\/em>/gi, "<em>interleaving</em>")
     .replace(/<em>genomarbetade exempel<\/em>/gi, "<em>worked examples</em>")
@@ -971,8 +971,8 @@ const everyOccurrenceTerms = [
   [/kognitiv belastning/gi, "cognitive load"],
   [/kontroller av förståelse/gi, "checks for understanding"],
   [/kontroll av förståelse/gi, "check for understanding"],
-  [/återkallningsövningar/gi, "retrieval practice"],
-  [/återkallningsövning/gi, "retrieval practice"],
+  [/övningar i minnesåterkallning/gi, "retrieval practice"],
+  [/minnesåterkallning/gi, "retrieval practice"],
   [/utspridd övning/gi, "spacing"],
   [/blandad övning/gi, "interleaving"],
   [/genomarbetade exempel/gi, "worked examples"],

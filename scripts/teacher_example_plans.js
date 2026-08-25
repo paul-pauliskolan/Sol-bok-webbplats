@@ -2,7 +2,7 @@ const C = {
   1: "Kapitel 1 – prestation i stunden, varaktigt lärande och fördröjd kontroll",
   2: "Kapitel 2 – mål, hinder, val, sortering och kontroll",
   3: "Kapitel 3 – kognitiv belastning (<em>cognitive load</em>) och segmentering",
-  4: "Kapitel 4 – återkallningsövning (<em>retrieval practice</em>)",
+  4: "Kapitel 4 – minnesåterkallning (<em>retrieval practice</em>)",
   5: "Kapitel 5 – utspridd övning (<em>spacing</em>), blandad övning (<em>interleaving</em>) och variation",
   6: "Kapitel 6 – förkunskaper (<em>prior knowledge</em>), scheman och begreppsundervisning",
   7: "Kapitel 7 – genomarbetade exempel (<em>worked examples</em>), modellering (<em>modeling</em>) och avvecklat stöd (<em>fading</em>)",
